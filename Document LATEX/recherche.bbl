@@ -1,0 +1,48 @@
+\providecommand{\bysame}{\leavevmode ---\ }
+\providecommand{\og}{``}
+\providecommand{\fg}{''}
+\providecommand{\smfandname}{\&}
+\providecommand{\smfedsname}{\'eds.}
+\providecommand{\smfedname}{\'ed.}
+\providecommand{\smfmastersthesisname}{M\'emoire}
+\providecommand{\smfphdthesisname}{Th\`ese}
+\begin{thebibliography}{1}
+
+\bibitem{noauthor_quest-ce_nodate}
+{\og Qu’est-ce qu’une caméra ? {Apprenez} les composants clés {\textbar}
+  {Lenovo} {CA}\fg}.
+
+\bibitem{noauthor_les_2015}
+{\og Les différents types de caméra\fg} -- 2015.
+
+\bibitem{adil_novel_2022}
+{\scshape E.~Adil, M.~Mikou {\normalfont \smfandname} A.~Mouhsen} -- {\og A
+  novel algorithm for distance measurement using stereo camera\fg}, \emph{CAAI
+  Transactions on Intelligence Technology} \textbf{7} (2022), no.~2,
+  p.~177--186 (en).
+
+\bibitem{burger_zhangs_2016}
+{\scshape W.~Burger} -- \emph{Zhang's {Camera} {Calibration} {Algorithm}:
+  {In}-{Depth} {Tutorial} and {Implementation}}, 2016.
+
+\bibitem{jin_2022-3-exploring_2022}
+{\scshape X.~Jin} -- {\og 2022-3-{Exploring} computer vision and artificial
+  intelligence-based distance measurement tools for the standing long jump\fg},
+   (2022).
+
+\bibitem{orteu_calibrage_nodate}
+{\scshape J.-J. Orteu} -- {\og Calibrage géométrique d'une caméra ou d'un
+  capteur de vision stéréoscopique\fg} (fr).
+
+\bibitem{remondino_digital_2006}
+{\scshape F.~Remondino {\normalfont \smfandname} C.~Fraser} -- {\og Digital
+  camera calibration methods: {Considerations} and comparisons\fg},  (2006)
+  (en), Medium: application/pdf Publisher: ETH Zurich.
+
+\bibitem{zhengyou_zhang_flexible_1999}
+{\scshape {Zhengyou Zhang}} -- {\og Flexible camera calibration by viewing a
+  plane from unknown orientations\fg}, in \emph{Proceedings of the {Seventh}
+  {IEEE} {International} {Conference} on {Computer} {Vision}} (Kerkyra,
+  Greece), IEEE, 1999, p.~666--673 vol.1 (en).
+
+\end{thebibliography}

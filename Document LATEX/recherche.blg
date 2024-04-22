@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: recherche.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: smfplain.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Database file #1: mybiblio.bib
+Warning--string name "jun" is undefined
+--line 117 of file mybiblio.bib
+Warning--string name "mar" is undefined
+--line 137 of file mybiblio.bib
+Warning--string name "jan" is undefined
+--line 181 of file mybiblio.bib
+Warning--string name "may" is undefined
+--line 259 of file mybiblio.bib
+Warning--to sort, need author or key in noauthor_quest-ce_nodate
+Warning--to sort, need author or key in noauthor_les_2015
+Warning--missing publisher in burger_zhangs_2016
+Warning--missing journal name in jin_2022-3-exploring_2022
+Warning--missing pages in jin_2022-3-exploring_2022
+Warning--missing journal name in orteu_calibrage_nodate
+Warning--missing year in orteu_calibrage_nodate
+Warning--missing pages in orteu_calibrage_nodate
+Warning--missing journal name in remondino_digital_2006
+Warning--missing pages in remondino_digital_2006
+You've used 8 entries,
+            2304 wiz_defined-function locations,
+            532 strings with 5065 characters,
+and the built_in function-call counts, 2127 in all, are:
+= -- 197
+> -- 61
+< -- 0
++ -- 27
+- -- 18
+* -- 185
+:= -- 314
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 33
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 93
+empty$ -- 211
+format.name$ -- 18
+if$ -- 455
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 7
+newline$ -- 35
+num.names$ -- 12
+pop$ -- 46
+preamble$ -- 1
+purify$ -- 25
+quote$ -- 0
+skip$ -- 65
+stack$ -- 0
+substring$ -- 116
+swap$ -- 32
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 30
+warning$ -- 10
+while$ -- 17
+width$ -- 9
+write$ -- 68
+(There were 14 warnings)

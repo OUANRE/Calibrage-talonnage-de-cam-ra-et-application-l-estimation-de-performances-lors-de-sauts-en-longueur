@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Note.aux
+The style file: smfplain.bst
+Database file #1: mybiblio.bib
+Warning--string name "jan" is undefined
+--line 17 of file mybiblio.bib
+Warning--to sort, need author or key in noauthor_opencv_2020
+Warning--to sort, need author or key in noauthor_comment_nodate
+Warning--to sort, need author or key in noauthor_comment_nodate-1
+You've used 3 entries,
+            2304 wiz_defined-function locations,
+            503 strings with 4112 characters,
+and the built_in function-call counts, 518 in all, are:
+= -- 40
+> -- 3
+< -- 0
++ -- 3
+- -- 0
+* -- 25
+:= -- 61
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 27
+empty$ -- 76
+format.name$ -- 0
+if$ -- 122
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 20
+num.names$ -- 0
+pop$ -- 25
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 15
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 3
+while$ -- 0
+width$ -- 4
+write$ -- 27
+(There were 4 warnings)

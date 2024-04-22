@@ -1,0 +1,20 @@
+\providecommand{\bysame}{\leavevmode ---\ }
+\providecommand{\og}{``}
+\providecommand{\fg}{''}
+\providecommand{\smfandname}{\&}
+\providecommand{\smfedsname}{\'eds.}
+\providecommand{\smfedname}{\'ed.}
+\providecommand{\smfmastersthesisname}{M\'emoire}
+\providecommand{\smfphdthesisname}{Th\`ese}
+\begin{thebibliography}{1}
+
+\bibitem{noauthor_comment_nodate-1}
+{\og Comment installer {PIP3} sous {Linux} ? - {GeekspourGeeks}\fg}.
+
+\bibitem{noauthor_comment_nodate}
+{\og Comment installer {Python} sur {Linux} ? - {GeekspourGeeks}\fg}.
+
+\bibitem{noauthor_opencv_2020}
+{\og {OpenCV} {Python} {Tutorial}\fg} -- 2020, Section: Python.
+
+\end{thebibliography}

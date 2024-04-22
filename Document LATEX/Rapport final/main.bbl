@@ -1,0 +1,236 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global/global}
+  \entry{noauthor_les_2015}{misc}{}{}
+    \list{language}{1}{%
+      {fr-FR}%
+    }
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Faire le point sur le marché de la caméra pour mieux s'y retrouver.%
+    }
+    \field{title}{Les différents types de caméra}
+    \verb{url}
+    \verb https://videoclipmakers.fr/les-differents-types-de-cameras/
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/ouanre/snap/zotero-snap/common/Zotero/storage/8CFJ9HTA
+    \verb /les-differents-types-de-cameras.html:text/html
+    \endverb
+    \field{journaltitle}{Videoclip Makers}
+    \field{month}{01}
+    \field{year}{2015}
+    \field{urlday}{06}
+    \field{urlmonth}{03}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{orteu_calibrage_nodate}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=OJJ}{%
+         family={Orteu},
+         familyi={O\bibinitperiod},
+         given={Jean-José},
+         giveni={J\bibinithyphendelim J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {fr}%
+    }
+    \strng{namehash}{OJJ1}
+    \strng{fullhash}{OJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Calibrage géométrique d'une caméra ou d'un capteur de
+  vision stéréoscopique}
+    \verb{file}
+    \verb Orteu - Calibrage géométrique d'une caméra ou d'un capteur.pdf:/ho
+    \verb me/ouanre/snap/zotero-snap/common/Zotero/storage/S3FALIWW/Orteu - Cal
+    \verb ibrage géométrique d'une caméra ou d'un capteur.pdf:application/pd
+    \verb f
+    \endverb
+  \endentry
+
+  \entry{noauthor_quest-ce_nodate}{misc}{}{}
+    \list{language}{1}{%
+      {fr}%
+    }
+    \field{labeltitlesource}{shorttitle}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \field{abstract}{%
+    Les caméras sont un élément important du monde numérique
+  d’aujourd’hui. Découvrez ce qui compose une caméra, et comment ces
+  pièces travaillent ensemble pour capturer des images incroyables avec ce
+  guide utile%
+    }
+    \field{shorttitle}{Qu’est-ce qu’une caméra ?}
+    \field{title}{Qu’est-ce qu’une caméra ? {Apprenez} les composants
+  clés {\textbar} {Lenovo} {CA}}
+    \verb{url}
+    \verb https://canada.lenovo.com/fr/ca/en/glossary/camera-components/
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/ouanre/snap/zotero-snap/common/Zotero/storage/H7N446AF
+    \verb /camera-components.html:text/html
+    \endverb
+    \field{urlday}{05}
+    \field{urlmonth}{03}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{remondino_digital_2006}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RF}{%
+         family={Remondino},
+         familyi={R\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Fraser},
+         familyi={F\bibinitperiod},
+         given={Clive},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Accuracy, Camera calibration, Zoom, Distortion}
+    \strng{namehash}{RFFC1}
+    \strng{fullhash}{RFFC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Camera calibration has always been an essential component of
+  photogrammetric measurement, with self-calibration nowadays being an integral
+  and routinely applied operation within photogrammetric triangulation,
+  especially in high-accuracy close-range measurement. With the very rapid
+  growth in adoption of off-the-shelf digital cameras for a host of new 3D
+  measurement applications, however, there are many situations where the
+  geometry of the image network will not support robust recovery of camera
+  parameters via on-the-job calibration. For this reason, stand-alone camera
+  calibration has again emerged as an important issue in close-range
+  photogrammetry, and it also remains a topic of research interest in computer
+  vision. This paper overviews the current approaches adopted for camera
+  calibration in close-range photogrammetry and computer vision, and discusses
+  operational aspects for self-calibration. Also, the results of camera
+  calibrations using different algorithms are summarized. Finally, the impact
+  of chromatic aberration on modelled radial distortion is touched upon to
+  highlight the fact that there are still issues of research interest in the
+  photogrammetric calibration of consumer-grade digital cameras.%
+    }
+    \verb{doi}
+    \verb 10.3929/ETHZ-B-000158067
+    \endverb
+    \field{note}{Medium: application/pdf Publisher: ETH Zurich}
+    \field{shorttitle}{Digital camera calibration methods}
+    \field{title}{Digital camera calibration methods: {Considerations} and
+  comparisons}
+    \verb{url}
+    \verb http://hdl.handle.net/20.500.11850/158067
+    \endverb
+    \verb{file}
+    \verb Remondino et Fraser - 2006 - Digital camera calibration methods Consi
+    \verb derations.pdf:/home/ouanre/snap/zotero-snap/common/Zotero/storage/AQ3
+    \verb UJP6R/Remondino et Fraser - 2006 - Digital camera calibration methods
+    \verb  Considerations.pdf:application/pdf
+    \endverb
+    \field{year}{2006}
+    \field{urlday}{24}
+    \field{urlmonth}{02}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{zhengyou_zhang_flexible_1999}{inproceedings}{}{}
+    \name{author}{1}{}{%
+      {{hash=Z}{%
+         family={{Zhengyou Zhang}},
+         familyi={Z\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{Z1}
+    \strng{fullhash}{Z1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    We propose a ﬂexible new technique to easily calibrate a camera. It only
+  requires the camera to observe a planar pattern shown at a few (at least two)
+  different orientations. Either the camera or the planar pattern can be freely
+  moved. The motion need not be known. Radial lens distortion is modeled. The
+  proposed procedure consists of a closed-form solution, followed by a
+  nonlinear reﬁnement based on the maximum likelihood criterion. Both
+  computer simulation and real data have been used to test the proposed
+  technique, and very good results have been obtained. Compared with classical
+  techniques which use expensive equipment such as two or three orthogonal
+  planes, the proposed technique is easy to use and ﬂexible. It advances 3D
+  computer vision one step from laboratory environments to real world use. The
+  corresponding software is available from the author’s Web page.%
+    }
+    \field{booktitle}{Proceedings of the {Seventh} {IEEE} {International}
+  {Conference} on {Computer} {Vision}}
+    \verb{doi}
+    \verb 10.1109/ICCV.1999.791289
+    \endverb
+    \field{isbn}{978-0-7695-0164-2}
+    \field{pages}{666\bibrangedash 673 vol.1}
+    \field{title}{Flexible camera calibration by viewing a plane from unknown
+  orientations}
+    \verb{url}
+    \verb http://ieeexplore.ieee.org/document/791289/
+    \endverb
+    \list{location}{1}{%
+      {Kerkyra, Greece}%
+    }
+    \verb{file}
+    \verb Zhengyou Zhang - 1999 - Flexible camera calibration by viewing a plan
+    \verb e fro.pdf:/home/ouanre/snap/zotero-snap/common/Zotero/storage/J5VURSY
+    \verb 4/Zhengyou Zhang - 1999 - Flexible camera calibration by viewing a pl
+    \verb ane fro.pdf:application/pdf
+    \endverb
+    \field{year}{1999}
+    \field{urlday}{19}
+    \field{urlmonth}{03}
+    \field{urlyear}{2024}
+  \endentry
+\enddatalist
+\endinput

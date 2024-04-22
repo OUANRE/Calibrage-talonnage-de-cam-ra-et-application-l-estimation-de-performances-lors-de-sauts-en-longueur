@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Chapters/Chapter1.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main-blx.bib
+Database file #2: mybiblio.bib
+Warning--I didn't find a database entry for "heikkila_four-step_1997"
+Biblatex version: 3.20
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 6 entries,
+            6402 wiz_defined-function locations,
+            1254 strings with 13472 characters,
+and the built_in function-call counts, 28483 in all, are:
+= -- 1386
+> -- 1455
+< -- 206
++ -- 1375
+- -- 1096
+* -- 1697
+:= -- 3124
+add.period$ -- 0
+call.type$ -- 6
+change.case$ -- 78
+chr.to.int$ -- 144
+cite$ -- 10
+duplicate$ -- 2687
+empty$ -- 2566
+format.name$ -- 167
+if$ -- 5226
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 0
+newline$ -- 201
+num.names$ -- 175
+pop$ -- 1664
+preamble$ -- 1
+purify$ -- 85
+quote$ -- 0
+skip$ -- 900
+stack$ -- 0
+substring$ -- 2441
+swap$ -- 874
+text.length$ -- 171
+text.prefix$ -- 5
+top$ -- 1
+type$ -- 192
+warning$ -- 0
+while$ -- 339
+width$ -- 0
+write$ -- 196
+(There was 1 warning)

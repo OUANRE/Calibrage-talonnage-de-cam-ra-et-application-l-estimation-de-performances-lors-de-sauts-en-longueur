@@ -1,0 +1,326 @@
+
+% Chapter 1
+
+\chapter{Etat de l'art} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Introduction
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+
+
+
+%----------------------------------------------------------------------------------------
+%Notion de caméras	
+%----------------------------------------------------------------------------------------
+
+\newpage
+\section{Notion de caméras}
+
+Une caméra est un dispositif qui capture la lumière et la transforme en image. Elle le fait à travers une lentille, qui concentre la lumière sur une surface sensible à celle-çi, où une image se forme \cite{noauthor_quest-ce_nodate}. \\
+
+ Il ya deux catégories de caméras :
+ \begin{itemize}
+ 	\item \textbf{Les caméras numériques}: qui capturent des images par voie électronique à l’aide d’un capteur.
+ 	\item\textbf{les caméras à pellicule}: Elles utilisent une bande de pellicule enduit de produits chimiques photosensibles. Elles sont utilisées pour la réalisation de film.
+ 	La pellicule est une feuille mince formant le support souple à une couche sensible , elle définit chaque détaille d'une photo(couleurs, contrastes, exposition, grain, etc)\\
+ \end{itemize}
+ 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.80]{image/pellicule.jpeg}
+	\decoRule
+	\caption[Pellicule]{image d'une pellicule.}
+	\label{fig:Pellicule}
+\end{figure}
+
+\subsection{Les parties essentielles d'une caméra}
+Les parties essentielles d’une caméra comprennent : \\
+\begin{itemize}
+	\item \textbf{Le corps :} qui tient l'ensemble de toutes les composantes . \\
+	
+	\item \textbf{La lentille :} qui met la lumière au centre du capteur d’image. \\
+	
+	\item \textbf{L’obturateur :} qui contrôle la quantité de lumière qui atteint le capteur.\\ 
+	
+	\item \textbf{L’ouverture :} qui contrôle la quantité de lumière que l’objectif laisse entrer. \\
+	
+	\item \textbf{Le capteur d'image:} IL convertit le rayonnement électromagnétique en un signal électrique analogique. Ce signal est ensuite amplifié, puis numérisé par un convertisseur analogique-numérique et enfin traité pour obtenir une image numérique. La taille du capteur de caméra a un impact significatif sur la qualité de l’image.En effet des capteurs plus grands permettent d'avoir généralement une meilleure qualité d’image, surtout dans des conditions d’éclairage faible. Ils ont également une plus grande surface pour la prise de détails, ce qui peut se traduire par des photos plus nettes et plus détaillées.\\
+\end{itemize}
+
+\subsection{Le micrologiciel d'une caméra}
+Le micrologiciel ou firmware d'une caméra est un type de logiciel programmé dans le matériel de la caméra, il contrôle toutes les fonctions de la caméra,de la mise au point automatique et des paramètres d’exposition jusqu’au traitement et au stockage des images.\\
+
+\subsection{Les différents types de caméras}
+
+ils existes sept types de caméras qui sont entre autre: \cite{noauthor_les_2015} :
+
+\begin{itemize}
+	\item \textbf{Les caméras de smartphones} : Ce sont les caméras intégrés dans les téléphones portables.De nos jours la qualité des images qu'elles produisent les amènes à rivaliser avec les caméras professionnels qui existe sur le marché.Elles sont utilisés pour les web vidéos, clips, interviews, courts-métrages, etc......\\
+	
+	\item \textbf{Les Camescopes} sont des caméras utilisé par le grand public pour leurs souvenirs de famille.Aujord'hui elles sont rare sur le marché car elles sont remplacées par les smartphones.seuls les plus chers parviennent à se démarquer par leur qualité d’image . Elles sont souvent de petite taille, élaborées pour automatiser la plupart des réglages et disposent bien souvent de petits capteurs mais jamais d’entrées audio.\\
+		\textbf{Exemple :\\}
+    	\begin{itemize}
+    		\item Canon Vixia HF R52
+    		\item Sony HDR PJ275
+    		\item Panasonic HC W850
+    	\end{itemize}
+    	 
+		\begin{figure}[h]
+			\centering
+		\includegraphics[scale=0.35]{image/camescopes.png}
+			\decoRule
+			\caption[Camescopes]{image de Camescopes.}
+			\label{fig:Camescopes}
+		\end{figure}
+\newpage
+	\item \textbf{Les DSLR(digital single-lens reflex)} sont des appareils photo réflex numériques disposant d’une fonction de capture vidéo.Ils sont caractérisés par la taille de leur capteur qui permettent d'avoir des images de qualités, d’objectifs interchangeables qui permettent de varier les rendus stylistiques en jouant avec les différents types de « cailloux » selon les photographes et la petite taille des lentilles (comparé à ceux d’une caméra pro) rend accessible le prix des objectifs.\\
+		\textbf{Exemple :\\}
+		\begin{itemize}
+			\item Canon 5D Mark III
+			\item Nikon D800
+			\item Canon 7D
+		\end{itemize}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.35]{image/DSLR.png}
+			\decoRule
+			\caption[digital single-lens reflex(DSLR)]{image de digital single-lens reflex(DSLR).}
+			\label{fig:digital single-lens reflex(DSLR)}
+		\end{figure}
+		
+		
+	\item \textbf{Les Caméras dites « Prosommateurs »} Le mot « prosommateur » est composé de « pro » issu de production et « sommateur » de consommateur. On appelle les prosommateurs les personnes qui achètent des produits avec une certaine exigence car ils ont pour intention d’utiliser le produit dans un cadre de production.Ces caméras assez récentes sont venues perturber la frontière entre camescopes et caméras professionnelles en insérerant une gamme intermédiaire répondant aux besoins des petits producteurs indépendants.Elles sont généralement d’une taille supérieure à un camescope mais bien moins encombrante que les caméras pro de plateau ou de cinéma et proposent une excellente qualité d’image.\\
+			\textbf{Exemple :\\}
+		\begin{itemize}
+			\item Sony PMW 300
+			\item Panasonic AG HPX250
+			\item Canon XF 205
+		\end{itemize}
+		\vspace{4 cm}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.3]{image/prosommateur.png}
+			\decoRule
+			\caption[Les Caméras dites « Prosommateurs »]{Les Caméras dites « Prosommateurs ».}
+			\label{fig:Les Caméras dites « Prosommateurs »}
+		\end{figure}
+		
+	\item \textbf{Caméras Professionnelles} Les caméras professionnelles sont de très grosses caméras disposant des capteurs les plus gros, les objectifs y sont évidemment interchangeables,le paramétrage de la colorimétrie y est bien souvent plus poussé, et elle sont systématiquement synchronisable par timecode. \\
+			\textbf{Exemple :\\}
+		\begin{itemize}
+			\item Panavision Panaflex Millenium
+			\item Arri Arriflex D-21
+			\item Aaton Penelope
+		\end{itemize}
+ 		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.38]{image/professionnel.png}
+			\decoRule
+			\caption[Caméras professionnel]{image de caméra  professionnel.}
+			\label{fig:Caméras professionnel}
+		\end{figure}	
+		
+	\item \textbf{Les Caméras de type "Super Concentré"} « Super Concentré » est un terme inventer dans l'article\cite{noauthor_les_2015} pour catégoriser cette dernière tendance d’appareils. Ce qui les qualifie c’est avant tout de très grands capteurs supérieurs à la majorité des caméras prosommateurs qui leur confère une qualité d’image cinématographique comparable aux caméras professionnelles. Les objectifs sont interchangeables, et sont capables d’exporter les rushs au format RAW qui permet une grande souplesse d’ajustement en post-prod.
+	\\
+				\textbf{Exemple :\\}
+			\begin{itemize}
+				\item Camera Red
+				\item Camera Blackmagic
+				\item Canon C300
+			\end{itemize}
+			\vspace{1 cm}
+			\begin{figure}[th]
+				\centering
+				\includegraphics[scale=0.38]{image/super consentré.png}
+				\decoRule
+				\caption[Caméras de type "Super Concentré" ]{Caméras de type "Super Concentré".}
+				\label{fig:Caméras de type "Super Concentré"}
+			\end{figure}
+			
+	\item \textbf{Les Caméras dédiées} sont des caméras qui sont particulièrement dédiées à un besoin spécifique comme les caméras miniatures pour les sports extremes ou l’embarcation dans les véhicules motorisés, les caméras à haute cadence pour le slow motion, les caméras 3D, ou encore les caméras drones.\\
+				\textbf{Exemple :\\}
+			\begin{itemize}
+				\item Go Pro
+				\item Quadrirotor DJL Phantom 2 Vision
+				\item Hercules HD Twist
+				\item Panasonic AG 3DA1
+			\end{itemize}
+			 
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.65]{image/caméras dedié.png}
+				\decoRule
+				\caption[Caméras dedié]{Image de caméras dedié.}
+				\label{fig:Caméras dedié}
+			\end{figure}
+				
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%Notion de calibrage	
+%----------------------------------------------------------------------------------------
+\newpage
+\section{Notion de  Calibrage/étalonnage}
+
+Le calibrage ou étalonnage d'une caméra est tout simplement l’estimation de la relation mathématique existant entre les coordonnées des points 3D de la scène observée et les coordonnées 2D de leur projection dans l'image (points-image),alors calibrer une caméra consiste à estimer sa fonction de transfert.\\
+
+L'estimation de cette relation mathématique est le calcul des différents paramètres de la caméra. C'est une étape nécessaire en vision par ordinateur 3D ou en photogrammétrie afin d'extraire des informations métriques à partir d'images 2D.\\
+
+Il existe deux types de paramètres :\\
+
+  \begin{itemize}
+  	\item  Les paramètres internes  du système appelé paramètres intrinsèques composé de:\\
+  	
+  	\begin{itemize}
+  		\item la distance focal
+  		\item le centre optique
+  		\item les coefficients de distorsion radiale de l'objectif\\
+  	\end{itemize}
+  	
+  	\item Les paramètres externes appelé paramètres extrinsèques :\\
+  	
+  	\begin{itemize}
+  		\item La rotation de la caméra par rapport à un système de coordonnées mondial
+  		\item La translation de la caméra par rapport à un système de coordonnées mondial
+  	\end{itemize}
+  	
+  \end{itemize}
+ 
+		\begin{figure}[th]
+			\centering
+		\includegraphics[scale=0.5]{image/illustration caméras.png}
+			\decoRule
+			\caption[Illustration d'une caméras]{Schémas d'illustration d'une caméras.}
+			\label{fig:Illustration caméras}
+		\end{figure}
+
+Pour comprendre l'étalonnage de la caméra , il faut connaitre le modèle de caméra utilisé.
+
+%----------------------------------------------------------------------------------------
+%Modèles de caméras	
+%----------------------------------------------------------------------------------------
+\subsection{Modèles de caméras}
+Le modèle utilisé est le modèle sténopé ou « pinhole » en anglais.
+ce modèle, aussi connu sous le nom de "camera obscura" ou chambre noire, est un principe optique très ancien qui permet de capturer des images. Il est souvent utilisé pour expliquer les bases de la photographie et les principes fondamentaux de l'optique géométrique. \cite{orteu_calibrage_nodate}
+Le modèle sténopé modélise une caméra par une projection perspective. Ce modèle transforme un point 3D de l'espace  en un point-image 2D,c'est une représentation mathématique d'un objet 3D projété dans un espace 2D.\\
+ \vspace{-0.3 cm}
+ \begin{figure}[h]
+ 	\centering
+ 	\includegraphics[scale=0.35]{image/chambre-noire.jpg}
+ 	\decoRule
+ 	\caption[Modèl sténopé]{Image du modèl sténopé.}
+ 	\label{fig:Modèl sténopé}
+ \end{figure}
+  
+La figure çi-dessus représente la vision du modèl sténopé \\
+par rapport au monde réèl:\\
+
+\begin{itemize}
+	\item (x,y,z): repéresente le rèpère orthonormé de centre optique (O)
+	\item  Le plan image: qui réprésente le plan de la caméra 
+	\item  L'axe optique qui optique qui se trouve sur l'axe Z
+	\item  f: qui réprésente la distance focale
+	\item  x: qui réprésente la projection d'un point du monde réèl sur le plan image
+	\item  X: qui réprésente un point du monde réèl
+\end{itemize}
+\vspace{-0.3 cm}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.70]{image/ModelStenope.png}
+	\decoRule
+	\caption[Représentation du modèl sténopé]{Schemas de représentation du modèl sténopé.}
+	\label{fig:Représentation du modèl sténopé}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+%Les différents techniques de calibrage	
+%----------------------------------------------------------------------------------------
+\subsection{Les différents techniques de calibrage}
+
+ De nombreux travaux ont été réalisés, à commencer par la communauté de la photogrammétrie et plus récemment en vision par ordinateur.\\
+ 
+ Nous pouvons classer ces techniques grossièrement en deux catégories:\\
+ \begin{itemize}
+ \item Calibrage photogrammétrique: L'étalonnage est effectué en observant un objet d'étalonnage dont la géométrie dans l'espace 3D est connue avec une très bonne précision. L'étalonnage peut être effectué de manière très efficace. L'objet d'étalonnage est généralement constitué de deux ou trois plans orthogonaux entre eux. Parfois, un plan subissant une translation précisément connue est également utilisé. Ces approches nécessitent un appareil d'étalonnage coûteux et une configuration élaborée \cite{zhengyou_zhang_flexible_1999}.\\
+ 
+ \item Etalonnage en vision par ordinateur: Notre compréhension sur l'étalonnage de la caméra en vision par ordinateur se base sur la littérature de l'article \cite{remondino_digital_2006}. Selon lui les modèles d'étalonnage pour la vision industrielle et par ordinateur utilisent traditionnellement des grilles de référence, la matrice d'étalonnage K étant déterminé à l'aide d'images d'un réseau de points d'objets connu (par exemple un motif en damier). Les méthodes couramment adoptées sont celles de Tsai,Heikkila et Silven  et Zhang \cite{zhengyou_zhang_flexible_1999} Cité dans celui-ci. Ceux­ci sont tous basés sur le modèle de caméra sténopé et incluent des termes pour modéliser la distorsion radiale.\\
+ 
+ \item Auto-calibrage. Les techniques de cette catégorie n’utilisent aucun objet d’étalonnage. En déplaçant simplement une caméra dans une scène statique, la rigidité de la scène fournit en général deux contraintes sur les paramètres internes des caméras à partir d'un déplacement de caméra en utilisant uniquement les informations d'image. Par conséquent, si les images sont prises par la même caméra avec paramètres internes fixes, les correspondances entre trois images suffisent pour récupérer à la fois les paramètres internes et externes qui permettent de reconstruire la structure 3D jusqu'à une similarité \cite{zhengyou_zhang_flexible_1999}.\\
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%Notion de mesure de distance numérique	
+%----------------------------------------------------------------------------------------
+\newpage
+\section{Notion de mesure de distance numérique}
+
+
+%---------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

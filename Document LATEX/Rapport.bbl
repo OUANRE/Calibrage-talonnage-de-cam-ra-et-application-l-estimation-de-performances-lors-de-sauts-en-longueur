@@ -1,0 +1,49 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global/global}
+  \entry{noauthor_quest-ce_nodate}{misc}{}{}
+    \list{language}{1}{%
+      {fr}%
+    }
+    \field{labeltitlesource}{shorttitle}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \field{abstract}{%
+    Les caméras sont un élément important du monde numérique
+  d’aujourd’hui. Découvrez ce qui compose une caméra, et comment ces
+  pièces travaillent ensemble pour capturer des images incroyables avec ce
+  guide utile%
+    }
+    \field{shorttitle}{Qu’est-ce qu’une caméra ?}
+    \field{title}{Qu’est-ce qu’une caméra ? {Apprenez} les composants
+  clés {\textbar} {Lenovo} {CA}}
+    \verb{url}
+    \verb https://canada.lenovo.com/fr/ca/en/glossary/camera-components/
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/ouanre/snap/zotero-snap/common/Zotero/storage/H7N446AF
+    \verb /camera-components.html:text/html
+    \endverb
+    \field{urlday}{05}
+    \field{urlmonth}{03}
+    \field{urlyear}{2024}
+  \endentry
+\enddatalist
+\endinput

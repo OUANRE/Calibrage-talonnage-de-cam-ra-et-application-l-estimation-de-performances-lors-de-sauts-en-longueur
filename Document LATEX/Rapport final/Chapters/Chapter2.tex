@@ -1,0 +1,55 @@
+% Chapter 2
+
+\chapter{Implémentation} % Main chapter title
+
+\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1}
+
+%----------------------------------------------------------------------------------------
+%	Structuration du travail
+%----------------------------------------------------------------------------------------
+%\section{Structuration du travail} 
+
+%\subsection{Feuille de route technologique}
+
+%\subsection{Choix technologique}
+
+\section{Calibrage et correction de la distorsion}
+   L'étalonnage de la caméra est généralement 
+   perturbé par l'angle, la lumière, l'équipement matériel, 
+   etc. Il y a certaines erreurs matérielles et des défauts de conception, qui entraîneront différents degrés et types de distorsion du produit.
+   Étant donné que cette recherche consiste à calculer la portée de l'image, 
+   l'étalonnage de la caméra et la correction de la distorsion 
+   doivent être effectués pour les images prise et pour la vidéo.\\
+   La « méthode d'étalonnage de Zhang Zhengyou » est la plus courante et beaucoup utilisé.
+      
+\subsection{Etude de la méthode de Zhang}
+   
+   La méthode de calibrage proposé par zhang Zhengyou connue sous le nom méthode de calibrage de caméra basée sur le plan d'échiquier est une technique simple, flexible et réalisable à moindre coût.\\ 
+   Cette technique proposée nécessite uniquement que la caméra observe un motif plan affiché dans quelques (au moins deux) orientations
+   différentes. Le motif peut être imprimé et fixé sur une surface plane « raisonnable » (par exemple, une couverture de livre rigide).La caméra ou le motif planaire peuvent être déplacés à la main. L'approche proposée se situe entre le calibrage photogrammétrique et l'auto-calibrage car ils utilisent des informations métriques 2D plutôt que 3D ou purement implicites. \\
+   
+   Dans l'article le travail a été regroupé en quatre sections qui sont:\\
+    
+   \begin{itemize}
+   	\item \textbf{La section 1 (Les contraintes de bases liées à l'observation d'un seul plan):} Comporte la notation de la matrice du caméras et les deux contraintes lié aux paramètres intrinsèques.\\
+   	
+   	\item \textbf{La section 2 (La procédure de calibrage):}  aborde d'abord la solution fermé qui permet de résoudre les contraintes liées aux paramètres intrinsèques , ensuite la technique d'optimisation non linéaire basée sur le critère du maximum de vraisemblance pour affiner les paramètres avec l'algorithme de Levenberg ­Marquardt et enfin la prise en compte de la distorsion radial de la lentille pour corriger la distorsion.\\
+   	
+   	\item \textbf{La section 4} étudie les configurations dans lesquelles la technique d'étalonnage proposée échoue\\
+   	
+   	\item \textbf{La section 5} fournie les résultats expérimentaux.
+   \end{itemize}
+   
+   
+   
+   
+   
+%\section{Première partie: Mesure avec le bois}
+%\section{Deuxième partie: Intervention d'humain }
+
+
+
+
+
+
+
