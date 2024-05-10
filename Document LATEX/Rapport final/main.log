@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.17)  19 APR 2024 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.17)  7 MAY 2024 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1238,18 +1238,6 @@ assia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 1: section
 [3] [4
 
-] (main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
-
- (Abreviations.tex
-1: section
-[5] [6
-
-])
-1: section
-[7] [8
-
 ]
 \openout2 = `introduction.aux'.
 
@@ -1280,202 +1268,224 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 3
 (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
-
- []
-
-<image/pellicule.jpeg, id=155, 276.03125pt x 183.68625pt>
-File: image/pellicule.jpeg Graphic file (type jpg)
-<use image/pellicule.jpeg>
-Package pdftex.def Info: image/pellicule.jpeg  used on input line 45.
-(pdftex.def)             Requested size: 220.82529pt x 146.94917pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Overfull \hbox (4.45782pt too wide) in paragraph at lines 62--63
+Overfull \hbox (4.45782pt too wide) in paragraph at lines 46--47
 \T1/ppl/m/n/12 n�-ra-le-ment une meilleure qua-lit� d'image, sur-tout dans des 
 condi-tions d'�clai-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-[4 <./image/pellicule.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Overfull \hbox (8.78967pt too wide) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+<image/pellicule.jpeg, id=132, 276.03125pt x 183.68625pt>
+File: image/pellicule.jpeg Graphic file (type jpg)
+<use image/pellicule.jpeg>
+Package pdftex.def Info: image/pellicule.jpeg  used on input line 59.
+(pdftex.def)             Requested size: 220.82529pt x 146.94917pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]
+Overfull \hbox (8.78967pt too wide) in paragraph at lines 69--70
 \T1/ppl/m/n/12 am�nes � ri-va-li-ser avec les ca-m�-ras pro-fes-sion-nels qui e
 xiste sur le mar-ch�.Elles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
-<image/camescopes.png, id=165, 1167.36125pt x 352.31625pt>
+<image/camescopes.png, id=142, 1167.36125pt x 352.31625pt>
 File: image/camescopes.png Graphic file (type png)
 <use image/camescopes.png>
-Package pdftex.def Info: image/camescopes.png  used on input line 85.
+Package pdftex.def Info: image/camescopes.png  used on input line 81.
 (pdftex.def)             Requested size: 408.58257pt x 123.31253pt.
-[5 <./image/camescopes.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+[5 <./image/pellicule.jpeg> <./image/camescopes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
-<image/DSLR.png, id=174, 1150.2975pt x 369.38pt>
+<image/DSLR.png, id=150, 1150.2975pt x 369.38pt>
 File: image/DSLR.png Graphic file (type png)
 <use image/DSLR.png>
-Package pdftex.def Info: image/DSLR.png  used on input line 100.
+Package pdftex.def Info: image/DSLR.png  used on input line 96.
 (pdftex.def)             Requested size: 402.61017pt x 129.28493pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-<image/prosommateur.png, id=175, 1161.33875pt x 374.39874pt>
+<image/prosommateur.png, id=151, 1161.33875pt x 374.39874pt>
 File: image/prosommateur.png Graphic file (type png)
 <use image/prosommateur.png>
-Package pdftex.def Info: image/prosommateur.png  used on input line 117.
+Package pdftex.def Info: image/prosommateur.png  used on input line 113.
 (pdftex.def)             Requested size: 348.40431pt x 112.32048pt.
 [6 <./image/DSLR.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
 
-<image/professionnel.png, id=181, 1173.38374pt x 405.515pt>
+<image/professionnel.png, id=157, 1173.38374pt x 405.515pt>
 File: image/professionnel.png Graphic file (type png)
 <use image/professionnel.png>
-Package pdftex.def Info: image/professionnel.png  used on input line 133.
+Package pdftex.def Info: image/professionnel.png  used on input line 129.
 (pdftex.def)             Requested size: 445.89046pt x 154.09729pt.
 
-Overfull \hbox (4.87271pt too wide) in paragraph at lines 133--135
+Overfull \hbox (4.87271pt too wide) in paragraph at lines 129--131
  [][] 
  []
 
 
-Overfull \hbox (0.52646pt too wide) in paragraph at lines 139--142
+Overfull \hbox (0.52646pt too wide) in paragraph at lines 135--138
 \T1/ppl/m/n/12 ras pro-fes-sion-nelles. Les ob-jec-tifs sont in-ter-chan-geable
 s, et sont ca-pables d'ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
  []
 
 [7 <./image/prosommateur.png> <./image/professionnel.png>]
-<image/super consentré.png, id=190, 1167.36125pt x 376.40625pt>
+<image/super consentré.png, id=166, 1167.36125pt x 376.40625pt>
 File: image/super consentré.png Graphic file (type png)
 <use image/super consentré.png>
-Package pdftex.def Info: image/super consentré.png  used on input line 150.
+Package pdftex.def Info: image/super consentré.png  used on input line 146.
 (pdftex.def)             Requested size: 443.60188pt x 143.03586pt.
 
-Overfull \hbox (2.58414pt too wide) in paragraph at lines 150--152
+Overfull \hbox (2.58414pt too wide) in paragraph at lines 146--148
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
-<image/caméras dedié.png, id=191, 687.31781pt x 192.72pt>
+<image/caméras dedié.png, id=167, 687.31781pt x 192.72pt>
 File: image/caméras dedié.png Graphic file (type png)
 <use image/caméras dedié.png>
-Package pdftex.def Info: image/caméras dedié.png  used on input line 167.
+Package pdftex.def Info: image/caméras dedié.png  used on input line 163.
 (pdftex.def)             Requested size: 446.75128pt x 125.2665pt.
 
-Overfull \hbox (5.73354pt too wide) in paragraph at lines 167--169
+Overfull \hbox (5.73354pt too wide) in paragraph at lines 163--165
  [][] 
  []
 
 [8 <./image/super consentré.png> <./image/caméras dedié.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-<image/illustration caméras.png, id=198, 726.715pt x 145.54375pt>
+<image/illustration caméras.png, id=174, 726.715pt x 145.54375pt>
 File: image/illustration caméras.png Graphic file (type png)
 <use image/illustration caméras.png>
 Package pdftex.def Info: image/illustration caméras.png  used on input line 20
-8.
+4.
 (pdftex.def)             Requested size: 363.3566pt x 72.77168pt.
-<image/chambre-noire.jpg, id=200, 903.375pt x 451.6875pt>
+<image/chambre-noire.jpg, id=176, 903.375pt x 451.6875pt>
 File: image/chambre-noire.jpg Graphic file (type jpg)
 <use image/chambre-noire.jpg>
-Package pdftex.def Info: image/chambre-noire.jpg  used on input line 226.
+Package pdftex.def Info: image/chambre-noire.jpg  used on input line 217.
 (pdftex.def)             Requested size: 316.18599pt x 158.09299pt.
-[9 <./image/illustration caméras.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-<image/ModelStenope.png, id=207, 545.78906pt x 223.58531pt>
+[9 <./image/illustration caméras.png>]
+<image/ModelStenope.png, id=184, 545.78906pt x 223.58531pt>
 File: image/ModelStenope.png Graphic file (type png)
 <use image/ModelStenope.png>
-Package pdftex.def Info: image/ModelStenope.png  used on input line 246.
+Package pdftex.def Info: image/ModelStenope.png  used on input line 237.
 (pdftex.def)             Requested size: 382.04973pt x 156.50864pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+[10 <./image/chambre-noire.jpg> <./image/ModelStenope.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
 
  []
 
@@ -1485,90 +1495,123 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--260
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-
- []
-
-[10 <./image/chambre-noire.jpg> <./image/ModelStenope.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-Overfull \hbox (0.90877pt too wide) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Overfull \hbox (0.90877pt too wide) in paragraph at lines 278--279
 []\T1/ppl/m/n/12 Auto-calibrage. Les tech-niques de cette ca-t�-go-rie n'uti-li
 sent au-cun ob-jet d'�ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
-[11]) [12]
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+[13]) [14]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (Chapters/Chapter2.tex
 Chapitre 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
-
+Overfull \hbox (40.88911pt too wide) in paragraph at lines 10--11
+\T1/ppl/m/n/12 sures pr�-cises. Ce ca-li-brage va nous per-mettre de conver-tir
+ les co-or-don-n�es d'images(pixels)
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-1: section
-[13
-
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-) [14]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-88.
- (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 1: section
 [15
 
 
 
-] (main.aux (introduction.aux) (Chapters/Chapter1.aux)
+
+] [16
+
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+88.
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+1: section
+[17] (main.aux (introduction.aux) (Chapters/Chapter1.aux)
 (Chapters/Chapter2.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E73C2D33558F9F01805D22298DA9E8B1;2839.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: DD1FD8A265E840B7158A57457997E1AE;2496
+(rerunfilecheck)             After:  12FAF2698075CC3283DC844500AE6BAE;2607.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39200 strings out of 474424
- 867553 string characters out of 5741267
- 1942496 words of memory out of 5000000
- 60970 multiletter control sequences out of 15000+600000
+ 39166 strings out of 474424
+ 866967 string characters out of 5741267
+ 1941496 words of memory out of 5000000
+ 60946 multiletter control sequences out of 15000+600000
  587579 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,19n,94p,1852b,1873s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1578,9 +1621,9 @@ o/uplb8a.pfb><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pal
 atino/uplr8a.pfb><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /palatino/uplr8a.pfb><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/palatino/uplri8a.pfb>
-Output written on main.pdf (23 pages, 2466017 bytes).
+Output written on main.pdf (21 pages, 2466391 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 175 words of extra memory for PDF output out of 10000 (max. 10000000)
 

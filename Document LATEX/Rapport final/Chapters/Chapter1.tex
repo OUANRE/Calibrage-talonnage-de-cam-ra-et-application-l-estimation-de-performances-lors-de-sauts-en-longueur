@@ -31,7 +31,21 @@
 \newpage
 \section{Notion de caméras}
 
-Une caméra est un dispositif qui capture la lumière et la transforme en image. Elle le fait à travers une lentille, qui concentre la lumière sur une surface sensible à celle-çi, où une image se forme \cite{noauthor_quest-ce_nodate}. \\
+Une caméra est un dispositif qui capture la lumière et la transforme en image. Elle le fait à travers une lentille, qui concentre la lumière sur une surface sensible à celle-çi, où une image se forme \cite{noauthor_quest-ce_nodate}. Elle possède un micrologiciel ou firmware  qui est un type de logiciel programmé dans son matériel. Ce programme contrôle toutes les fonctions de la caméra,de la mise au point automatique et des paramètres d’exposition jusqu’au traitement et au stockage des images.\\
+
+Une caméra comprend les parties essentielles suivant: \\
+\begin{itemize}
+	\item \textbf{Le corps :} qui tient l'ensemble de toutes les composantes . \\
+	
+	\item \textbf{La lentille :} qui met la lumière au centre du capteur d’image. \\
+	
+	\item \textbf{L’obturateur :} qui contrôle la quantité de lumière qui atteint le capteur.\\ 
+	
+	\item \textbf{L’ouverture :} qui contrôle la quantité de lumière que l’objectif laisse entrer.\\
+	
+	\item \textbf{Le capteur d'image:} IL convertit le rayonnement électromagnétique en un signal électrique analogique. Ce signal est ensuite amplifié, puis numérisé par un convertisseur analogique-numérique et enfin traité pour obtenir une image numérique. La taille du capteur de caméra a un impact significatif sur la qualité de l’image.En effet des capteurs plus grands permettent d'avoir généralement une meilleure qualité d’image, surtout dans des conditions d’éclairage faible. Ils ont également une plus grande surface pour la prise de détails, ce qui peut se traduire par des photos plus nettes et plus détaillées.\\
+\end{itemize}
+
 
  Il ya deux catégories de caméras :
  \begin{itemize}
@@ -39,7 +53,7 @@ Une caméra est un dispositif qui capture la lumière et la transforme en image.
  	\item\textbf{les caméras à pellicule}: Elles utilisent une bande de pellicule enduit de produits chimiques photosensibles. Elles sont utilisées pour la réalisation de film.
  	La pellicule est une feuille mince formant le support souple à une couche sensible , elle définit chaque détaille d'une photo(couleurs, contrastes, exposition, grain, etc)\\
  \end{itemize}
- 
+ \vspace{5 cm}
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.80]{image/pellicule.jpeg}
@@ -48,25 +62,7 @@ Une caméra est un dispositif qui capture la lumière et la transforme en image.
 	\label{fig:Pellicule}
 \end{figure}
 
-\subsection{Les parties essentielles d'une caméra}
-Les parties essentielles d’une caméra comprennent : \\
-\begin{itemize}
-	\item \textbf{Le corps :} qui tient l'ensemble de toutes les composantes . \\
-	
-	\item \textbf{La lentille :} qui met la lumière au centre du capteur d’image. \\
-	
-	\item \textbf{L’obturateur :} qui contrôle la quantité de lumière qui atteint le capteur.\\ 
-	
-	\item \textbf{L’ouverture :} qui contrôle la quantité de lumière que l’objectif laisse entrer. \\
-	
-	\item \textbf{Le capteur d'image:} IL convertit le rayonnement électromagnétique en un signal électrique analogique. Ce signal est ensuite amplifié, puis numérisé par un convertisseur analogique-numérique et enfin traité pour obtenir une image numérique. La taille du capteur de caméra a un impact significatif sur la qualité de l’image.En effet des capteurs plus grands permettent d'avoir généralement une meilleure qualité d’image, surtout dans des conditions d’éclairage faible. Ils ont également une plus grande surface pour la prise de détails, ce qui peut se traduire par des photos plus nettes et plus détaillées.\\
-\end{itemize}
-
-\subsection{Le micrologiciel d'une caméra}
-Le micrologiciel ou firmware d'une caméra est un type de logiciel programmé dans le matériel de la caméra, il contrôle toutes les fonctions de la caméra,de la mise au point automatique et des paramètres d’exposition jusqu’au traitement et au stockage des images.\\
-
-\subsection{Les différents types de caméras}
-
+ 
 ils existes sept types de caméras qui sont entre autre: \cite{noauthor_les_2015} :
 
 \begin{itemize}
@@ -179,7 +175,7 @@ ils existes sept types de caméras qui sont entre autre: \cite{noauthor_les_2015
 \newpage
 \section{Notion de  Calibrage/étalonnage}
 
-Le calibrage ou étalonnage d'une caméra est tout simplement l’estimation de la relation mathématique existant entre les coordonnées des points 3D de la scène observée et les coordonnées 2D de leur projection dans l'image (points-image),alors calibrer une caméra consiste à estimer sa fonction de transfert.\\
+Le calibrage ou étalonnage d'une caméra est tout simplement l’estimation de la relation mathématique existant entre les coordonnées des points 3D de la scène observée et les coordonnées 2D de leur projection dans l'image (points-image),alors calibrer une caméra consiste à estimer sa fonction de transfert.
 
 L'estimation de cette relation mathématique est le calcul des différents paramètres de la caméra. C'est une étape nécessaire en vision par ordinateur 3D ou en photogrammétrie afin d'extraire des informations métriques à partir d'images 2D.\\
 
@@ -212,12 +208,7 @@ Il existe deux types de paramètres :\\
 		\end{figure}
 
 Pour comprendre l'étalonnage de la caméra , il faut connaitre le modèle de caméra utilisé.
-
-%----------------------------------------------------------------------------------------
-%Modèles de caméras	
-%----------------------------------------------------------------------------------------
-\subsection{Modèles de caméras}
-Le modèle utilisé est le modèle sténopé ou « pinhole » en anglais.
+Le modèle de caméra utilisé est le modèle sténopé ou « pinhole » en anglais.
 ce modèle, aussi connu sous le nom de "camera obscura" ou chambre noire, est un principe optique très ancien qui permet de capturer des images. Il est souvent utilisé pour expliquer les bases de la photographie et les principes fondamentaux de l'optique géométrique. \cite{orteu_calibrage_nodate}
 Le modèle sténopé modélise une caméra par une projection perspective. Ce modèle transforme un point 3D de l'espace  en un point-image 2D,c'est une représentation mathématique d'un objet 3D projété dans un espace 2D.\\
  \vspace{-0.3 cm}
@@ -249,6 +240,28 @@ par rapport au monde réèl:\\
 	\label{fig:Représentation du modèl sténopé}
 \end{figure}
 
+
+Plusieurs facteurs peuvent affecter la précision des résultats d’étalonnage de la caméra, mais la prise en compte de ces facteurs et l’utilisation de techniques d’étalonnage appropriées peuvent aider à garantir des résultats d’étalonnage précis et fiables de la caméra. \\
+
+Voici quelques-unes des plus importantes : \\
+
+\begin{itemize}
+	\item \textbf{Distorsion de l’objectif } :  La distorsion de l’objectif peut entraîner des erreurs importantes dans le processus d’étalonnage de l’appareil photo. La distorsion se produit lorsque l’objectif projette le monde 3D sur le plan de l’image 2D, ce qui donne l’impression que les lignes droites sont incurvées. Les types courants de distorsion comprennent la distorsion radiale, qui provoque le gonflement de l’image vers l’extérieur ou vers l’intérieur, et la distorsion tangentielle, qui provoque l’inclinaison ou l’inclinaison de l’image. Le calcul des coefficients de distorsionet la correction de la distorsion lors du calibrage modèle de caméra aide à corriger ces erreurs. \\
+	
+	\item \textbf{Résolution de l’image} : La résolution des images utilisées pour l’étalonnage de la caméra peut également affecter la précision des résultats. Les images haute résolution fournissent des informations plus détaillées sur le modèle d’étalonnage, ce qui peut conduire à des estimations plus précises de la matrice de projection de la caméra. Cependant, les images haute résolution nécessitent également plus de ressources de calcul et peuvent être plus difficiles à traiter.
+	\\
+	
+	\item \textbf{Placement de la caméra} : La position et l’orientation de la caméra peuvent également affecter la précision des résultats de l’étalonnage de la caméra. Les caméras doivent être placées à une distance suffisante du motif d’étalonnage pour s’assurer que la géométrie du motif est visible dans l’image. De plus, les caméras doivent être alignées parallèlement au motif pour minimiser la distorsion de perspective. \\
+	
+	\item \textbf{Qualité du modèle d’étalonnage} : la qualité du modèle d’étalonnage peut également affecter la précision des résultats d’étalonnage de la caméra. Les motifs d’étalonnage doivent être plats, rigides et avoir un contraste élevé pour garantir que la géométrie du motif est visible dans l’image. De plus, le motif doit être suffisamment grand pour couvrir tout le champ de vision de la caméra.
+	\\
+	
+	\item \textbf{Nombre de vues} :  le nombre d’images utilisées pour l’étalonnage de la caméra peut également affecter la précision des résultats. L’utilisation d’un plus grand nombre d’images peut fournir plus d’informations sur la matrice de projection de la caméra, ce qui permet d’obtenir des estimations plus précises. Cependant, l’utilisation d’un trop grand nombre d’images peut également augmenter le coût de calcul du processus d’étalonnage. \\
+	
+	\item \textbf{Bruit et valeurs aberrantes} :  le bruit et les valeurs aberrantes dans les données d’image peuvent également affecter la précision des résultats d’étalonnage de la caméra. Le bruit peut introduire des erreurs aléatoires dans l’estimation de la matrice de projection de la caméra, tandis que les valeurs aberrantes peuvent introduire des erreurs systématiques. L’utilisation de techniques d’estimation robustes, telles que RANSAC, peut aider à atténuer les effets du bruit et des valeurs aberrantes.
+\end{itemize}
+
+
 %----------------------------------------------------------------------------------------
 %Les différents techniques de calibrage	
 %----------------------------------------------------------------------------------------
@@ -265,6 +278,27 @@ par rapport au monde réèl:\\
  \item Auto-calibrage. Les techniques de cette catégorie n’utilisent aucun objet d’étalonnage. En déplaçant simplement une caméra dans une scène statique, la rigidité de la scène fournit en général deux contraintes sur les paramètres internes des caméras à partir d'un déplacement de caméra en utilisant uniquement les informations d'image. Par conséquent, si les images sont prises par la même caméra avec paramètres internes fixes, les correspondances entre trois images suffisent pour récupérer à la fois les paramètres internes et externes qui permettent de reconstruire la structure 3D jusqu'à une similarité \cite{zhengyou_zhang_flexible_1999}.\\
 \end{itemize}
 
+\subsection{Les méthodes de calibrage}
+
+\subsubsection{Méthode de Zhang Zhengyou}
+
+ La méthode de calibrage proposé par zhang Zhengyou connue sous le nom méthode de calibrage de caméra basée sur le plan d'échiquier est une technique simple, flexible et réalisable à moindre coût.\\ 
+Cette technique proposée nécessite uniquement que la caméra observe un motif plan affiché dans quelques (au moins deux) orientations
+différentes. Le motif peut être imprimé et fixé sur une surface plane « raisonnable » (par exemple, une couverture de livre rigide).La caméra ou le motif planaire peuvent être déplacés à la main. L'approche proposée se situe entre le calibrage photogrammétrique et l'auto-calibrage car ils utilisent des informations métriques 2D plutôt que 3D ou purement implicites. \\
+
+Dans l'article le travail a été regroupé en quatre sections qui sont:\\
+
+\begin{itemize}
+	\item \textbf{La section 1 (Les contraintes de bases liées à l'observation d'un seul plan):} Comporte la notation de la matrice du caméras et les deux contraintes lié aux paramètres intrinsèques.\\
+	
+	\item \textbf{La section 2 (La procédure de calibrage):}  aborde d'abord la solution fermé qui permet de résoudre les contraintes liées aux paramètres intrinsèques , ensuite la technique d'optimisation non linéaire basée sur le critère du maximum de vraisemblance pour affiner les paramètres avec l'algorithme de Levenberg ­Marquardt et enfin la prise en compte de la distorsion radial de la lentille pour corriger la distorsion.\\
+	
+	\item \textbf{La section 4} étudie les configurations dans lesquelles la technique d'étalonnage proposée échoue\\
+	
+	\item \textbf{La section 5} fournie les résultats expérimentaux.
+\end{itemize}
+
+
 %----------------------------------------------------------------------------------------
 %Notion de mesure de distance numérique	
 %----------------------------------------------------------------------------------------
@@ -276,7 +310,14 @@ par rapport au monde réèl:\\
 
 
 
+%----------------------------------------------------------------------------------------
+%	Structuration du travail
+%----------------------------------------------------------------------------------------
+\section{Structuration du travail} 
 
+\subsection{Feuille de route technologique}
+
+\subsection{Choix technologique}
 
 
 

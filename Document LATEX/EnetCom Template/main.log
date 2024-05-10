@@ -1,0 +1,1929 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.7)  9 MAY 2024 13:08
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-04-11>
+(enetcom-pfe-report.cls
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/silence\silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
+sages
+\sl@Save=\count189
+\sl@StateNumber=\count190
+\sl@MessageCount=\count191
+\sl@Casualties=\count192
+\sl@Filter=\toks17
+\sl@Message=\toks18
+\sl@UnexpandedMessage=\toks19
+\sl@Mess@ge=\toks20
+\sl@WarningCount=\count193
+\sl@WarningNumber=\count194
+\sl@WarningCasualties=\count195
+\sl@TempBOW=\toks21
+\sl@BankOfWarnings=\toks22
+LaTeX Info: Redefining \GenericWarning on input line 433.
+\sl@ErrorCount=\count196
+\sl@ErrorNumber=\count197
+\sl@ErrorCasualties=\count198
+\sl@TempBOE=\toks23
+\sl@BankOfErrors=\toks24
+LaTeX Info: Redefining \GenericError on input line 601.
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count199
+\c@chapter=\count266
+\c@section=\count267
+\c@subsection=\count268
+\c@subsubsection=\count269
+\c@paragraph=\count270
+\c@subparagraph=\count271
+\c@figure=\count272
+\c@table=\count273
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks26
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.
+sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks27
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/verse\verse.sty
+Package: verse 2014/05/10 v2.4b verse typesetting
+\c@vslineno=\count277
+\c@poemline=\count278
+\c@fvsline=\count279
+\c@modulo@vs=\count280
+\c@verse@envctr=\count281
+\versewidth=\skip50
+\vgap=\skip51
+\vindent=\skip52
+\stanzaskip=\skip53
+\vleftskip=\skip54
+\vrightskip=\skip55
+\c@chrsinstr=\count282
+\beforepoemtitleskip=\skip56
+\afterpoemtitleskip=\skip57
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen149
+\ar@mcellbox=\box51
+\extrarowheight=\dimen150
+\NC@list=\toks28
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box52
+)
+\everycr=\toks29
+\minrowclearance=\skip60
+\rownum=\count283
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen151
+\ttl@minus=\dimen152
+\ttl@toksa=\toks30
+\titlewidth=\dimen153
+\titlewidthlast=\dimen154
+\titlewidthfirst=\dimen155
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.st
+y
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen156
+\captionmargin=\dimen157
+\caption@leftmargin=\dimen158
+\caption@rightmargin=\dimen159
+\caption@width=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count284
+\c@continuedfloat=\count285
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count286
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count287
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count288
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)
+\@linkdim=\dimen164
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count292
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count293
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen165
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count294
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip72
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.st
+y
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count300
+\calc@Bcount=\count301
+\calc@Adimen=\dimen168
+\calc@Bdimen=\dimen169
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count302
+\calc@Cskip=\skip75
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen170
+\ESO@tempdimb=\dimen171
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
+)
+\AM@pagewidth=\dimen174
+\AM@pageheight=\dimen175
+\AM@fboxrule=\dimen176
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count303
+\AM@pagebox=\box54
+\AM@global@opts=\toks31
+\AM@pagecnt=\count304
+\AM@toc@title=\toks32
+\AM@lof@heading=\toks33
+\c@AM@survey=\count305
+\AM@templatesizebox=\box55
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip76
+\enit@outerparindent=\dimen177
+\enit@toks=\toks34
+\enit@inbox=\box56
+\enit@count@id=\count306
+\enitdp@description=\count307
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.st
+y
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks35
+\footnotemargin=\dimen178
+\@outputbox@depth=\dimen179
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
+.
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/04/20 v24.4 The Babel package
+\babel@savecnt=\count308
+\U@D=\dimen180
+\l@unhyphenated=\language79
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count309
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.
+ldf
+Language: french 2024-02-29 v3.5s French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language22). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language22). Reported on input line 92.
+\FB@stdchar=\count310
+Package babel Info: Making : an active character on input line 420.
+Package babel Info: Making ; an active character on input line 421.
+Package babel Info: Making ! an active character on input line 422.
+Package babel Info: Making ? an active character on input line 423.
+\FBguill@level=\count311
+\FBold@everypar=\toks36
+\FB@Mht=\dimen181
+\mc@charclass=\count312
+\mc@charfam=\count313
+\mc@charslot=\count314
+\std@mcc=\count315
+\dec@mcc=\count316
+\FB@parskip=\dimen182
+\listindentFB=\dimen183
+\descindentFB=\dimen184
+\labelindentFB=\dimen185
+\labelwidthFB=\dimen186
+\leftmarginFB=\dimen187
+\parindentFFN=\dimen188
+\FBfnindent=\dimen189
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babe
+l-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tools\varioref.sty
+Package: varioref 2022/01/09 v1.6f package for extended references (FMi)
+\c@vrcnt=\count317
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count318
+\xs_countb=\count319
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks37
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write3
+\mtcindent=\skip77
+\mtcskipamount=\skip78
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks38
+\mtc@strutbox=\box57
+\mtc@hstrutbox=\box58
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout3 = `main.mtc0'.
+
+\openout3 = `main.mtc'.
+
+
+(main.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc0'.
+
+\c@mtc=\count320
+\c@minitocdepth=\count321
+\c@ptc=\count322
+\c@parttocdepth=\count323
+\ptcindent=\skip79
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)
+Package minitoc Info: I0010
+(minitoc)             The french language is selected.
+(minitoc)              on input line 4911.
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\french.mld
+File: french.mld 2006/03/21
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks39
+\inpenc@posthook=\toks40
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.st
+y
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.s
+ty
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-common.tex
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen190
+\pgfutil@tempdimb=\dimen191
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-latex.def
+\pgfutil@abb=\box59
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs
+.code.tex
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex
+)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore
+.sty
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys
+.sty
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex
+\pgfkeys@pathtoks=\toks42
+\pgfkeys@temptoks=\toks43
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+slibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks44
+))
+\pgf@x=\dimen192
+\pgf@y=\dimen193
+\pgf@xa=\dimen194
+\pgf@ya=\dimen195
+\pgf@xb=\dimen196
+\pgf@yb=\dimen197
+\pgf@xc=\dimen198
+\pgf@yc=\dimen199
+\pgf@xd=\dimen256
+\pgf@yd=\dimen257
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count324
+\c@pgf@countb=\count325
+\c@pgf@countc=\count326
+\c@pgf@countd=\count327
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
+\pgf@sys@id@count=\count328
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.
+cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+yssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count329
+\pgfsyssoftpath@bigbuffer@items=\count330
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+re.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil
+.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpars
+er.code.tex
+\pgfmath@dimen=\dimen258
+\pgfmath@count=\count331
+\pgfmath@box=\box60
+\pgfmath@toks=\toks48
+\pgfmath@stack@operand=\toks49
+\pgfmath@stack@operation=\toks50
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.basic.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.trigonometric.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.random.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.comparison.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.base.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.round.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.misc.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.integerarithmetics.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc
+.code.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloa
+t.code.tex
+\c@pgfmathroundto@lastzeros=\count332
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code
+.tex)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen259
+\pgf@picmaxx=\dimen260
+\pgf@picminy=\dimen261
+\pgf@picmaxy=\dimen262
+\pgf@pathminx=\dimen263
+\pgf@pathmaxx=\dimen264
+\pgf@pathminy=\dimen265
+\pgf@pathmaxy=\dimen266
+\pgf@xx=\dimen267
+\pgf@xy=\dimen268
+\pgf@yx=\dimen269
+\pgf@yy=\dimen270
+\pgf@zx=\dimen271
+\pgf@zy=\dimen272
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen273
+\pgf@path@lasty=\dimen274
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen275
+\pgf@shorten@start@additional=\dimen276
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count333
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+regraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen277
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen278
+\pgf@pt@y=\dimen279
+\pgf@pt@temp=\dimen280
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+requick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen281
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen282
+\pgf@sys@shading@range@num=\count334
+\pgf@shadingcount=\count335
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box64
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+relayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box65
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen283
+\pgf@nodesepend=\dimen284
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
+\verbatim@in@stream=\read4
+)
+\tcb@titlebox=\box66
+\tcb@upperbox=\box67
+\tcb@lowerbox=\box68
+\tcb@phantombox=\box69
+\c@tcbbreakpart=\count336
+\c@tcblayer=\count337
+\c@tcolorbox@number=\count338
+\l__tcobox_tmpa_box=\box70
+\l__tcobox_tmpa_dim=\dimen285
+\tcb@temp=\box71
+\tcb@temp=\box72
+\tcb@temp=\box73
+\tcb@temp=\box74
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.cod
+e.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
+.sty
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.s
+ty
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.
+sty
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
+.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen286
+\pgffor@skip=\dimen287
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count339
+\pgfplotmarksize=\dimen288
+)
+\tikz@lastx=\dimen289
+\tikz@lasty=\dimen290
+\tikz@lastxsaved=\dimen291
+\tikz@lastysaved=\dimen292
+\tikz@lastmovetox=\dimen293
+\tikz@lastmovetoy=\dimen294
+\tikzleveldistance=\dimen295
+\tikzsiblingdistance=\dimen296
+\tikz@figbox=\box75
+\tikz@figbox@bg=\box76
+\tikz@tempbox=\box77
+\tikz@tempbox@bg=\box78
+\tikztreelevel=\count340
+\tikznumberofchildren=\count341
+\tikznumberofcurrentchild=\count342
+\tikz@fig@count=\count343
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+ematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count344
+\pgfmatrixcurrentcolumn=\count345
+\pgf@matrix@numberofcolumns=\count346
+)
+\tikz@expandcount=\count347
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.imag
+e.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-comm
+on.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfi
+ll.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box79
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigs
+aw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.st
+y
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks55
+\XKV@tempa@toks=\toks56
+)
+\XKV@depth=\count348
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.
+sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box80
+)
+\tc@llx=\dimen297
+\tc@lly=\dimen298
+\tc@urx=\dimen299
+\tc@ury=\dimen300
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.de
+f
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen301
+\adjbox@Height=\dimen302
+\adjbox@Depth=\dimen303
+\adjbox@Totalheight=\dimen304
+\adjbox@pwidth=\dimen305
+\adjbox@pheight=\dimen306
+\adjbox@pdepth=\dimen307
+\adjbox@ptotalheight=\dimen308
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.st
+y
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count349
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box81
+\sift@deathcycles=\count350
+\@vwid@loff=\dimen309
+\@vwid@roff=\dimen310
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvr
+b
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count351
+\FV@InFile=\read5
+\FV@TabBox=\box82
+\c@FancyVerbLine=\count352
+\FV@StepNumber=\count353
+\FV@OutFile=\write5
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count354
+\output=\toks57
+\linenoprevgraf=\count355
+\linenumbersep=\dimen311
+\linenumberwidth=\dimen312
+\c@linenumber=\count356
+\c@pagewiselinenumber=\count357
+\c@LN@truepage=\count358
+\c@internallinenumber=\count359
+\c@internallinenumbers=\count360
+\quotelinenumbersep=\dimen313
+\bframerule=\dimen314
+\bframesep=\dimen315
+\bframebox=\box83
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count361
+\c@FancyVerbBufferIndex=\count362
+\c@FancyVerbBufferLength=\count363
+\c@FancyVerbBufferLine=\count364
+\c@FV@oldbufferlength=\count365
+\c@FV@TrueTabGroupLevel=\count366
+\c@FV@TrueTabCounter=\count367
+\FV@TabBox@Group=\box84
+\FV@TmpLength=\skip80
+\c@FV@HighlightLinesStart=\count368
+\c@FV@HighlightLinesStop=\count369
+\FV@LoopCount=\count370
+\FV@NCharsBox=\box85
+\FV@BreakIndent=\dimen316
+\FV@BreakIndentNChars=\count371
+\FV@BreakSymbolSepLeft=\dimen317
+\FV@BreakSymbolSepLeftNChars=\count372
+\FV@BreakSymbolSepRight=\dimen318
+\FV@BreakSymbolSepRightNChars=\count373
+\FV@BreakSymbolIndentLeft=\dimen319
+\FV@BreakSymbolIndentLeftNChars=\count374
+\FV@BreakSymbolIndentRight=\dimen320
+\FV@BreakSymbolIndentRightNChars=\count375
+\c@FancyVerbLineBreakLast=\count376
+\FV@LineBox=\box86
+\FV@LineIndentBox=\box87
+\c@FV@BreakBufferDepth=\count377
+\FV@LineWidth=\dimen321
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/ifplatform\ifplatform.
+sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.
+sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.st
+y
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip81
+\fb@frw=\dimen322
+\fb@frh=\dimen323
+\FrameRule=\dimen324
+\FrameSep=\dimen325
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count378
+\float@exts=\toks58
+\float@box=\box88
+\@float@everytoks=\toks59
+\@floatcapt=\box89
+)
+\minted@appexistsfile=\read6
+\minted@bgbox=\box90
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count379
+\c@minted@pygmentizecounter=\count380
+\@float@every@listing=\toks60
+\c@listing=\count381
+)
+runsystem(if not exist _minted-main mkdir _minted-main)...executed.
+
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen326
+\TX@old@table=\dimen327
+\TX@old@col=\dimen328
+\TX@target=\dimen329
+\TX@delta=\dimen330
+\TX@cols=\count382
+\TX@ftn=\toks61
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/ctable\ctable.sty
+Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of tab
+le and figure floats using key/value directives
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen331
+\lightrulewidth=\dimen332
+\cmidrulewidth=\dimen333
+\belowrulesep=\dimen334
+\belowbottomsep=\dimen335
+\aboverulesep=\dimen336
+\abovetopsep=\dimen337
+\cmidrulesep=\dimen338
+\cmidrulekern=\dimen339
+\defaultaddspace=\dimen340
+\@cmidla=\count383
+\@cmidlb=\count384
+\@aboverulesep=\dimen341
+\@belowrulesep=\dimen342
+\@thisruleclass=\count385
+\@lastruleclass=\count386
+\@thisrulewidth=\dimen343
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.st
+y
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count387
+\rotFPtop=\skip82
+\rotFPbot=\skip83
+\rot@float@box=\box91
+\rot@mess@toks=\toks62
+)
+\@CTframesep=\dimen344
+\@dfltCTframesep=\dimen345
+\@CTframerule=\dimen346
+\@dfltCTframerule=\dimen347
+\@CTwidth=\dimen348
+\@dfltCTwidth=\dimen349
+\@CTcaptionskip=\dimen350
+\@dfltCTcaptionskip=\dimen351
+\@CTmaxwidth=\dimen352
+\@dfltCTmaxwidth=\dimen353
+\@CTmincapwidth=\dimen354
+\@dfltCTmincapwidth=\dimen355
+\@CTfooterwidth=\dimen356
+\@dfltCTfooterwidth=\dimen357
+\@CTw=\dimen358
+\@CTfloatwidth=\dimen359
+\@CToldsep=\dimen360
+\@CToldrule=\dimen361
+\CT@t=\box92
+\@CTcurftwidth=\dimen362
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip84
+\multirow@cntb=\count388
+\multirow@dima=\skip85
+\bigstrutjot=\dimen363
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/seqsplit\seqsplit.st
+y
+Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins,
+ etc.) 
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen364
+\WF@size=\dimen365
+\c@WF@wrappedlines=\count389
+\WF@box=\box93
+\WF@everypar=\toks63
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/nowidow\nowidow.sty
+Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
+Package: nowidow 
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip86
+\RaggedLeftLeftskip=\skip87
+\RaggedRightLeftskip=\skip88
+\CenteringRightskip=\skip89
+\RaggedLeftRightskip=\skip90
+\RaggedRightRightskip=\skip91
+\CenteringParfillskip=\skip92
+\RaggedLeftParfillskip=\skip93
+\RaggedRightParfillskip=\skip94
+\JustifyingParfillskip=\skip95
+\CenteringParindent=\skip96
+\RaggedLeftParindent=\skip97
+\RaggedRightParindent=\skip98
+\JustifyingParindent=\skip99
+) (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.st
+y
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count390
+\c@@ppsavesec=\count391
+\c@@ppsaveapp=\count392
+)
+\BoxWd=\skip100
+\Aux=\skip101
+) (Commands.tex)
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 27.
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc1.
+\openout3 = `main.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc2.
+\openout3 = `main.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc3.
+\openout3 = `main.mtc3'.
+
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > ma
+in.aex <nul: /p x=^%~$PATH:i>> main.aex)...executed.
+
+runsystem(del main.aex)...executed.
+
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 27
+.
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count393
+\l__pdf_internal_box=\box94
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count394
+\scratchdimen=\dimen366
+\scratchbox=\box95
+\nofMPsegments=\count395
+\nofMParguments=\count396
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count397
+\MPscratchDim=\dimen367
+\MPnumerator=\count398
+\makeMPintoPDFobject=\count399
+\everyMPtoPDFconversion=\toks65
+)
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: french babel package is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 27.
+ (main.out) (main.out)
+\@outlinefile=\write7
+\openout7 = `main.out'.
+
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.st
+y
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-no
+metadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+LaTeX Info: Redefining \degres on input line 27.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 27.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 27.
+LaTeX Info: Redefining \up on input line 27.
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0042
+(minitoc(hints))             --- The appendix package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+LaTeX Font Info:    Calculating math sizes for size <26> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <26> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <18.19992> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <13> on input line 39.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+
+ []
+
+(main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+)
+\tf@toc=\write8
+\openout8 = `main.toc'.
+
+ [1
+
+
+{C:/Users/Fassia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Fas
+sia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+
+ []
+
+(main.lof)
+\tf@lof=\write9
+\openout9 = `main.lof'.
+
+ (chapitre/03-ListeDesAbr.tex [2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+) (chapitre/05-Chapitre1.tex [1
+
+]
+Chapitre 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 4.
+(main.mtc3) [2
+
+]
+Overfull \hbox (14.95952pt too wide) in paragraph at lines 14--15
+\T1/ptm/m/n/12 Cette pro-cé-dure re-vêt une im-por-tance fon-da-men-tale dans d
+i-vers do-maines, no-tam-ment la ro-bo-tique,
+ []
+
+[3]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
+7.
+ (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (16.07445pt too wide) in paragraph at lines 45--46
+[]\T1/ptm/b/n/12 Le cap-teur d'image : \T1/ptm/m/n/12 qui conver-tit le rayon-n
+e-ment élec-tro-ma-gné-tique en un si-gnal élec-trique
+ []
+
+
+Overfull \hbox (43.52988pt too wide) in paragraph at lines 45--46
+\T1/ptm/m/n/12 ana-lo-gique. Celui-çi est en-suite am-pli-fié, puis nu-mé-risé 
+par un conver-tis-seur analogique-numérique
+ []
+
+[4]
+<images/pellicule.jpg, id=132, 1027.84pt x 778.91pt>
+File: images/pellicule.jpg Graphic file (type jpg)
+<use images/pellicule.jpg>
+Package pdftex.def Info: images/pellicule.jpg  used on input line 68.
+(pdftex.def)             Requested size: 205.56436pt x 155.77924pt.
+
+Overfull \hbox (17.35764pt too wide) in paragraph at lines 77--78
+[]\T1/ptm/b/n/12 Les ca-mé-ras de smart-phones \T1/ptm/m/n/12 : Ce sont les ca-
+mé-ras in-té-grés dans les té-lé-phones por-tables.De
+ []
+
+
+Overfull \hbox (40.20488pt too wide) in paragraph at lines 79--80
+\T1/ptm/m/n/12 fa-mille.Aujord'hui elles sont rare sur le mar-ché car elles son
+t rem-pla-cées par les smart-phones.seuls
+ []
+
+<images/camescopes.png, id=135, 1167.36125pt x 352.31625pt>
+File: images/camescopes.png Graphic file (type png)
+<use images/camescopes.png>
+Package pdftex.def Info: images/camescopes.png  used on input line 95.
+(pdftex.def)             Requested size: 408.58257pt x 123.31253pt.
+[5 <./images/pellicule.jpg>]
+Overfull \hbox (4.50607pt too wide) in paragraph at lines 100--101
+[]\T1/ptm/b/n/12 Les DSLR(digital single-lens re-flex) \T1/ptm/m/n/12 sont des 
+ap-pa-reils photo ré-flex nu-mé-riques dis-po-sant
+ []
+
+<images/DSLR.png, id=144, 1150.2975pt x 369.38pt>
+File: images/DSLR.png Graphic file (type png)
+<use images/DSLR.png>
+Package pdftex.def Info: images/DSLR.png  used on input line 116.
+(pdftex.def)             Requested size: 402.61017pt x 129.28493pt.
+[6 <./images/camescopes.png> <./images/DSLR.png>]
+<images/prosommateur.png, id=152, 1161.33875pt x 374.39874pt>
+File: images/prosommateur.png Graphic file (type png)
+<use images/prosommateur.png>
+Package pdftex.def Info: images/prosommateur.png  used on input line 137.
+(pdftex.def)             Requested size: 348.40431pt x 112.32048pt.
+
+Overfull \hbox (7.19366pt too wide) in paragraph at lines 142--143
+\T1/ptm/m/n/12 pa-ra-mé-trage de la co-lo-ri-mé-trie y est bien sou-vent plus p
+oussé, et elle sont sys-té-ma-ti-que-ment
+ []
+
+<images/professionnel.png, id=154, 1173.38374pt x 405.515pt>
+File: images/professionnel.png Graphic file (type png)
+<use images/professionnel.png>
+Package pdftex.def Info: images/professionnel.png  used on input line 159.
+(pdftex.def)             Requested size: 445.89046pt x 154.09729pt.
+
+Overfull \hbox (7.64635pt too wide) in paragraph at lines 159--160
+ [] 
+ []
+
+[7 <./images/prosommateur.png>]
+Overfull \hbox (3.78569pt too wide) in paragraph at lines 164--165
+\T1/ptm/m/n/12 c'est avant tout de très grands cap-teurs su-pé-rieurs à la ma-j
+o-rité des ca-mé-ras pro-som-ma-teurs
+ []
+
+
+Overfull \hbox (41.80199pt too wide) in paragraph at lines 164--165
+\T1/ptm/m/n/12 qui leur confère une qua-lité d'image ci-né-ma-to-gra-phique com
+-pa-rable aux ca-mé-ras pro-fes-sion-nelles.
+ []
+
+<images/super consentrÃ©.png, id=162, 1167.36125pt x 376.40625pt>
+File: images/super consentrÃ©.png Graphic file (type png)
+<use images/super consentrÃ©.png>
+Package pdftex.def Info: images/super consentrÃ©.png  used on input line 179.
+(pdftex.def)             Requested size: 443.60188pt x 143.03586pt.
+
+Overfull \hbox (5.35777pt too wide) in paragraph at lines 179--180
+ [] 
+ []
+
+[8 <./images/professionnel.png> <./images/super consentrÃ©.png>]
+<images/camÃ©ras dediÃ©.png, id=170, 687.31781pt x 192.72pt>
+File: images/camÃ©ras dediÃ©.png Graphic file (type png)
+<use images/camÃ©ras dediÃ©.png>
+Package pdftex.def Info: images/camÃ©ras dediÃ©.png  used on input line 201.
+(pdftex.def)             Requested size: 446.75128pt x 125.2665pt.
+
+Overfull \hbox (8.50717pt too wide) in paragraph at lines 201--202
+ [] 
+ []
+
+[9 <./images/camÃ©ras dediÃ©.png>]
+Overfull \hbox (1.78247pt too wide) in paragraph at lines 217--219
+\T1/ptm/m/n/12 points 3D vers leur pro-jec-tion dans l'es-pace image 2D. Le pro
+-ces-sus d'es-ti-ma-tion des pa-ra-mètres
+ []
+
+<images/illustration camÃ©ras.png, id=179, 726.715pt x 145.54375pt>
+File: images/illustration camÃ©ras.png Graphic file (type png)
+<use images/illustration camÃ©ras.png>
+Package pdftex.def Info: images/illustration camÃ©ras.png  used on input line 2
+26.
+(pdftex.def)             Requested size: 363.3566pt x 72.77168pt.
+<images/chambre-noire.jpg, id=186, 903.375pt x 451.6875pt>
+File: images/chambre-noire.jpg Graphic file (type jpg)
+<use images/chambre-noire.jpg>
+Package pdftex.def Info: images/chambre-noire.jpg  used on input line 243.
+(pdftex.def)             Requested size: 316.18599pt x 158.09299pt.
+[10 <./images/illustration camÃ©ras.png>]
+<images/modelstenope.png, id=194, 516.42938pt x 271.0125pt>
+File: images/modelstenope.png Graphic file (type png)
+<use images/modelstenope.png>
+Package pdftex.def Info: images/modelstenope.png  used on input line 254.
+(pdftex.def)             Requested size: 361.4981pt x 189.70744pt.
+
+Overfull \hbox (7.1345pt too wide) in paragraph at lines 260--261
+[]\T1/ptm/m/n/12 La po-si-tion d'un point 3D \T1/ptm/b/n/12 M \T1/ptm/m/n/12 de
+ la scène, dé-fi-nie dans le re-père monde $\OML/cmm/m/it/12 R[]$ \T1/ptm/m/n/1
+2 par ses co-or-don-nées
+ []
+
+
+Overfull \hbox (2.64653pt too wide) in paragraph at lines 260--261
+\T1/ptm/m/n/12 que de trois ro-ta-tions et de trois trans-la-tions. Cette pre-m
+ière trans-for-ma-tion entre les co-or-don-nées
+ []
+
+[11 <./images/chambre-noire.jpg> <./images/modelstenope.png>]
+Overfull \hbox (1.47124pt too wide) in paragraph at lines 353--354
+[]\T1/ptm/m/n/12 l'angle de dé-ca-drage entre les axes ho-ri-zon-taux et ver-ti
+-caux du cap-teur (^^S skew ^^T), sup-posé
+ []
+
+[12] [13]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 418.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 418.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 418.
+
+Overfull \hbox (1.30212pt too wide) in paragraph at lines 420--421
+\T1/ptm/m/n/12 connue (ap-pelé mire d'éta-lon-nage) et son image ac-quise par l
+a ca-méra. Cette mire pré-sente
+ []
+
+<images/mire1.jpg, id=226, 52.998pt x 52.998pt>
+File: images/mire1.jpg Graphic file (type jpg)
+<use images/mire1.jpg>
+Package pdftex.def Info: images/mire1.jpg  used on input line 441.
+(pdftex.def)             Requested size: 104.7042pt x 104.71477pt.
+<images/mire2.jpg, id=227, 365.86688pt x 376.40625pt>
+File: images/mire2.jpg Graphic file (type jpg)
+<use images/mire2.jpg>
+Package pdftex.def Info: images/mire2.jpg  used on input line 441.
+(pdftex.def)             Requested size: 104.7042pt x 107.71913pt.
+<images/mire3.png, id=228, 768.8725pt x 768.8725pt>
+File: images/mire3.png Graphic file (type png)
+<use images/mire3.png>
+Package pdftex.def Info: images/mire3.png  used on input line 441.
+(pdftex.def)             Requested size: 104.7042pt x 104.69667pt.
+<images/mire4.png, id=229, 1027.84pt x 770.88pt>
+File: images/mire4.png Graphic file (type png)
+<use images/mire4.png>
+Package pdftex.def Info: images/mire4.png  used on input line 441.
+(pdftex.def)             Requested size: 104.7042pt x 78.52756pt.
+[14 <./images/mire1.jpg> <./images/mire2.jpg> <./images/mire3.png> <./images/mi
+re4.png (PNG copy)>]
+Overfull \hbox (9.44962pt too wide) in paragraph at lines 451--452
+\T1/ptm/m/n/12 étant ro-buste au bruit grâce à la mul-ti-pli-cité des points d'
+éva-lua-tion in-duite par la des-crip-tion
+ []
+
+[15]
+Overfull \hbox (24.25801pt too wide) in paragraph at lines 455--456
+\T1/ptm/m/n/12 l'éta-lon-nage d'une ca-méra. Pour les cas où la pièce ne res-pe
+cte pas ces condi-tions géo-mé-triques
+ []
+
+
+Overfull \hbox (11.17642pt too wide) in paragraph at lines 455--456
+\T1/ptm/m/n/12 (ma-trice K), et de fia-bi-li-ser l'iden-ti-fi-ca-tion de la ma-
+trice ex-trin-sèque T (sous forme im-pli-cite)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+
+ []
+
+
+Overfull \hbox (2.3576pt too wide) in paragraph at lines 464--465
+[]\T1/ptm/b/n/12 Distorsion de l'ob-jec-tif  \T1/ptm/m/n/12 : La dis-tor-sion d
+e l'ob-jec-tif peut en-traî-ner des er-reurs im-por-tantes
+ []
+
+
+Overfull \hbox (12.4142pt too wide) in paragraph at lines 464--465
+\T1/ptm/m/n/12 dans le pro-ces-sus d'éta-lon-nage de l'ap-pa-reil photo. La dis
+-tor-sion se pro-duit lorsque l'ob-jec-tif
+ []
+
+[16]
+<images/radialint.png, id=256, 225.84375pt x 178.41656pt>
+File: images/radialint.png Graphic file (type png)
+<use images/radialint.png>
+Package pdftex.def Info: images/radialint.png  used on input line 484.
+(pdftex.def)             Requested size: 109.26108pt x 86.31685pt.
+<images/radialext.png, id=257, 225.84375pt x 174.6525pt>
+File: images/radialext.png Graphic file (type png)
+<use images/radialext.png>
+Package pdftex.def Info: images/radialext.png  used on input line 484.
+(pdftex.def)             Requested size: 113.81102pt x 88.01625pt.
+<images/tang.jpg, id=258, 290.08376pt x 216.81pt>
+File: images/tang.jpg Graphic file (type jpg)
+<use images/tang.jpg>
+Package pdftex.def Info: images/tang.jpg  used on input line 484.
+(pdftex.def)             Requested size: 118.36096pt x 88.4626pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+[17 <./images/radialint.png> <./images/radialext.png> <./images/tang.jpg>]
+Overfull \hbox (4.66188pt too wide) in paragraph at lines 495--496
+\T1/ptm/m/n/12 éga-le-ment af-fec-ter la pré-ci-sion des ré-sul-tats. L'uti-li-
+sa-tion d'un plus grand nombre d'images
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+[18] [19]
+Overfull \hbox (4.29085pt too wide) in paragraph at lines 584--585
+\T1/ptm/m/n/12 d'abord la so-lu-tion fermé qui per-met de ré-soudre les contrai
+ntes liées aux pa-ra-mètres in-trin-sèques
+ []
+
+
+Overfull \hbox (14.9227pt too wide) in paragraph at lines 584--585
+\T1/ptm/m/n/12 , en-suite la tech-nique d'op-ti-mi-sa-tion non li-néaire ba-sée
+ sur le cri-tère du maxi-mum de vrai-sem-blance
+ []
+
+[20]
+Overfull \hbox (22.3854pt too wide) in paragraph at lines 652--654
+\T1/ptm/m/n/12 pa-ra-mètres ex-trin-sèques de chaque image sont fa-ci-le-ment c
+al-culé grâce à la ma-trice in-trin-sèque
+ []
+
+[21]
+Overfull \hbox (2.19028pt too wide) in paragraph at lines 681--686
+\T1/ptm/m/n/12 l'al-go-rithme de Levenberg-Marquardt tel qu'im-plé-menté dans M
+in-pack [[]]. Cela né-ces-site
+ []
+
+
+Overfull \hbox (4.53252pt too wide) in paragraph at lines 681--686
+\T1/ptm/m/n/12 une es-ti-ma-tion ini-tiale de \T1/ptm/b/n/12 A\T1/ptm/m/n/12 , 
+$\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 R[]; t[]\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 
+i \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ::n\OMS/cmsy/m/n/12 g$ \T1/ptm/m/n/12 qui
+ peut être ob-te-nue en uti-li-sant la tech-nique
+ []
+
+
+Overfull \hbox (17.91039pt too wide) in paragraph at lines 690--696
+\T1/ptm/m/n/12 Ce-pen-dant, une ca-méra de bu-reau pré-sente gé-né-ra-le-ment u
+ne dis-tor-sion d'ob-jec-tif im-por-tante,
+ []
+
+
+Overfull \hbox (4.93794pt too wide) in paragraph at lines 690--696
+\T1/ptm/m/n/12 do-mi-née par le pre-mier terme Il a éga-le-ment été constaté qu
+'une mo-dé-li-sa-tion plus éla-bo-rée
+ []
+
+<images/1.png, id=307, 621.82312pt x 413.29407pt>
+File: images/1.png Graphic file (type png)
+<use images/1.png>
+Package pdftex.def Info: images/1.png  used on input line 726.
+(pdftex.def)             Requested size: 404.18024pt x 268.63795pt.
+[22]
+<images/2.png, id=316, 622.57594pt x 284.56313pt>
+File: images/2.png Graphic file (type png)
+<use images/2.png>
+Package pdftex.def Info: images/2.png  used on input line 737.
+(pdftex.def)             Requested size: 404.66957pt x 184.96384pt.
+<images/3.png, id=317, 555.57562pt x 443.40656pt>
+File: images/3.png Graphic file (type png)
+<use images/3.png>
+Package pdftex.def Info: images/3.png  used on input line 746.
+(pdftex.def)             Requested size: 361.11986pt x 288.21085pt.
+ [23 <./images/1.png> <./images/2.png>]
+<images/4.png, id=326, 683.55376pt x 340.27126pt>
+File: images/4.png Graphic file (type png)
+<use images/4.png>
+Package pdftex.def Info: images/4.png  used on input line 755.
+(pdftex.def)             Requested size: 444.30469pt x 221.17369pt.
+
+Overfull \hbox (6.06058pt too wide) in paragraph at lines 755--756
+ [] 
+ []
+
+<images/5.png, id=327, 676.77844pt x 434.37282pt>
+File: images/5.png Graphic file (type png)
+<use images/5.png>
+Package pdftex.def Info: images/5.png  used on input line 764.
+(pdftex.def)             Requested size: 439.90077pt x 282.33897pt.
+
+Overfull \hbox (1.65666pt too wide) in paragraph at lines 764--765
+ [] 
+ []
+
+[24 <./images/3.png> <./images/4.png>]
+<images/6.png, id=336, 672.26157pt x 342.5297pt>
+File: images/6.png Graphic file (type png)
+<use images/6.png>
+Package pdftex.def Info: images/6.png  used on input line 773.
+(pdftex.def)             Requested size: 436.96483pt x 222.64166pt.
+<images/7.png, id=337, 678.28406pt x 350.05782pt>
+File: images/7.png Graphic file (type png)
+<use images/7.png>
+Package pdftex.def Info: images/7.png  used on input line 782.
+(pdftex.def)             Requested size: 440.87941pt x 227.53487pt.
+
+Overfull \hbox (2.6353pt too wide) in paragraph at lines 782--783
+ [] 
+ []
+
+[25 <./images/5.png> <./images/6.png>]
+<images/8.png, id=346, 502.87875pt x 447.92343pt>
+File: images/8.png Graphic file (type png)
+<use images/8.png>
+Package pdftex.def Info: images/8.png  used on input line 791.
+(pdftex.def)             Requested size: 326.86731pt x 291.14677pt.
+<images/9.png, id=347, 587.19376pt x 140.02313pt>
+File: images/9.png Graphic file (type png)
+<use images/9.png>
+Package pdftex.def Info: images/9.png  used on input line 800.
+(pdftex.def)             Requested size: 381.67142pt x 91.01395pt.
+<images/10.png, id=348, 587.94656pt x 435.12563pt>
+File: images/10.png Graphic file (type png)
+<use images/10.png>
+Package pdftex.def Info: images/10.png  used on input line 809.
+(pdftex.def)             Requested size: 382.16074pt x 282.8283pt.
+ [26 <./images/7.png> <./images/8.png> <./images/9.png>]
+<images/11.png, id=359, 637.63219pt x 267.24844pt>
+File: images/11.png Graphic file (type png)
+<use images/11.png>
+Package pdftex.def Info: images/11.png  used on input line 818.
+(pdftex.def)             Requested size: 414.45601pt x 173.70943pt.
+<images/12.png, id=360, 648.17157pt x 303.38344pt>
+File: images/12.png Graphic file (type png)
+<use images/12.png>
+Package pdftex.def Info: images/12.png  used on input line 827.
+(pdftex.def)             Requested size: 421.30652pt x 197.19688pt.
+ [27 <./images/10.png> <./images/11.png>]
+<images/13.png, id=369, 736.25063pt x 425.33907pt>
+File: images/13.png Graphic file (type png)
+<use images/13.png>
+Package pdftex.def Info: images/13.png  used on input line 836.
+(pdftex.def)             Requested size: 478.55724pt x 276.4671pt.
+
+Overfull \hbox (40.31313pt too wide) in paragraph at lines 836--837
+ [] 
+ []
+
+<images/14.png, id=370, 726.46407pt x 415.5525pt>
+File: images/14.png Graphic file (type png)
+<use images/14.png>
+Package pdftex.def Info: images/14.png  used on input line 845.
+(pdftex.def)             Requested size: 472.19604pt x 270.10593pt.
+
+Overfull \hbox (33.95193pt too wide) in paragraph at lines 845--846
+ [] 
+ []
+
+[28 <./images/12.png> <./images/13.png>]
+<images/15.png, id=379, 652.68843pt x 408.02437pt>
+File: images/15.png Graphic file (type png)
+<use images/15.png>
+Package pdftex.def Info: images/15.png  used on input line 854.
+(pdftex.def)             Requested size: 424.24246pt x 265.21269pt.
+<images/16.png, id=380, 645.91313pt x 304.88907pt>
+File: images/16.png Graphic file (type png)
+<use images/16.png>
+Package pdftex.def Info: images/16.png  used on input line 863.
+(pdftex.def)             Requested size: 419.83856pt x 198.17554pt.
+ [29 <./images/14.png> <./images/15.png>]
+<images/17.png, id=390, 649.67719pt x 380.92313pt>
+File: images/17.png Graphic file (type png)
+<use images/17.png>
+Package pdftex.def Info: images/17.png  used on input line 872.
+(pdftex.def)             Requested size: 422.28517pt x 247.59709pt.
+<images/18.png, id=391, 613.54219pt x 427.5975pt>
+File: images/18.png Graphic file (type png)
+<use images/18.png>
+Package pdftex.def Info: images/18.png  used on input line 881.
+(pdftex.def)             Requested size: 398.7977pt x 277.93507pt.
+ [30 <./images/16.png> <./images/17.png>]
+<images/19.png, id=400, 553.31718pt x 423.83344pt>
+File: images/19.png Graphic file (type png)
+<use images/19.png>
+Package pdftex.def Info: images/19.png  used on input line 890.
+(pdftex.def)             Requested size: 359.6519pt x 275.48845pt.
+<images/20.png, id=401, 648.17157pt x 420.06938pt>
+File: images/20.png Graphic file (type png)
+<use images/20.png>
+Package pdftex.def Info: images/20.png  used on input line 899.
+(pdftex.def)             Requested size: 421.30652pt x 273.04185pt.
+ [31 <./images/18.png> <./images/19.png>]
+<images/21.png, id=410, 660.21657pt x 284.56313pt>
+File: images/21.png Graphic file (type png)
+<use images/21.png>
+Package pdftex.def Info: images/21.png  used on input line 908.
+(pdftex.def)             Requested size: 429.13568pt x 184.96384pt.
+<images/22.png, id=411, 646.66594pt x 219.06844pt>
+File: images/22.png Graphic file (type png)
+<use images/22.png>
+Package pdftex.def Info: images/22.png  used on input line 917.
+(pdftex.def)             Requested size: 420.32788pt x 142.39278pt.
+ [32 <./images/20.png> <./images/21.png> <./images/22.png>] [33] [34])
+(main.bbl [35]
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+[36
+
+])
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main.maf file.
+\openout3 = `main.maf'.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+ [37] (main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-04-11>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 25F2EA2E390C4AF5BAFD6E2288E8135D;2122.
+ ) 
+Here is how much of TeX's memory you used:
+ 36336 strings out of 474370
+ 712817 string characters out of 5740064
+ 1951754 words of memory out of 5000000
+ 57977 multiletter control sequences out of 15000+600000
+ 614425 words of font info for 92 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 100i,13n,103p,2286b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Fassia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
+x1095.pk> <C:\Users\Fassia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecbx1440.pk><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Fassia/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Fassia/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Fassia/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Fassia/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.p
+fb><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.
+pfb><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on main.pdf (39 pages, 5149687 bytes).
+PDF statistics:
+ 574 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+

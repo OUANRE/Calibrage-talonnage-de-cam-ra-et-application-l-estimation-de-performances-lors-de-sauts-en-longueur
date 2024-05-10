@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Database file #1: mybiblio.bib
+Warning--I didn't find a database entry for ""
+Warning--to sort, need author or key in noauthor_quest-ce_nodate
+Warning--to sort, need author or key in noauthor_camera_2024
+Warning--to sort, need author or key in noauthor_les_2015
+Warning--to sort, need author or key in noauthor_eikotwin_nodate
+Warning--empty publisher in burger_zhangs_2016
+Warning--empty journal in orteu_calibrage_nodate
+Warning--empty year in orteu_calibrage_nodate
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            562 strings with 5841 characters,
+and the built_in function-call counts, 3251 in all, are:
+= -- 326
+> -- 70
+< -- 4
++ -- 34
+- -- 19
+* -- 175
+:= -- 470
+add.period$ -- 33
+call.type$ -- 12
+change.case$ -- 43
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 152
+empty$ -- 332
+format.name$ -- 19
+if$ -- 737
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 9
+newline$ -- 57
+num.names$ -- 18
+pop$ -- 85
+preamble$ -- 1
+purify$ -- 33
+quote$ -- 0
+skip$ -- 126
+stack$ -- 0
+substring$ -- 210
+swap$ -- 41
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 7
+while$ -- 28
+width$ -- 14
+write$ -- 117
+(There were 8 warnings)
