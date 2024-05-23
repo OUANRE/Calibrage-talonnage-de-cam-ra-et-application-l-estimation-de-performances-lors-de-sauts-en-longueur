@@ -2,17 +2,41 @@
 \thispagestyle {MyStyle}
 \addvspace {10\p@ }
 \contentsline {xchapter}{ETAT DE L'ART}{2}{chapter.1}%
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Pellicule}}{5}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Camescopes}}{6}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces digital single-lens reflex(DSLR)}}{6}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Les Caméras dites « Prosommateurs »}}{7}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Caméras professionnel}}{8}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Caméras de type "Super Concentré" }}{8}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Caméras dedié}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Illustration d'une caméras}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Chambre Noir}}{11}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Représentation du modèl sténopé}}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Exemples de mires}}{14}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Types de distorsion}}{17}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Algorithme de calibrage(début)}}{23}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Algorithme de calibrage(fin)}}{32}{figure.caption.37}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Pellicule}}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Camescopes}}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces digital single-lens reflex(DSLR)}}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Les Caméras dites « Prosommateurs »}}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Caméras professionnel}}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Caméras de type "Super Concentré" }}{8}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Caméras dedié}}{9}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Illustration d'une caméras}}{10}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Chambre Noir}}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Représentation du modèl sténopé}}{11}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Types de distorsion}}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Exemples de mires}}{16}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Algorithme de calibrage(début)}}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Algorithme de calibrage(fin)}}{32}{figure.caption.40}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Implémentation}{37}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Code de capture d'image (partie 1)}}{40}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Code de capture d'image (partie 2)}}{40}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Code de capture d'image (partie 3)}}{41}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Résultat du code de capture d'image }}{41}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Interface de la caméra }}{41}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Image du damier}}{42}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Définition des coordonnées du monde réèl}}{42}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Définition des coordonnées du monde réèl(suite)}}{42}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Définition des points d'objets et points images}}{43}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Définition des points d'objets et points images(suite)}}{43}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Fonction de calibrage}}{44}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Processus de calibrage}}{44}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Résultat du calibrage}}{45}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Résultat du calibrage(suite)}}{45}{figure.caption.54}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Correction de la distorsion sans remapping}}{46}{figure.caption.55}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Correction de la distorsion avec remapping}}{46}{figure.caption.56}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Résutat de la correction de la distorsion}}{47}{figure.caption.57}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Erreur de calibrage(code)}}{47}{figure.caption.58}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Erreur de calibrage(résultat)}}{47}{figure.caption.59}%
+\vspace {0.3cm}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Notre caméra Hercule HD twist}}{53}{figure.caption.63}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Logo de l'UNZ}}{53}{figure.caption.64}%

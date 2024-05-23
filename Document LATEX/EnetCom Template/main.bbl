@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{noauthor_darknetcfgyolov3cfg_nodate}
+darknet/cfg/yolov3.cfg at master · pjreddie/darknet.
+
+\bibitem{noauthor_darknetdatacoconames_nodate}
+darknet/data/coco.names at master · pjreddie/darknet.
+
 \bibitem{noauthor_eikotwin_nodate}
 {EikoTwin} {DIC} and the measurement of small strains.
 
@@ -7,12 +13,21 @@
 Qu’est-ce qu’une caméra ? {Apprenez} les composants clés {\textbar}
   {Lenovo} {CA}.
 
+\bibitem{noauthor_yolo_nodate}
+{YOLO}: {Real}-{Time} {Object} {Detection}.
+
 \bibitem{noauthor_les_2015}
 Les différents types de caméra, January 2015.
 
 \bibitem{noauthor_camera_2024}
 Caméra, May 2024.
 \newblock Page Version ID: 214901958.
+
+\bibitem{adil_novel_2022}
+Elmehdi Adil, Mohammed Mikou, and Ahmed Mouhsen.
+\newblock A novel algorithm for distance measurement using stereo camera.
+\newblock {\em CAAI Transactions on Intelligence Technology}, 7(2):177--186,
+  June 2022.
 
 \bibitem{burger_zhangs_2016}
 Wilhelm Burger.

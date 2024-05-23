@@ -8,6 +8,7 @@
 
 \AtBeginDocument{\renewcommand{\labelitemi}{%
 		\hspace{3mm}\textbullet}}%pour les numératation avec les puces pour les itemize
+	
 %% TODO: Remove this function when done %%
 %\newcommand\todoin[2][]{\todo[inline, caption={2do}, #1]{
 %\begin{minipage}{\textwidth-4pt}#2\end{minipage}}}
@@ -25,13 +26,13 @@
 }
 \dominitoc
 \begin{document}
-   % \input{chapitre/00-PageDeGarde}
+    \input{chapitre/00-PageDeGarde}
     \doublespacing{}% Double spacing between lines
     \pagenumbering{roman}% i ii iii iv ...
     
-    %\input{chapitre/01-Dedication}
+    \input{chapitre/01-Dedication}
 
-    %\input{chapitre/02-Remerciement}
+    \input{chapitre/02-Remerciement}
    
     \addtocontents{toc}{\protect\thispagestyle{MyStyle}}
     \renewcommand*\contentsname{TABLE DES MATIÈRES}
@@ -49,7 +50,7 @@
 
     \input{chapitre/03-ListeDesAbr}
     
-    %\input{chapitre/04-IntroductionGeneral}
+    \input{chapitre/04-IntroductionGeneral}
 
     \pagenumbering{arabic}% 1 2 3 4 5
     \doublespacing{}% Double spacing between lines
@@ -57,15 +58,15 @@
     
     \input{chapitre/05-Chapitre1}
 
-    %\input{chapitre/06-Chapitre2}
+    \input{chapitre/06-Chapitre2}
     
-    %\input{chapitre/07-ConclusionGenerale}
+    \input{chapitre/07-ConclusionGenerale}
 
 	\bibliographystyle{plain}
 	\bibliography{mybiblio}
     %\input{chapitre/08-Bibliographie}
 
-    %\input{chapitre/09-Annexes}
+    \input{chapitre/09-Annexes}
     
     %\input{chapitre/10-DosDuRapport}
     

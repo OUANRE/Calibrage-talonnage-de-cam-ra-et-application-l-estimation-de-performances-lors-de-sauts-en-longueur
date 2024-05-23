@@ -5,53 +5,59 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: mybiblio.bib
-Warning--I didn't find a database entry for ""
+Repeated entry---line 553 of file mybiblio.bib
+ : @article{adil_novel_2022
+ :                         ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in noauthor_quest-ce_nodate
 Warning--to sort, need author or key in noauthor_camera_2024
 Warning--to sort, need author or key in noauthor_les_2015
 Warning--to sort, need author or key in noauthor_eikotwin_nodate
+Warning--to sort, need author or key in noauthor_yolo_nodate
+Warning--to sort, need author or key in noauthor_darknetdatacoconames_nodate
+Warning--to sort, need author or key in noauthor_darknetcfgyolov3cfg_nodate
 Warning--empty publisher in burger_zhangs_2016
 Warning--empty journal in orteu_calibrage_nodate
 Warning--empty year in orteu_calibrage_nodate
-You've used 12 entries,
+You've used 16 entries,
             2118 wiz_defined-function locations,
-            562 strings with 5841 characters,
-and the built_in function-call counts, 3251 in all, are:
-= -- 326
-> -- 70
+            576 strings with 6271 characters,
+and the built_in function-call counts, 4063 in all, are:
+= -- 399
+> -- 91
 < -- 4
-+ -- 34
-- -- 19
-* -- 175
-:= -- 470
-add.period$ -- 33
-call.type$ -- 12
-change.case$ -- 43
++ -- 45
+- -- 25
+* -- 223
+:= -- 573
+add.period$ -- 39
+call.type$ -- 16
+change.case$ -- 58
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 152
-empty$ -- 332
-format.name$ -- 19
-if$ -- 737
+cite$ -- 26
+duplicate$ -- 184
+empty$ -- 428
+format.name$ -- 25
+if$ -- 921
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 9
-newline$ -- 57
-num.names$ -- 18
-pop$ -- 85
+int.to.str$ -- 16
+missing$ -- 10
+newline$ -- 71
+num.names$ -- 20
+pop$ -- 113
 preamble$ -- 1
-purify$ -- 33
+purify$ -- 44
 quote$ -- 0
-skip$ -- 126
+skip$ -- 163
 stack$ -- 0
-substring$ -- 210
-swap$ -- 41
+substring$ -- 256
+swap$ -- 45
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
-warning$ -- 7
-while$ -- 28
-width$ -- 14
-write$ -- 117
-(There were 8 warnings)
+type$ -- 60
+warning$ -- 10
+while$ -- 32
+width$ -- 18
+write$ -- 143
+(There was 1 error message)

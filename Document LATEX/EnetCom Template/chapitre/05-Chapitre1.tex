@@ -11,14 +11,15 @@
 \section{INTRODUCTION}
 
 
-Le calibrage ou étalonnage de caméra est une procédure cruciale dans le domaine de la vision par ordinateur. Il s'agit d'un processus technique visant à établir une relation précise entre les images capturées par une caméra et les coordonnées réelles dans l'environnement physique. Cette procédure revêt une importance fondamentale dans divers domaines, notamment la robotique, la réalité augmentée, la surveillance vidéo et le domaine sportif.
+Dans le cadre de l'étude de notre thème, il est essentiel de bien comprendre les concepts fondamentaux et les termes techniques qui sous-tendent ce domaine. Ce chapitre se propose de définir et d'expliquer les principaux mots-clés de notre thème, à savoir le calibrage, la caméra et la mesure de distance à l'aide d'une caméra. En démystifiant ces notions, nous établirons une base solide pour explorer les méthodes et les applications spécifiques de ces technologies dans le contexte de l'analyse des performances athlétiques.
 
-Dans le contexte spécifique des sports, le calibrage de caméra est une étape essentielle pour l'analyse précise des performances des athlètes. Parmi les disciplines sportives où le calibrage de caméra est largement utilisé, on trouve les sports de saut, en particulier le saut en longueur. Cette discipline exige une évaluation minutieuse des performances des athlètes, incluant la distance du saut, la vitesse d'approche, l'angle de décollage et d'autres paramètres clés pour évaluer la performance athlétique.
+Le calibrage, souvent utilisé de manière interchangeable avec l'étalonnage, fait référence à l'ensemble des processus et des techniques utilisés pour déterminer les paramètres intrinsèques et extrinsèques d'une caméra. Ces paramètres sont cruciaux pour corriger les distorsions optiques et pour transformer les coordonnées d'image en coordonnées réelles, assurant ainsi une mesure précise des distances et des angles.
 
-Dans le cadre du saut en longueur, le calibrage de caméra revêt une importance particulière pour plusieurs raisons. Tout d'abord, il permet de capturer avec précision les mouvements de l'athlète lors de son saut, ce qui est essentiel pour une analyse détaillée de la technique et des performances. De plus, le calibrage précis de la caméra permet une mesure fiable de la distance du saut et d'autres paramètres pertinents, ce qui est essentiel pour évaluer la performance de l'athlète et pour des aspects tels que la qualification aux compétitions ou le suivi de la progression athlétique au fil du temps.
+Les caméras, quant à elles, sont des dispositifs optiques permettant de capturer des images ou des vidéos. Elles jouent un rôle central dans notre étude, car la qualité et la précision des données qu'elles fournissent dépendent en grande partie de leur bon calibrage.  
 
-Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucial du calibrage de caméra dans l'estimation précise des performances lors de sauts en longueur, en mettant en lumière les définitions, les principes et composition des différents mots clé du thème qui sont entre "Caméra", "Calibrage", "Saut en longueur" et "Estimation des performances".  
+Enfin, la mesure de distance à l'aide d'une caméra est une application pratique du calibrage. Elle permet de convertir les informations bidimensionnelles capturées par la caméra en données tridimensionnelles, indispensables pour évaluer les performances des athlètes lors des sauts en longueur.  
 
+En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre comment le calibrage ou l'étalonnage des caméras peuvent être appliqués efficacement à l'analyse des performances athlétiques, et en particulier à l'estimation des distances de saut en longueur.
 
 
 
@@ -66,7 +67,7 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
  	\fbox{
  		\includegraphics[scale=0.2]{images/pellicule.jpg}
  	}
- 	\caption[Pellicule]{image d'une pellicule}%
+ 	\caption[Pellicule]{image d'une pellicule. source: https://lens.google.com}
  	\label{fig:Pellicule}
  \end{figure}
  
@@ -93,7 +94,7 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
  		\fbox{
  		\includegraphics[scale=0.35]{images/camescopes.png}
  		}
- 		\caption[Camescopes]{Image de Camescopes}%
+ 		\caption[Camescopes]{Les caméras de types camescopes. Source :\cite{noauthor_les_2015}}%
  		\label{fig:Cmescopes}
  	\end{figure}
  	
@@ -114,7 +115,7 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
  		\fbox{
  		 \includegraphics[scale=0.35]{images/DSLR.png}
  		}
- 	 \caption[digital single-lens reflex(DSLR)]{image de digital single-lens reflex(DSLR).}
+ 	 \caption[digital single-lens reflex(DSLR)]{Caméra digital single-lens reflex(DSLR). Source :\cite{noauthor_les_2015}}
  	\label{fig:digital single-lens reflex(DSLR)}
  	\end{figure}
  	
@@ -135,7 +136,7 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
   	\fbox{
   			\includegraphics[scale=0.3]{images/prosommateur.png}
   	}
-  \caption[Les Caméras dites « Prosommateurs »]{Les Caméras dites « Prosommateurs ».}
+  \caption[Les Caméras dites « Prosommateurs »]{Les Caméras dites « Prosommateurs ». Source :\cite{noauthor_les_2015}}
   \label{fig:Les Caméras dites « Prosommateurs »}
   \end{figure}
   
@@ -157,7 +158,7 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
  		\fbox{
  			\includegraphics[scale=0.38]{images/professionnel.png}
  		}
- 	\caption[Caméras professionnel]{image de caméra  professionnel.}
+ 	\caption[Caméras professionnel]{Caméra  professionnel.Source :\cite{noauthor_les_2015}}
  	\label{fig:Caméras professionnel}
  	\end{figure}
  	
@@ -177,7 +178,7 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
  	 	\fbox{
  	 		\includegraphics[scale=0.38]{images/super consentré.png}
  	 	}
- 	 \caption[Caméras de type "Super Concentré" ]{Caméras de type "Super Concentré".}
+ 	 \caption[Caméras de type "Super Concentré" ]{Caméras de type "Super Concentré".Source :\cite{noauthor_les_2015}}
  	 \label{fig:Caméras de type "Super Concentré"}
  	 \end{figure}
  	 
@@ -199,13 +200,13 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
  		\fbox{
  		\includegraphics[scale=0.65]{images/caméras dedié.png}
  		}
- 		\caption[Caméras dedié]{Image de caméras dedié.}
+ 		\caption[Caméras dedié]{caméras dedié.Source :\cite{noauthor_les_2015}}
  	\label{fig:Caméras dedié}
  	\end{figure}
  	
  \end{itemize}
  
- 
+ Parmis ces différents types de caméra que nous avons cité , nous allons utilisé la caméra \textbf{Hercules HD Twist} qui est de type \textbf{dédiées}. Il possède un \textbf{Capteur CMOS HD 720p} qui capture des photo jusqu’à 5 Millions de pixels (interpolation logicielle) et de vidéo de 1280 x 720 pixels à 30 images par seconde. Il est équipé d'un microphone intégré avec réducteur de bruit,Un pied flexible en silicone et un câble USB 180 cm.
  %----------------------------------------------------------------------------------------
  %Notion de calibrage	
  %----------------------------------------------------------------------------------------
@@ -214,7 +215,8 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
  
  \section{Notion de  Calibrage/étalonnage}\label{sec:Notion de  Calibrage/étalonnage}
  
- L’utilisation d’un système de caméras pour effectuer des mesures précises nécessite de réaliser un étalonnage de ces caméras. Celles-ci peuvent être représentées mathématiquement par un modèle de projection, sous la forme d’une matrice, permettant le passage de la position de points 3D vers leur projection dans l’espace image 2D. Le processus d’estimation des paramètres du modèle de caméra, consistant en un jeu de paramètres intrinsèques et un jeu de paramètres extrinsèques, est connu sous le nom d’étalonnage \cite{eikosim_etalonnage_2021}.\\
+ Le calibrage de caméra est un processus utilisé en vision par ordinateur et en traitement d'images pour estimer les paramètres intrinsèques et extrinsèques d'une caméra. Les paramètres intrinsèques comprennent des informations telles que la distance focale, le centre optique et les coefficients de distorsion, qui décrivent comment la caméra transforme les coordonnées 3D d'un point dans le monde réel en coordonnées 2D sur l'image capturée. Les paramètres extrinsèques décrivent la position et l'orientation de la caméra par rapport au monde réel.
+ En calibrant une caméra, on peut compenser les distorsions optiques et géométriques qui peuvent affecter les images capturées. Cela est crucial pour des applications telles que la réalité augmentée, la cartographie 3D, la navigation robotique, la vision industrielle, la surveillance, etc.\\
  Ainsi calibrer une caméra consiste à estimer sa fonction de transfert \cite{orteu_calibrage_nodate} (Figure\ref{fig:Illustration caméras}).
  
  \begin{figure}[H]%
@@ -224,7 +226,7 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
  	\fbox{
  		\includegraphics[scale=0.5]{images/illustration caméras.png}
  	}
-   \caption[Illustration d'une caméras]{Schémas d'illustration d'une caméras (adapté de \cite{orteu_calibrage_nodate}).}
+   \caption[Illustration d'une caméras]{Schémas d'illustration d'une caméras. Source: \cite{orteu_calibrage_nodate}}
    \label{fig:Illustration caméras}
  \end{figure}
  
@@ -241,7 +243,7 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
   	\fbox{
   	\includegraphics[scale=0.35]{images/chambre-noire.jpg}
   	}
-  		\caption[Chambre Noir]{Chambre Noir ou Camera obscura}
+  		\caption[Chambre Noir]{Chambre Noir ou Camera obscura. Source :https://lens.google.com}
   	\label{fig:Chambre Noir}
   \end{figure}
   
@@ -400,7 +402,64 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
   \right]
 \end{equation}
   
-  En globalité l'estimation des différents paramètres énumérés au dessus constitue le calibrage de la caméra.
+  En globalité l'estimation des différents paramètres énumérés au dessus constitue le calibrage de la caméra.\\
+  
+ 
+ 
+  Le calibrage de la caméra joue un rôle très important surtout dans le domaine où se penche notre thème(saut en longueur) car il permet d'avoir des résultats plus précises et fiables lors de la mesure de la distance entre deux objets sur une image. 
+  En calibrant la caméra, nous pouvons corriger divers types de distorsions qui peuvent survenir pendant la capture d'image, telles que la distorsion radiale, et la distorsion tangentielle. Ces distorsions peuvent faire apparaître des lignes droites dans le monde réel courbes sur l'image, ce qui peut entraîner des erreurs de mesure de distance.
+  Il permet également d'utiliser les paramètres intrinsèques de la caméra pour convertir les coordonnées de l'image en coordonnées réelles, ce qui est essentiel pour les mesures de distance.\\
+  
+  
+  Plusieurs facteurs peuvent affecter la précision des résultats d’étalonnage de la caméra, mais la prise en compte de ces facteurs et l’utilisation de techniques d’étalonnage appropriées peuvent aider à garantir des résultats d’étalonnage précis et fiables de la caméra. \\
+  
+  Voici quelques-unes des plus importantes : 
+  
+  \begin{itemize}
+  	\item \textbf{Distorsion de l’objectif } :  La distorsion de l’objectif peut entraîner des erreurs importantes dans le processus d’étalonnage de l’appareil photo. La distorsion se produit lorsque l’objectif projette le monde 3D sur le plan de l’image 2D, ce qui donne l’impression que les lignes droites sont incurvées. Les types courants de distorsion comprennent la distorsion radiale, qui provoque le gonflement de l’image vers l’extérieur ou vers l’intérieur, et la distorsion tangentielle, qui provoque l’inclinaison de l’image. Le calcul des coefficients de distorsion et leurs correction lors du calibrage aide à corriger ces erreurs  (Figure \ref{fig:Types de distorsion}). 
+  	
+  	\begin{figure}[h]
+  		\centering
+  		\fbox{
+  			\begin{minipage}{0.24\textwidth}
+  				\centering
+  				\includegraphics[width=\linewidth]{images/radialint}
+  				\subcaption{(a)}
+  			\end{minipage}\hfill
+  			\begin{minipage}{0.25\textwidth}
+  				\centering
+  				\includegraphics[width=\linewidth]{images/radialext}
+  				\subcaption{(b)}
+  			\end{minipage}\hfill
+  			\begin{minipage}{0.26\textwidth}
+  				\centering
+  				\includegraphics[width=\linewidth]{images/tang}
+  				\subcaption{(c)}
+  			\end{minipage}\hfill 
+  		}
+  		\caption[Types de distorsion]{(a)Distorsion radial intérieur, (b)Distorsion radial extérieur, (c) Distorsion tangentielle. Source :https://lens.google.com}
+  		\label{fig:Types de distorsion}
+  	\end{figure}
+  	
+  	\item \textbf{Résolution de l’image} : La résolution des images utilisées pour l’étalonnage de la caméra peut également affecter la précision des résultats. Les images haute résolution fournissent des informations plus détaillées sur le modèle d’étalonnage, ce qui peut conduire à des estimations plus précises de la matrice de projection de la caméra. Cependant, les images haute résolution nécessitent également plus de ressources de calcul et peuvent être plus difficiles à traiter.	\\
+  	
+  	\item \textbf{Placement de la caméra} : La position et l’orientation de la caméra peuvent également affecter la précision des résultats de l’étalonnage de la caméra. Les caméras doivent être placées à une distance suffisante du motif d’étalonnage pour s’assurer que la géométrie du motif est visible dans l’image. De plus, les caméras doivent être alignées parallèlement au motif pour minimiser la distorsion de perspective. \\
+  	
+  	\item \textbf{Qualité du modèle d’étalonnage} : la qualité du modèle d’étalonnage peut également affecter la précision des résultats d’étalonnage de la caméra. Les motifs d’étalonnage doivent être plats, rigides et avoir un contraste élevé pour garantir que la géométrie du motif est visible dans l’image. De plus, le motif doit être suffisamment grand pour couvrir tout le champ de vision de la caméra.\\
+  	
+  	\item \textbf{Nombre d'images} :  le nombre d’images utilisées pour l’étalonnage de la caméra peut également affecter la précision des résultats. L’utilisation d’un plus grand nombre d’images peut fournir plus d’informations sur la matrice de projection de la caméra, ce qui permet d’obtenir des estimations plus précises. Cependant, l’utilisation d’un trop grand nombre d’images peut également augmenter le coût de calcul du processus d’étalonnage. \\
+  	
+  	\item \textbf{Bruit et valeurs aberrantes} :  le bruit et les valeurs aberrantes dans les données d’image peuvent également affecter la précision des résultats d’étalonnage de la caméra. Le bruit peut introduire des erreurs aléatoires dans l’estimation de la matrice de projection de la caméra, tandis que les valeurs aberrantes peuvent introduire des erreurs systématiques. L’utilisation de techniques d’estimation robustes peuvent aider à atténuer les effets du bruit et des valeurs aberrantes.
+  \end{itemize}
+   
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   \newpage
@@ -439,7 +498,7 @@ Ainsi, ce rapport vise à fournir une compréhension approfondie du rôle crucia
   		\includegraphics[width=\linewidth]{images/mire4}
   	\end{minipage}
   }
-  \caption[Exemples de mires]{ Exemples de mires 3D et 2D présentant des motifs de grille et/ou de points}
+  \caption[Exemples de mires]{ Exemples de mires 3D et 2D présentant des motifs de grille et/ou de points. Source: https://lens.google.com}
   \label{fig:Exemples de mires}
   \end{figure}
   
@@ -456,54 +515,13 @@ L’auto-étalonnage est utilisé en particulier par les approches de stéréoco
      
 \end{itemize}
 
- Plusieurs facteurs peuvent affecter la précision des résultats d’étalonnage de la caméra, mais la prise en compte de ces facteurs et l’utilisation de techniques d’étalonnage appropriées peuvent aider à garantir des résultats d’étalonnage précis et fiables de la caméra. \\
  
- Voici quelques-unes des plus importantes : 
- 
- \begin{itemize}
- 	\item \textbf{Distorsion de l’objectif } :  La distorsion de l’objectif peut entraîner des erreurs importantes dans le processus d’étalonnage de l’appareil photo. La distorsion se produit lorsque l’objectif projette le monde 3D sur le plan de l’image 2D, ce qui donne l’impression que les lignes droites sont incurvées. Les types courants de distorsion comprennent la distorsion radiale, qui provoque le gonflement de l’image vers l’extérieur ou vers l’intérieur, et la distorsion tangentielle, qui provoque l’inclinaison de l’image. Le calcul des coefficients de distorsion et leurs correction lors du calibrage aide à corriger ces erreurs  (Figure \ref{fig:Types de distorsion}). 
- 	
- 	 \begin{figure}[h]
- 		\centering
- 		\fbox{
- 			\begin{minipage}{0.24\textwidth}
- 				\centering
- 				\includegraphics[width=\linewidth]{images/radialint}
- 				 \subcaption{(a)}
- 			\end{minipage}\hfill
- 			\begin{minipage}{0.25\textwidth}
- 				\centering
- 				\includegraphics[width=\linewidth]{images/radialext}
- 				 \subcaption{(b)}
- 			\end{minipage}\hfill
- 			\begin{minipage}{0.26\textwidth}
- 				\centering
- 				\includegraphics[width=\linewidth]{images/tang}
- 				 \subcaption{(c)}
- 			\end{minipage}\hfill 
- 		}
- 		\caption[Types de distorsion]{(a)Distorsion radial intérieur, (b)Distorsion radial extérieur, (c) Distorsion tangentielle}
- 		\label{fig:Types de distorsion}
- 	\end{figure}
- 	
- 	\item \textbf{Résolution de l’image} : La résolution des images utilisées pour l’étalonnage de la caméra peut également affecter la précision des résultats. Les images haute résolution fournissent des informations plus détaillées sur le modèle d’étalonnage, ce qui peut conduire à des estimations plus précises de la matrice de projection de la caméra. Cependant, les images haute résolution nécessitent également plus de ressources de calcul et peuvent être plus difficiles à traiter.	\\
- 	
- 	\item \textbf{Placement de la caméra} : La position et l’orientation de la caméra peuvent également affecter la précision des résultats de l’étalonnage de la caméra. Les caméras doivent être placées à une distance suffisante du motif d’étalonnage pour s’assurer que la géométrie du motif est visible dans l’image. De plus, les caméras doivent être alignées parallèlement au motif pour minimiser la distorsion de perspective. \\
- 	
- 	\item \textbf{Qualité du modèle d’étalonnage} : la qualité du modèle d’étalonnage peut également affecter la précision des résultats d’étalonnage de la caméra. Les motifs d’étalonnage doivent être plats, rigides et avoir un contraste élevé pour garantir que la géométrie du motif est visible dans l’image. De plus, le motif doit être suffisamment grand pour couvrir tout le champ de vision de la caméra.\\
- 	
- 	\item \textbf{Nombre d'images} :  le nombre d’images utilisées pour l’étalonnage de la caméra peut également affecter la précision des résultats. L’utilisation d’un plus grand nombre d’images peut fournir plus d’informations sur la matrice de projection de la caméra, ce qui permet d’obtenir des estimations plus précises. Cependant, l’utilisation d’un trop grand nombre d’images peut également augmenter le coût de calcul du processus d’étalonnage. \\
- 	
- 	\item \textbf{Bruit et valeurs aberrantes} :  le bruit et les valeurs aberrantes dans les données d’image peuvent également affecter la précision des résultats d’étalonnage de la caméra. Le bruit peut introduire des erreurs aléatoires dans l’estimation de la matrice de projection de la caméra, tandis que les valeurs aberrantes peuvent introduire des erreurs systématiques. L’utilisation de techniques d’estimation robustes peuvent aider à atténuer les effets du bruit et des valeurs aberrantes.
- \end{itemize}
- 
- 
- En fonction des différents approches de calibrage et des facteurs qui peuvent affecter la précision des résultats que nous avons étudié précédemment , nous avons décider d'opter la méthode de \textbf{Zhang Zhengyou} qui est le plus utiliser de nos jour et adaptable aux nouvelles domaines dont la vision par ordinateur.
+ En fonction des différents approches de calibrage et des facteurs qui peuvent affecter la précision des résultats que nous avons étudié précédemment , nous avons décider d'opter la méthode de \textbf{Zhang Zhengyou}\cite{zhengyou_zhang_flexible_1999} qui est le plus utiliser de nos jour et adaptable aux nouvelles domaines dont la vision par ordinateur.
  
  %----------------------------------------------------------------------------------------
  %Étude de la méthode de Zhang Zhengyou
  %----------------------------------------------------------------------------------------
- \section{ Étude de la méthode de Zhang Zhengyou}
+ \section{Étude de la méthode de Zhang Zhengyou}
  
   
  La technique proposée proposé par zhang Zhengyou  \cite{zhengyou_zhang_flexible_1999} connue sous le nom de \textit{"méthode de calibrage de caméra basée sur le plan d'échiquier"} nécessite uniquement que la caméra observe un motif plan affiché dans quelques (au moins deux) orientations  différentes. Le motif peut être imprimé sur une imprimante laser et fixé  sur une surface plane « raisonnable » (par exemple, une couverture de livre rigide). La caméra ou le motif planaire peuvent être déplacés à la main.Par rapport aux techniques classiques, la technique proposée est considérablement plus flexible et par rapport à  l’auto-étalonnage, il gagne en robustesse.la nouvelle technique fait progresser la vision par ordinateur 3D des environnements de laboratoire au monde réel.
@@ -581,10 +599,11 @@ L’auto-étalonnage est utilisé en particulier par les approches de stéréoco
  \label{eq:contrainte2}
  \end{equation}
  
- Pour résoudre de manière efficace le problème d'étalonnage de la caméra, l'article a abordé d'abord la solution fermé qui permet de résoudre les contraintes liées aux paramètres intrinsèques , ensuite la technique d'optimisation non linéaire basée sur le critère du maximum de vraisemblance pour affiner les paramètres avec l'algorithme de Levenberg ­Marquardt et enfin la prise en compte de la distorsion radial de la lentille pour corriger la distorsion.
+ Pour résoudre de manière efficace le problème d'étalonnage de la caméra, l'article a abordé d'abord la solution fermé qui permet de résoudre les contraintes liées aux paramètres intrinsèques , ensuite la technique d'optimisation non linéaire basée sur le critère du maximum de vraisemblance pour affiner les paramètres avec l'algorithme de Levenberg ­Marquardt et enfin la prise en compte de la distorsion radial de la lentille pour corriger la distorsion. \\
  
  \begin{itemize}[label={\Huge$\star$}]
  	\item \textbf{La solution fermé}
+ 	\\
  	
  	prenons 
  	
@@ -660,7 +679,9 @@ Si n = 2, nous pouvons imposer la contrainte asymétrique c = 0 , ce qui signifi
  t=\lambda A^{-1}h_{3}
  \]
  
+ 
 \item \textbf{Estimation de vraisemblance maximale} 
+ \\
  
  La solution ci-dessus est obtenue en minimisant une distance 
  algébrique qui n'a pas de signification physique. Nous pouvons l’affiner 
@@ -682,10 +703,10 @@ Si n = 2, nous pouvons imposer la contrainte asymétrique c = 0 , ce qui signifi
  linéaire, qui est résolu avec l'algorithme de Levenberg-Marquardt tel 
  qu'implémenté dans Minpack \cite{watson_levenberg-marquardt_1978}. Cela nécessite une estimation initiale 
  de \textbf{A}, $\{R_i, t_i|i = 1..n\}$ qui peut être obtenue en utilisant la technique 
- décrite dans la sous-section précédente.
+ décrite dans la sous-section précédente.\\
  
- \item \textbf{Prise en compte de la distorsion radial	
- }
+ \item \textbf{Prise en compte de la distorsion radial}
+ \\
  
  Jusqu’à présent, nous n’avons pas pris en compte la distorsion de l’objectif 
   de la caméra. Cependant, une caméra de bureau présente généralement 
@@ -724,7 +745,7 @@ Si n = 2, nous pouvons imposer la contrainte asymétrique c = 0 , ce qui signifi
  	\fbox{
  		\includegraphics[scale=0.65]{images/1}
  	}
- 	\caption[Algorithme de calibrage(début)]{Algorithme de calibrage(début)}
+ 	\caption[Algorithme de calibrage(début)]{Algorithme de calibrage(début) Source:\cite{burger_zhangs_2016}}
  	\label{fig:Algorithme1}
  \end{figure}
  
@@ -915,42 +936,49 @@ Si n = 2, nous pouvons imposer la contrainte asymétrique c = 0 , ce qui signifi
  	\fbox{
  		\includegraphics[scale=0.65]{images/22}
  	}
- 	\caption[Algorithme de calibrage(fin)]{Algorithme de calibrage(fin)}
+ 	\caption[Algorithme de calibrage(fin)]{Algorithme de calibrage(fin). Source:\cite{burger_zhangs_2016}}
  	\label{fig:Algorithme2}
  \end{figure}
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- \newpage
-\section{Analyse des caractéristiques d’action du saut en longueur}
+%----------------------------------------------------------------------------------------
+%Notion de mesure de distance numériques
+%----------------------------------------------------------------------------------------
+
+
 \newpage
-\section{Notion sur l'estimation des performances numériques}
+\section{Mesure de distance à l'aide d'une caméra}
+
+La mesure de distance à l'aide d'une caméra est devenue une composante essentielle de nombreuses technologies modernes, offrant des solutions précises et polyvalentes pour évaluer la séparation spatiale entre les objets et l'observateur. Cette méthode, reposant sur les principes de la géométrie, de la physique optique et de l'analyse d'image, joue un rôle crucial dans une multitude de domaines.  
+L'évolution rapide des capteurs d'imagerie et des algorithmes de traitement d'image a permis des avancées significatives dans la précision et la fiabilité de la mesure de distance avec les caméras. Cette technologie repose sur des fondements solides, exploitant des concepts tels que la parallaxe, la triangulation et la propagation de la lumière pour estimer les distances avec une précision remarquable.
+La mesure de distance à l'aide d'une caméra offre une variété de techniques, allant de la stéréovision à la triangulation laser en passant par la mesure de temps de vol. Chacune de ces méthodes présente ses propres avantages et limitations, mais toutes partagent l'objectif commun d'obtenir des mesures précises dans des environnements divers et changeants.
+
+ \begin{itemize}[label={\Huge$\star$}]
+ 	
+ 	\item \textbf{Stéréovision :}
+ 	
+ 	La stéréovision repose sur le principe de la vision binoculaire, similaire à la manière dont fonctionnent les yeux humains pour percevoir la profondeur. Cette technique utilise deux caméras placées à des positions légèrement différentes pour capturer des images de la même scène. En comparant les différences entre ces deux images, telles que les disparités de pixels, il est possible de déterminer la profondeur et la distance des objets dans la scène. Plus précisément, la stéréovision utilise la triangulation pour calculer la distance, en mesurant les angles et les proportions entre les points d'intérêt dans les images capturées par les deux caméras. Cette méthode offre une mesure de distance précise et robuste, mais elle nécessite un calibrage précis des caméras et peut être sensible aux variations d'éclairage et aux occlusions. Cette technique a été plus abordé dans \cite{adil_novel_2022} où l’article présente un algorithme basé sur Python pour mesurer la distance.Les expériences montrent que l’algorithme peut mesurer la distance avec une précision allant jusqu’à 99.83\% et un temps de traitement inférieur à 0.355 secondes pour des obstacles positionnés à des distances de 60 à 200 cm.
+ 	
+ 	\item \textbf{Triangulation laser}
+ 	
+ 	La triangulation laser utilise un faisceau laser pour projeter une lumière sur l'objet dont la distance doit être mesurée. Cette lumière réfléchie est ensuite capturée par une caméra, et la position du point lumineux sur l'image est analysée pour calculer la distance. La triangulation repose sur le principe de la géométrie triangulaire, où la distance est calculée en mesurant l'angle entre le faisceau laser, la caméra et le point réfléchi sur l'objet. Cette technique est souvent utilisée dans les applications nécessitant une grande précision, comme la métrologie industrielle et la cartographie 3D. Cependant, elle peut être sensible aux conditions d'éclairage et nécessite un alignement précis entre le faisceau laser et la caméra pour des mesures précises.
+ 	
+ 	\item \textbf{Mesure de temps de vol }
+ 	
+ 	La mesure de temps de vol est une méthode directe pour mesurer la distance entre la caméra et l'objet en utilisant la vitesse de la lumière. Cette technique implique l'envoi d'impulsions lumineuses de courte durée vers l'objet, puis la mesure du temps qu'il faut pour que ces impulsions rebondissent sur l'objet et reviennent à la caméra. En utilisant la vitesse de la lumière connue, il est possible de calculer la distance parcourue par les impulsions lumineuses et donc la distance entre la caméra et l'objet. La mesure de temps de vol est rapide, précise et fonctionne bien dans diverses conditions d'éclairage. Elle est souvent utilisée dans les applications telles que la détection d'obstacles pour les véhicules autonomes, la réalité augmentée et les systèmes de surveillance. Cependant, cette méthode peut être limitée par sa portée maximale et sa sensibilité aux surfaces réfléchissantes.
+
+ \end{itemize}
+
+Ce pendant dans ces différents techniques, la précision de la mesure dépend de plusieurs facteurs, notamment la qualité de l'image, le calibrage de la caméra, les conditions d'éclairage et la présence d'obstacles. Une résolution d'image plus élevée et un bon calibrage de la caméra sont essentiels pour une mesure précise. Les conditions d'éclairage peuvent affecter la qualité de l'image, tandis que la présence d'obstacles peut perturber les mesures, en particulier dans les environnements encombrés.\\
+
+Parmis ces tehniques la stéréovision est la plus adapté pour notre projet mais comme nous avons une seule caméra à notre disposition ,nous avons utilisé une methode de mesure de distance basée sur des méthodes de détection d'objets et de calcul de distance à partir de la taille des objets dans une image prise après le saut.
+
+
 \newpage
 \section{CONCLUSION}
+
+En conclusion, ce chapitre a exploré en profondeur les concepts clés liés au calibrage de caméra et à son application à l'estimation de performances lors de sauts en longueur. Nous avons commencé par définir les termes clés tels que la caméra, le calibrage et la mesure de distance à l'aide d'une caméra, soulignant leur importance dans le processus d'acquisition d'images et de mesure de distances précises.
+
+Le calibrage de caméra, en particulier, a été identifié comme une étape cruciale pour corriger les distorsions, ainsi que pour établir une relation précise entre les coordonnées des pixels dans l'image et les coordonnées du monde réel.  
+
+En intégrant des techniques de mesure de distance à l'aide d'une caméra, telles que la stéréovision ou la triangulation, avec un calibrage précis de la caméra, il est possible d'obtenir des estimations fiables de la distance parcourue lors d'un saut en longueur. Cette approche offre une alternative précise et non invasive aux méthodes traditionnelles de mesure de performances, permettant une évaluation objective et détaillée des performances athlétiques.
  
