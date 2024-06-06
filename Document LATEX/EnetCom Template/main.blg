@@ -1,63 +1,18 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: main.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: plain.bst
-Reallocating 'name_of_file' (item size: 1) to 9 items.
-Database file #1: mybiblio.bib
-Repeated entry---line 553 of file mybiblio.bib
- : @article{adil_novel_2022
- :                         ,
-I'm skipping whatever remains of this entry
-Warning--to sort, need author or key in noauthor_quest-ce_nodate
-Warning--to sort, need author or key in noauthor_camera_2024
-Warning--to sort, need author or key in noauthor_les_2015
-Warning--to sort, need author or key in noauthor_eikotwin_nodate
-Warning--to sort, need author or key in noauthor_yolo_nodate
-Warning--to sort, need author or key in noauthor_darknetdatacoconames_nodate
-Warning--to sort, need author or key in noauthor_darknetcfgyolov3cfg_nodate
-Warning--empty publisher in burger_zhangs_2016
-Warning--empty journal in orteu_calibrage_nodate
-Warning--empty year in orteu_calibrage_nodate
-You've used 16 entries,
-            2118 wiz_defined-function locations,
-            576 strings with 6271 characters,
-and the built_in function-call counts, 4063 in all, are:
-= -- 399
-> -- 91
-< -- 4
-+ -- 45
-- -- 25
-* -- 223
-:= -- 573
-add.period$ -- 39
-call.type$ -- 16
-change.case$ -- 58
-chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 184
-empty$ -- 428
-format.name$ -- 25
-if$ -- 921
-int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 10
-newline$ -- 71
-num.names$ -- 20
-pop$ -- 113
-preamble$ -- 1
-purify$ -- 44
-quote$ -- 0
-skip$ -- 163
-stack$ -- 0
-substring$ -- 256
-swap$ -- 45
-text.length$ -- 4
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 60
-warning$ -- 10
-while$ -- 32
-width$ -- 18
-write$ -- 143
-(There was 1 error message)
+[0] Config.pm:308> INFO - This is Biber 2.20
+[3] Config.pm:311> INFO - Logfile is 'main.blg'
+[354] biber-MSWIN64:340> INFO - === 
+[455] Biber.pm:420> INFO - Reading 'main.bcf'
+[811] Biber.pm:994> INFO - Found 13 citekeys in bib section 0
+[856] Biber.pm:4463> INFO - Processing section 0
+[896] Biber.pm:4654> INFO - Looking for bibtex file 'mybiblio.bib' for section 0
+[1080] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1186] bibtex.pm:1519> INFO - Found BibTeX data source 'mybiblio.bib'
+[1472] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1472] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1472] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'fr-FR'
+[1472] Biber.pm:4289> INFO - No sort tailoring available for locale 'fr-FR'
+[1507] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1524] bbl.pm:779> INFO - Output to main.bbl
+[1525] Biber.pm:131> WARN - Duplicate entry key: 'adil_novel_2022' in file 'mybiblio.bib', skipping ...
+[1525] Biber.pm:131> WARN - ISBN '978-3-540-08538-6 978-3-540-35972-2' in entry 'watson_levenberg-marquardt_1978' is invalid - run biber with '--validate_datamodel' for details.
+[1525] Biber.pm:133> INFO - WARNINGS: 2

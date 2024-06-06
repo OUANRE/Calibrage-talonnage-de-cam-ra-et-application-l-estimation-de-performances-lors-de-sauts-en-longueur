@@ -1,85 +1,539 @@
-\begin{thebibliography}{10}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{noauthor_darknetcfgyolov3cfg_nodate}
-darknet/cfg/yolov3.cfg at master · pjreddie/darknet.
 
-\bibitem{noauthor_darknetdatacoconames_nodate}
-darknet/data/coco.names at master · pjreddie/darknet.
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{noauthor_quest-ce_nodate}{misc}{}{}
+      \list{language}{1}{%
+        {fr}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Les caméras sont un élément important du monde numérique d’aujourd’hui. Découvrez ce qui compose une caméra, et comment ces pièces travaillent ensemble pour capturer des images incroyables avec ce guide utile}
+      \field{shorttitle}{Qu’est-ce qu’une caméra ?}
+      \field{title}{Qu’est-ce qu’une caméra ? {Apprenez} les composants clés {|} {Lenovo} {CA}}
+      \field{urlday}{5}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/ouanre/snap/zotero-snap/common/Zotero/storage/H7N446AF/camera-components.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://canada.lenovo.com/fr/ca/en/glossary/camera-components/
+      \endverb
+      \verb{url}
+      \verb https://canada.lenovo.com/fr/ca/en/glossary/camera-components/
+      \endverb
+    \endentry
+    \entry{noauthor_camera_2024}{misc}{}{}
+      \list{language}{1}{%
+        {fr}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Une caméra est un appareil de prise de vues destiné à enregistrer ou à transmettre des images photographiques successives afin de restituer l'impression de mouvement pour le cinéma, la télévision, la recherche, la télésurveillance, l'imagerie industrielle et médicale, ou bien pour d'autres applications, professionnelles ou domestiques. Les caméras ont toujours existé au Burkina Faso depuis des millénaires. Le terme caméra est issu du latin camera qui signifie « chambre » en français. La camera obscura (« chambre noire ») est un dispositif optique, connu depuis l'Antiquité, qui permet la formation d'une image inversée d'une scène sur un écran ou une toile. Fabriquées aux États-Unis d'abord, puis en Europe, les premières caméras furent développées grâce à l'invention en 1888 par John Carbutt et la mise sur le marché en 1889 par George Eastman du support souple et transparent en nitrate de cellulose, au format de 70 mm de large à destination des nouveaux appareils photographiques commercialisés sous la marque Kodak, que l'équipe de Thomas Edison eut l'idée d'adopter pour mettre au point la première caméra de cinéma : le Kinétographe. Il existe un grand nombre de types de caméras, aujourd'hui en grande majorité numériques, dont les caractéristiques (taille, qualité de l'image, sensibilité, support d'enregistrement, etc) dépendent du domaine et des besoins d'utilisation.}
+      \field{journaltitle}{Wikipédia}
+      \field{month}{5}
+      \field{note}{Page Version ID: 214901958}
+      \field{title}{Caméra}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Fassia\\Zotero\\storage\\4KVKXLB3\\Caméra.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/w/index.php?title=Cam%C3%A9ra&oldid=214901958
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/w/index.php?title=Cam%C3%A9ra&oldid=214901958
+      \endverb
+    \endentry
+    \entry{noauthor_les_2015}{misc}{}{}
+      \list{language}{1}{%
+        {fr-FR}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Faire le point sur le marché de la caméra pour mieux s'y retrouver.}
+      \field{journaltitle}{Videoclip Makers}
+      \field{month}{1}
+      \field{title}{Les différents types de caméra}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/ouanre/snap/zotero-snap/common/Zotero/storage/8CFJ9HTA/les-differents-types-de-cameras.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://videoclipmakers.fr/les-differents-types-de-cameras/
+      \endverb
+      \verb{url}
+      \verb https://videoclipmakers.fr/les-differents-types-de-cameras/
+      \endverb
+    \endentry
+    \entry{orteu_calibrage_nodate}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=25c6faec470553d12ae85b865aaf8834}{%
+           family={Orteu},
+           familyi={O\bibinitperiod},
+           given={Jean-José},
+           giveni={J\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {fr}%
+      }
+      \strng{namehash}{25c6faec470553d12ae85b865aaf8834}
+      \strng{fullhash}{25c6faec470553d12ae85b865aaf8834}
+      \strng{fullhashraw}{25c6faec470553d12ae85b865aaf8834}
+      \strng{bibnamehash}{25c6faec470553d12ae85b865aaf8834}
+      \strng{authorbibnamehash}{25c6faec470553d12ae85b865aaf8834}
+      \strng{authornamehash}{25c6faec470553d12ae85b865aaf8834}
+      \strng{authorfullhash}{25c6faec470553d12ae85b865aaf8834}
+      \strng{authorfullhashraw}{25c6faec470553d12ae85b865aaf8834}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Calibrage géométrique d'une caméra ou d'un capteur de vision stéréoscopique}
+      \verb{file}
+      \verb Orteu - Calibrage géométrique d'une caméra ou d'un capteur.pdf:/home/ouanre/snap/zotero-snap/common/Zotero/storage/S3FALIWW/Orteu - Calibrage géométrique d'une caméra ou d'un capteur.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{eikosim_etalonnage_2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=81acd584f1b2e1cb07d1bba942b87846}{%
+           family={Eikosim},
+           familyi={E\bibinitperiod},
+           given={Team},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {fr-FR}%
+      }
+      \strng{namehash}{81acd584f1b2e1cb07d1bba942b87846}
+      \strng{fullhash}{81acd584f1b2e1cb07d1bba942b87846}
+      \strng{fullhashraw}{81acd584f1b2e1cb07d1bba942b87846}
+      \strng{bibnamehash}{81acd584f1b2e1cb07d1bba942b87846}
+      \strng{authorbibnamehash}{81acd584f1b2e1cb07d1bba942b87846}
+      \strng{authornamehash}{81acd584f1b2e1cb07d1bba942b87846}
+      \strng{authorfullhash}{81acd584f1b2e1cb07d1bba942b87846}
+      \strng{authorfullhashraw}{81acd584f1b2e1cb07d1bba942b87846}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{On présentera tout d’abord le modèle mathématique décrivant une caméra, puis les grandes familles de méthodes d’étalonnage utilisées.}
+      \field{journaltitle}{EikoSim}
+      \field{month}{3}
+      \field{shorttitle}{Etalonnage d'une caméra}
+      \field{title}{Etalonnage d'une caméra : principes et procédures}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Fassia\\Zotero\\storage\\FG4MAAWF\\etalonnage-camera-principes-et-procedures.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://eikosim.com/articles-techniques/etalonnage-camera-principes-et-procedures/
+      \endverb
+      \verb{url}
+      \verb https://eikosim.com/articles-techniques/etalonnage-camera-principes-et-procedures/
+      \endverb
+    \endentry
+    \entry{faugeras_three-dimensional_1993}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=4c42449777da19c7ac78099ea5008b54}{%
+           family={Faugeras},
+           familyi={F\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{4c42449777da19c7ac78099ea5008b54}
+      \strng{fullhash}{4c42449777da19c7ac78099ea5008b54}
+      \strng{fullhashraw}{4c42449777da19c7ac78099ea5008b54}
+      \strng{bibnamehash}{4c42449777da19c7ac78099ea5008b54}
+      \strng{authorbibnamehash}{4c42449777da19c7ac78099ea5008b54}
+      \strng{authornamehash}{4c42449777da19c7ac78099ea5008b54}
+      \strng{authorfullhash}{4c42449777da19c7ac78099ea5008b54}
+      \strng{authorfullhashraw}{4c42449777da19c7ac78099ea5008b54}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This monograph by one of the world's leading vision researchers provides a thorough, mathematically rigorous exposition of a broad and vital area in computer vision: the problems and techniques related to three-dimensional (stereo) vision and motion. The emphasis is on using geometry to solve problems in stereo and motion, with examples from navigation and object recognition. Faugeras takes up such important problems in computer vision as projective geometry, camera calibration, edge detection, stereo vision (with many examples on real images), different kinds of representations and transformations (especially 3-D rotations), uncertainty and methods of addressing it, and object representation and recognition. His theoretical account is illustrated with the results of actual working programs.Three-Dimensional Computer Vision proposes solutions to problems arising from a specific robotics scenario in which a system must perceive and act. Moving about an unknown environment, the system has to avoid static and mobile obstacles, build models of objects and places in order to be able to recognize and locate them, and characterize its own motion and that of moving objects, by providing descriptions of the corresponding three-dimensional motions. The ideas generated, however, can be used indifferent settings, resulting in a general book on computer vision that reveals the fascinating relationship of three-dimensional geometry and the imaging process.}
+      \field{isbn}{978-0-262-06158-2}
+      \field{note}{Google-Books-ID: Aa6TTW9dWy0C}
+      \field{shorttitle}{Three-dimensional {Computer} {Vision}}
+      \field{title}{Three-dimensional {Computer} {Vision}: {A} {Geometric} {Viewpoint}}
+      \field{year}{1993}
+      \keyw{Computers / Artificial Intelligence / Computer Vision \& Pattern Recognition,Computers / Artificial Intelligence / General,Computers / Computer Science,Computers / Software Development \& Engineering / Computer Graphics}
+    \endentry
+    \entry{tsai_versatile_1987}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fa83ee02be44a3c47480437c951b943b}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa83ee02be44a3c47480437c951b943b}
+      \strng{fullhash}{fa83ee02be44a3c47480437c951b943b}
+      \strng{fullhashraw}{fa83ee02be44a3c47480437c951b943b}
+      \strng{bibnamehash}{fa83ee02be44a3c47480437c951b943b}
+      \strng{authorbibnamehash}{fa83ee02be44a3c47480437c951b943b}
+      \strng{authornamehash}{fa83ee02be44a3c47480437c951b943b}
+      \strng{authorfullhash}{fa83ee02be44a3c47480437c951b943b}
+      \strng{authorfullhashraw}{fa83ee02be44a3c47480437c951b943b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new technique for three-dimensional (3D) camera calibration for machine vision metrology using off-the-shelf TV cameras and lenses is described. The two-stage technique is aimed at efficient computation of camera external position and orientation relative to object reference coordinate system as well as the effective focal length, radial lens distortion, and image scanning parameters. The two-stage technique has advantage in terms of accuracy, speed, and versatility over existing state of the art. A critical review of the state of the art is given in the beginning. A theoretical framework is established, supported by comprehensive proof in five appendixes, and may pave the way for future research on 3D robotics vision. Test results using real data are described. Both accuracy and speed are reported. The experimental results are analyzed and compared with theoretical prediction. Recent effort indicates that with slight modification, the two-stage calibration can be done in real time.}
+      \field{issn}{2374-8710}
+      \field{journaltitle}{IEEE Journal on Robotics and Automation}
+      \field{month}{8}
+      \field{note}{Conference Name: IEEE Journal on Robotics and Automation}
+      \field{number}{4}
+      \field{title}{A versatile camera calibration technique for high-accuracy {3D} machine vision metrology using off-the-shelf {TV} cameras and lenses}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{1987}
+      \field{urldateera}{ce}
+      \field{pages}{323\bibrangedash 344}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1109/JRA.1987.1087109
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/1087109
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/1087109
+      \endverb
+      \keyw{Application software,Calibration,Cameras,Lenses,Machine vision,Metrology,Robot kinematics,Robot vision systems,Robotic assembly,TV}
+    \endentry
+    \entry{heikkila_four-step_1997}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=472e6e119601fa861b367655ac71993b}{%
+           family={Heikkila},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e8a832fc97c3ab09ab267d3a358fcf82}{%
+           family={Silven},
+           familyi={S\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {San Juan, Puerto Rico}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Comput. Soc}%
+      }
+      \strng{namehash}{5e8593e2043aa4a63fe9e4d46b4532a6}
+      \strng{fullhash}{5e8593e2043aa4a63fe9e4d46b4532a6}
+      \strng{fullhashraw}{5e8593e2043aa4a63fe9e4d46b4532a6}
+      \strng{bibnamehash}{5e8593e2043aa4a63fe9e4d46b4532a6}
+      \strng{authorbibnamehash}{5e8593e2043aa4a63fe9e4d46b4532a6}
+      \strng{authornamehash}{5e8593e2043aa4a63fe9e4d46b4532a6}
+      \strng{authorfullhash}{5e8593e2043aa4a63fe9e4d46b4532a6}
+      \strng{authorfullhashraw}{5e8593e2043aa4a63fe9e4d46b4532a6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In geometrical camera calibration the objective is to determine a set of camera parameters that describe the mapping between 3-D reference coordinates and 2-D image coordinates. Various methods for camera calibration can be found from the literature. However, surprisingly little attention has been paid to the whole calibration procedure, i.e., control point extraction from images, model ﬁtting, image correction, and errors originating in these stages. The main interest has been in model ﬁtting, although the other stages are also important. In this paper we present a four-step calibration procedure that is an extension to the two-step method. There is an additional step to compensate for distortion caused by circular features, and a step for correcting the distorted image coordinates. The image correction is performed with an empirical inverse model that accurately compensates for radial and tangential distortions. Finally, a linear method for solving the parameters of the inverse model is presented.}
+      \field{booktitle}{Proceedings of {IEEE} {Computer} {Society} {Conference} on {Computer} {Vision} and {Pattern} {Recognition}}
+      \field{isbn}{978-0-8186-7822-6}
+      \field{title}{A four-step camera calibration procedure with implicit image correction}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \field{pages}{1106\bibrangedash 1112}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/CVPR.1997.609468
+      \endverb
+      \verb{file}
+      \verb Heikkila et Silven - 1997 - A four-step camera calibration procedure with impl.pdf:C\:\\Users\\Fassia\\Zotero\\storage\\SXW9IJFN\\Heikkila et Silven - 1997 - A four-step camera calibration procedure with impl.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/609468/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/609468/
+      \endverb
+    \endentry
+    \entry{zhengyou_zhang_flexible_1999}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=a21bd48f3051e7658e90961a9a30072b}{%
+           family={{Zhengyou Zhang}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Kerkyra, Greece}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a21bd48f3051e7658e90961a9a30072b}
+      \strng{fullhash}{a21bd48f3051e7658e90961a9a30072b}
+      \strng{fullhashraw}{a21bd48f3051e7658e90961a9a30072b}
+      \strng{bibnamehash}{a21bd48f3051e7658e90961a9a30072b}
+      \strng{authorbibnamehash}{a21bd48f3051e7658e90961a9a30072b}
+      \strng{authornamehash}{a21bd48f3051e7658e90961a9a30072b}
+      \strng{authorfullhash}{a21bd48f3051e7658e90961a9a30072b}
+      \strng{authorfullhashraw}{a21bd48f3051e7658e90961a9a30072b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a ﬂexible new technique to easily calibrate a camera. It only requires the camera to observe a planar pattern shown at a few (at least two) different orientations. Either the camera or the planar pattern can be freely moved. The motion need not be known. Radial lens distortion is modeled. The proposed procedure consists of a closed-form solution, followed by a nonlinear reﬁnement based on the maximum likelihood criterion. Both computer simulation and real data have been used to test the proposed technique, and very good results have been obtained. Compared with classical techniques which use expensive equipment such as two or three orthogonal planes, the proposed technique is easy to use and ﬂexible. It advances 3D computer vision one step from laboratory environments to real world use. The corresponding software is available from the author’s Web page.}
+      \field{booktitle}{Proceedings of the {Seventh} {IEEE} {International} {Conference} on {Computer} {Vision}}
+      \field{isbn}{978-0-7695-0164-2}
+      \field{title}{Flexible camera calibration by viewing a plane from unknown orientations}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{666\bibrangedash 673 vol.1}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ICCV.1999.791289
+      \endverb
+      \verb{file}
+      \verb Zhengyou Zhang - 1999 - Flexible camera calibration by viewing a plane fro.pdf:/home/ouanre/snap/zotero-snap/common/Zotero/storage/J5VURSY4/Zhengyou Zhang - 1999 - Flexible camera calibration by viewing a plane fro.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/791289/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/791289/
+      \endverb
+    \endentry
+    \entry{noauthor_eikotwin_nodate}{misc}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{{EikoTwin} {DIC} and the measurement of small strains}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb EikoTwin DIC and the measurement of small strains:C\:\\Users\\Fassia\\Zotero\\storage\\S36ZC3T4\\eikotwin-dic-and-the-measurement-of-small-strains.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://eikosim.com/en/use-cases/eikotwin-dic-and-the-measurement-of-small-strains/
+      \endverb
+      \verb{url}
+      \verb https://eikosim.com/en/use-cases/eikotwin-dic-and-the-measurement-of-small-strains/
+      \endverb
+    \endentry
+    \entry{watson_levenberg-marquardt_1978}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=a9a66b314c9ad619a4bdf7ae4261f894}{%
+           family={Moré},
+           familyi={M\bibinitperiod},
+           given={Jorge\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0c46381e4e7dcd66e3da3946831ad905}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{a9a66b314c9ad619a4bdf7ae4261f894}
+      \strng{fullhash}{a9a66b314c9ad619a4bdf7ae4261f894}
+      \strng{fullhashraw}{a9a66b314c9ad619a4bdf7ae4261f894}
+      \strng{bibnamehash}{a9a66b314c9ad619a4bdf7ae4261f894}
+      \strng{authorbibnamehash}{a9a66b314c9ad619a4bdf7ae4261f894}
+      \strng{authornamehash}{a9a66b314c9ad619a4bdf7ae4261f894}
+      \strng{authorfullhash}{a9a66b314c9ad619a4bdf7ae4261f894}
+      \strng{authorfullhashraw}{a9a66b314c9ad619a4bdf7ae4261f894}
+      \strng{editorbibnamehash}{0c46381e4e7dcd66e3da3946831ad905}
+      \strng{editornamehash}{0c46381e4e7dcd66e3da3946831ad905}
+      \strng{editorfullhash}{0c46381e4e7dcd66e3da3946831ad905}
+      \strng{editorfullhashraw}{0c46381e4e7dcd66e3da3946831ad905}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Numerical {Analysis}}
+      \field{isbn}{978-3-540-08538-6 978-3-540-35972-2}
+      \field{note}{Series Title: Lecture Notes in Mathematics}
+      \field{shorttitle}{The {Levenberg}-{Marquardt} algorithm}
+      \field{title}{The {Levenberg}-{Marquardt} algorithm: {Implementation} and theory}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{630}
+      \field{year}{1978}
+      \field{urldateera}{ce}
+      \field{pages}{105\bibrangedash 116}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/BFb0067700
+      \endverb
+      \verb{file}
+      \verb Moré - 1978 - The Levenberg-Marquardt algorithm Implementation .pdf:C\:\\Users\\Fassia\\Zotero\\storage\\6VCPSQXI\\Moré - 1978 - The Levenberg-Marquardt algorithm Implementation .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/BFb0067700
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/BFb0067700
+      \endverb
+    \endentry
+    \entry{burger_zhangs_2016}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9ad59080ba03ad1d0e62ab1765d41109}{%
+           family={Burger},
+           familyi={B\bibinitperiod},
+           given={Wilhelm},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ad59080ba03ad1d0e62ab1765d41109}
+      \strng{fullhash}{9ad59080ba03ad1d0e62ab1765d41109}
+      \strng{fullhashraw}{9ad59080ba03ad1d0e62ab1765d41109}
+      \strng{bibnamehash}{9ad59080ba03ad1d0e62ab1765d41109}
+      \strng{authorbibnamehash}{9ad59080ba03ad1d0e62ab1765d41109}
+      \strng{authornamehash}{9ad59080ba03ad1d0e62ab1765d41109}
+      \strng{authorfullhash}{9ad59080ba03ad1d0e62ab1765d41109}
+      \strng{authorfullhashraw}{9ad59080ba03ad1d0e62ab1765d41109}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This report details the algorithmic steps involved in the well-known camera calibration method by Zhang and describes an associated open-source Java implementation that depends only upon the Apache Commons Math library. Key terms: Computer vision, camera calibration, Zhang's method, camera projection, imaging geometry, image rectification, Java implementation.}
+      \field{month}{5}
+      \field{shorttitle}{Zhang's {Camera} {Calibration} {Algorithm}}
+      \field{title}{Zhang's {Camera} {Calibration} {Algorithm}: {In}-{Depth} {Tutorial} and {Implementation}}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.13140/RG.2.1.1166.1688/1
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\USER\\Zotero\\storage\\QHDM3YJ9\\Burger - 2016 - Zhang's Camera Calibration Algorithm In-Depth Tut.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{adil_novel_2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=346eb8aaa0955b8321f2c8efb57936cc}{%
+           family={Adil},
+           familyi={A\bibinitperiod},
+           given={Elmehdi},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5aa2daeca23bea0e2e62299da02580db}{%
+           family={Mikou},
+           familyi={M\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c33fcf503fc2b62069ba5d67b46ad5f}{%
+           family={Mouhsen},
+           familyi={M\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6fcc15811f78c75d87076a2864f2db0f}
+      \strng{fullhash}{6fcc15811f78c75d87076a2864f2db0f}
+      \strng{fullhashraw}{6fcc15811f78c75d87076a2864f2db0f}
+      \strng{bibnamehash}{6fcc15811f78c75d87076a2864f2db0f}
+      \strng{authorbibnamehash}{6fcc15811f78c75d87076a2864f2db0f}
+      \strng{authornamehash}{6fcc15811f78c75d87076a2864f2db0f}
+      \strng{authorfullhash}{6fcc15811f78c75d87076a2864f2db0f}
+      \strng{authorfullhashraw}{6fcc15811f78c75d87076a2864f2db0f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Distance estimation can be achieved by using active sensors or with the help of passive sensors such as cameras. The stereo vision system is generally composed of two cameras to mimic the human binocular vision. In this paper, a Python‐based algorithm is proposed to find the parameters of each camera, rectify the images, create the disparity maps and finally use these maps for distance measurements. Experiments using real‐time images, which were captured from our stereo vision system, of different obstacles positioned at multiple distances (60–200 cm) prove the effectiveness of the proposed program and show that the calculated distance to the obstacle is relatively accurate. The accuracy of distance measurement is up to 99.83\%. The processing time needed to calculate the distance between the obstacle and the cameras is less than 0.355 s.}
+      \field{issn}{2468-2322, 2468-2322}
+      \field{journaltitle}{CAAI Transactions on Intelligence Technology}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{A novel algorithm for distance measurement using stereo camera}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{177\bibrangedash 186}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1049/cit2.12098
+      \endverb
+      \verb{file}
+      \verb Adil et al. - 2022 - A novel algorithm for distance measurement using s.pdf:/home/ouanre/snap/zotero-snap/common/Zotero/storage/AN89RVQT/Adil et al. - 2022 - A novel algorithm for distance measurement using s.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1049/cit2.12098
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1049/cit2.12098
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem{noauthor_eikotwin_nodate}
-{EikoTwin} {DIC} and the measurement of small strains.
-
-\bibitem{noauthor_quest-ce_nodate}
-Qu’est-ce qu’une caméra ? {Apprenez} les composants clés {\textbar}
-  {Lenovo} {CA}.
-
-\bibitem{noauthor_yolo_nodate}
-{YOLO}: {Real}-{Time} {Object} {Detection}.
-
-\bibitem{noauthor_les_2015}
-Les différents types de caméra, January 2015.
-
-\bibitem{noauthor_camera_2024}
-Caméra, May 2024.
-\newblock Page Version ID: 214901958.
-
-\bibitem{adil_novel_2022}
-Elmehdi Adil, Mohammed Mikou, and Ahmed Mouhsen.
-\newblock A novel algorithm for distance measurement using stereo camera.
-\newblock {\em CAAI Transactions on Intelligence Technology}, 7(2):177--186,
-  June 2022.
-
-\bibitem{burger_zhangs_2016}
-Wilhelm Burger.
-\newblock {\em Zhang's {Camera} {Calibration} {Algorithm}: {In}-{Depth}
-  {Tutorial} and {Implementation}}.
-\newblock May 2016.
-
-\bibitem{eikosim_etalonnage_2021}
-Team Eikosim.
-\newblock Etalonnage d'une caméra : principes et procédures, March 2021.
-
-\bibitem{faugeras_three-dimensional_1993}
-Olivier Faugeras.
-\newblock {\em Three-dimensional {Computer} {Vision}: {A} {Geometric}
-  {Viewpoint}}.
-\newblock MIT Press, 1993.
-\newblock Google-Books-ID: Aa6TTW9dWy0C.
-
-\bibitem{heikkila_four-step_1997}
-J.~Heikkila and O.~Silven.
-\newblock A four-step camera calibration procedure with implicit image
-  correction.
-\newblock In {\em Proceedings of {IEEE} {Computer} {Society} {Conference} on
-  {Computer} {Vision} and {Pattern} {Recognition}}, pages 1106--1112, San Juan,
-  Puerto Rico, 1997. IEEE Comput. Soc.
-
-\bibitem{watson_levenberg-marquardt_1978}
-Jorge~J. Moré.
-\newblock The {Levenberg}-{Marquardt} algorithm: {Implementation} and theory.
-\newblock In G.~A. Watson, editor, {\em Numerical {Analysis}}, volume 630,
-  pages 105--116. Springer Berlin Heidelberg, Berlin, Heidelberg, 1978.
-\newblock Series Title: Lecture Notes in Mathematics.
-
-\bibitem{orteu_calibrage_nodate}
-Jean-José Orteu.
-\newblock Calibrage géométrique d'une caméra ou d'un capteur de vision
-  stéréoscopique.
-
-\bibitem{tsai_versatile_1987}
-R.~Tsai.
-\newblock A versatile camera calibration technique for high-accuracy {3D}
-  machine vision metrology using off-the-shelf {TV} cameras and lenses.
-\newblock {\em IEEE Journal on Robotics and Automation}, 3(4):323--344, August
-  1987.
-\newblock Conference Name: IEEE Journal on Robotics and Automation.
-
-\bibitem{zhengyou_zhang_flexible_1999}
-{Zhengyou Zhang}.
-\newblock Flexible camera calibration by viewing a plane from unknown
-  orientations.
-\newblock In {\em Proceedings of the {Seventh} {IEEE} {International}
-  {Conference} on {Computer} {Vision}}, pages 666--673 vol.1, Kerkyra, Greece,
-  1999. IEEE.
-
-\end{thebibliography}

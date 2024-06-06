@@ -1,10 +1,18 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}INTRODUCTION}{\reset@font\mtcSfont 38}{section.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Choix de technologies utilisé}{\reset@font\mtcSfont 38}{section.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Code de calibrage de la caméra}{\reset@font\mtcSfont 40}{section.2.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Première étape : Capture d'image}{\reset@font\mtcSSfont 40}{subsection.2.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2} Deuxième partie : Définition des coordonnées du monde réèl}{\reset@font\mtcSSfont 41}{subsection.2.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Troisième partie : Définition des points d'objets et des points images}{\reset@font\mtcSSfont 43}{subsection.2.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.4}Quatrième partie : Calibrage}{\reset@font\mtcSSfont 44}{subsection.2.3.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.5}Cinquième partie : Correction de la distorsion}{\reset@font\mtcSSfont 45}{subsection.2.3.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.6}L'érreur de calibrage}{\reset@font\mtcSSfont 47}{subsection.2.3.6}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}CONCLUSION}{\reset@font\mtcSfont 48}{section.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}INTRODUCTION}{\reset@font\mtcSfont 29}{section.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Choix de technologies utilisé}{\reset@font\mtcSfont 29}{section.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Code de calibrage de la caméra}{\reset@font\mtcSfont 31}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Première étape : Capture d'image}{\reset@font\mtcSSfont 31}{subsection.2.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2} Deuxième partie : Définition des coordonnées du monde réèl}{\reset@font\mtcSSfont 32}{subsection.2.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Troisième partie : Définition des points d'objets et des points images}{\reset@font\mtcSSfont 34}{subsection.2.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.4}Quatrième partie : Calibrage}{\reset@font\mtcSSfont 35}{subsection.2.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.5}Cinquième partie : Correction de la distorsion}{\reset@font\mtcSSfont 36}{subsection.2.3.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.6}L'érreur de calibrage}{\reset@font\mtcSSfont 38}{subsection.2.3.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Code de calcul de distance sur une image}{\reset@font\mtcSfont 39}{section.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}Première étape : Détermination de la distance focale}{\reset@font\mtcSSfont 39}{subsection.2.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Deuxième étape : Chargement des différents paramètres du calibrage }{\reset@font\mtcSSfont 40}{subsection.2.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Troisième étape : Caputre d'image}{\reset@font\mtcSSfont 40}{subsection.2.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.4}Quarième étape : Correction de la distorsion de l'image}{\reset@font\mtcSSfont 41}{subsection.2.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.5}Cinquième étape : Correction de la distorsion de l'image}{\reset@font\mtcSSfont 42}{subsection.2.4.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.6}Sixième étape : Calcul de distance entre la caméra et l'objet}{\reset@font\mtcSSfont 42}{subsection.2.4.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.7}Septième étape : Calcul de distance total}{\reset@font\mtcSSfont 43}{subsection.2.4.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}CONCLUSION}{\reset@font\mtcSfont 45}{section.2.5}}

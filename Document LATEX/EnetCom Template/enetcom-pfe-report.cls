@@ -23,6 +23,40 @@
 \usepackage[bottom]{footmisc}
 \usepackage[french]{babel}
 \usepackage[french]{varioref}
+
+\frenchbsetup{LowercaseSuperscripts=false}
+\usepackage{csquotes}
+\PassOptionsToPackage{%
+	backend=biber, %instead of bibtex
+	%backend=bibtex8,bibencoding=ascii,%
+	%language=autobib,%
+	language=auto,
+	%language=french,
+	%autocite=inline,
+	%style=numeric-comp,%
+	%style=authoryear-comp, % Author 1999, 2010
+	%style=authoryear,%
+	%style=alphabetic,%
+	style=ieee,
+	%bibstyle=authoryear,dashed=false, % dashed: substitute rep. author with ---
+	%sorting=nty, % name, year, title
+	sorting=none, % name, year, title
+	%maxbibnames=3, % default: 3, et al.
+	%backref=true,%
+	%hyperref=true,
+	%natbib=true % natbib compatibility mode (\citep and \citet still work)
+}{biblatex}
+% @author: Stoufa
+% the option `backend=bibtex` is mandatory to avoid the “no \citation commands” error
+% https://tex.stackexchange.com/questions/18045/problem-with-compiling-bibtex-no-citation-commands-error
+\usepackage[backend=bibtex]{biblatex}
+%\renewcommand*{\bibfont}{\small\raggedright}
+%\DefineBibliographyExtras{french}{\renewcommand*\mkbibnamelast[1]{#1}}
+\addbibresource{mybiblio.bib}
+%\DefineBibliographyStrings{french}{%
+	%  bibliography = {Bibliographie},
+	%}
+
 \usepackage{acronym}
 \usepackage[french]{minitoc}
 
@@ -57,6 +91,12 @@
 %\addbibresource{001-report}
 \usepackage{enumitem}
 \usepackage{xcolor}
+\usepackage{amsmath}
+
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shadows} 
+\usepackage{pifont}
+
 \definecolor{Gris1}{RGB}{116,134,170}
 \definecolor{Gris2}{RGB}{249,249,249}
 
@@ -110,7 +150,7 @@
  \newlength\Aux
   % chapter tiltes formatting
   \titleformat{\chapter}[display]%
-    {\fontsize{26}{6}\bfseries\selectfont%
+    {\fontsize{18}{6}\bfseries\selectfont%
       \settowidth\Aux{\textcolor{white}{\Huge\thechapter}}%
       \ifnum\Aux>\BoxWd%
         \setlength\BoxWd{\Aux}%
@@ -131,7 +171,7 @@
 
   % chapter tiltes formatting
   \titleformat{name=\chapter, numberless}[display]%
-    {\fontsize{26}{6}\bfseries\selectfont%
+    {\fontsize{18}{6}\bfseries\selectfont%
       \settowidth\Aux{\textcolor{white}{\Huge\thechapter}}%
       \ifnum\Aux>\BoxWd%
         \setlength\BoxWd{\Aux}%
@@ -184,7 +224,7 @@
 
   \fancyfoot[R]{\fontsize{12}{12}\selectfont Page \thepage}% Right footer
   
-  \fancyfoot[L]{\fontsize{12}{12}\selectfont ENET'COM SFAX}% Right header
+  \fancyfoot[L]{\fontsize{12}{12}\selectfont Université Norbert Zongo}% Right header
 
 }
 
@@ -203,7 +243,7 @@
 
   \fancyfoot[R]{\fontsize{12}{12}\selectfont Page \thepage}% Right footer
   
-  \fancyfoot[L]{\fontsize{12}{12}\selectfont\ ENET'COM SFAX}% Right header
+  \fancyfoot[L]{\fontsize{12}{12}\selectfont\ Université Norbert Zongo}% Right header
 
 }
 

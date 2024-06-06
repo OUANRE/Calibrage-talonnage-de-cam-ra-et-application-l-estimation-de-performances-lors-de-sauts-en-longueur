@@ -46,7 +46,7 @@ Dans cette section, nous plongerons dans les détails techniques de l'implément
  
  \newpage
 \section{Code de calibrage de la caméra}
- Notre code de calibrage sera éffectué en  étapes principales et dans plusieurs fichiers différents.
+ Notre code de calibrage sera éffectué en cinq (5) étapes principales et dans plusieurs fichiers différents.
  
   \subsection{Première étape : Capture d'image}
  		
@@ -177,7 +177,7 @@ Dans cette section, nous plongerons dans les détails techniques de l'implément
  	\end{figure}
  	
   
- \subsection{Quatrième partie : Calibrage}
+ \subsection{Quatrième partie : Calibrage}\label{subsec:Calibrage}
  
  Une fois les code des trois étapes au dessus ont donné les résultats attendu nous avons utilisé la fonction \textbf{cv.calibratecamera}, qui retourne la matrice de la caméra contenant la focale fx et fy, et les centres optiques cx et cy, les paramètres de distortion, les vecteurs de rotation et de translation.
  
@@ -303,27 +303,191 @@ On a une erreur de :
 
 
 
-%\newpage
-%\section{Code de calcul de distance sur une image}
+\newpage
+\section{Code de calcul de distance sur une image}
  
- %Avec notre caméra déjà calibrée, nous pouvons déterminer la distance entre deux objets en mesurant leurs positions dans l'image et en utilisant les paramètres de calibrage pour convertir ces positions en distances réelles.
+ Maintenant que nous avons réussi à déterminer tous les paramètres de notre caméra Hercule HD Twist, nous pouvons calculer la distance entre la ligne d'appel et le point d'atterrissage.
  
+ Pour ce faire, nous avons d'abord cherché à calculer la distance entre la caméra et l'objet placé au niveau du point d'atterrissage. Ensuite, en utilisant ce résultat, nous avons calculé la distance entre la ligne d'appel et le point d'atterrissage à l'aide du théorème de \textbf{Pythagore}, avec la caméra placée sur la même ligne que la ligne d'appel.
  
- %\begin{itemize}[label={\Huge$\star$}]
- 	%\item \textbf{Détection d'objet}
- 	
- 	%Pour la détection d'objet nous allons utilisé un modèle pré-entraîné YOLO (You Only Look Once). Pour ce faire nous allons télécharger les fichiers nécessaires pour YOLOv3 \\
- 	%(yolov3.weights,yolov3.cfg,coco.names) à partir du référentiel officiel de Darknet\cite{noauthor_yolo_nodate} \cite{noauthor_darknetdatacoconames_nodate,noauthor_darknetcfgyolov3cfg_nodate}, qui est le cadre utilisé pour entraîner YOLO.
- 	
-%\end{itemize}
- 
- %\newpage
- %Pour ce faire nous devons connaitre la taille réelle des objets dans l'image, ce qui peut être difficile à obtenir uniquement à partir de l'image elle-même, à moins d'avoir une référence de taille dans la scène.
- %Une approche courante consiste à utiliser des objets de référence dont les dimensions réelles sont connues. Par exemple, si nous connaissons la largeur réelle d'un des objets dans la scène, nous pouvons utiliser cette information pour convertir les distances calculées en pixels en mètres.
- %Si la taille réelle de l'objet n'est pas connu et que nous ne disposons pas d'autres objets de référence dont les dimensions réelles sont connues, alors nous pouvons utilisé la méthode de détection d'objets et de suivi détecter la ligne d'appel et le bois placé au point d'atterrissage dans l'image.
 
-
+\subsection{Première étape : Détermination de la distance focale} 
  
+ En première position nous avons voulu calculer la distance focale à l'aide de la fonction \textbf{cv.calibrationMatrixValues} qui prend en entré la matrice de la caméra,la taille de l’image, et la taille du capteur. Malheuresement la taille spécifique du capteur n'est pas mentionnée directement dans les sources disponibles.
+ Pour ce fait nous avons décider de les trouver à travers les caméras qui ont une résolution similaire \textbf{1280 x 720 pixels}.
+ Les tailles de capteurs d'image pour les webcams, en millimètres, varient en fonction de la taille nominale du capteur. Voici quelques un :
+ 
+ \begin{itemize}
+ 	\item \textbf{1/6 pouce :} Environ 2.7 mm x 2.0 mm avec une distance autour focale de 2.0 mm
+ 	
+ 	\item \textbf{1/4 pouce :} Environ 3.6 mm x 2.7 mm avec une distance autour focale de 3 mm
+ 	
+ 	\item \textbf{1/3 pouce :} Environ 4.8 mm x 3.6 mm avec une distance autour focale de 3.6 mm
+ 	
+ 	\item \textbf{1/2.7 pouce :} Environ 5.37 mm x 4.04 mm avec une distance focale de 3.6 mm
+ 	
+ 	\item \textbf{1/2.5 pouce :} Environ 5.76 mm x 4.29 mm avec une distance autour focale de 4.0 mm
+ 	
+ 	\item \textbf{1/2 pouce pouce :} Environ 6.4 mm x 4.8 mm avec une distance autour focale de 4.5 mm
+ 	
+ 	\item \textbf{1/1.8 pouce pouce :} Environ 7.2 mm x 5.3 mm avec une distance autour focale de 5.0 mm
+ 	
+ 	\item \textbf{1/1.7 pouce pouce :} Environ 7.6 mm x 5.7 mm avec une distance autour focale de 5.0 mm
+ 	 
+ \end{itemize}
+ 
+ Pour une caméra comme la \textbf{Hercules HD Twist}, qui utilise un capteur {CMOS de 5 mégapixels} souvent comparable aux webcams standard, il est probable que la taille de son capteur soit autour de 1/4 pouce ou 1/2.7 pouce. Cela donne une taille de capteur approximative de 3.6 mm x 2.7 mm ou 5.37 mm x 4.04 mm avec chacun une distance focal de 3 mm et 
+ 3.6 mm.
+ Pour notre Pprogramme nous allons considerer le capteur de taille \textbf{1/3 pouce} .
+  
+\subsection{Deuxième étape : Chargement des différents paramètres du calibrage }
+ 
+ Au debut du code nous avons d'abord charger la matrice de la caméra et les coefficient de distorsion.  
+ 
+ \begin{figure}[H]%
+ 	\center%
+ 	\setlength{\fboxsep}{5pt}%
+ 	\setlength{\fboxrule}{0.5pt}%
+ 	\fbox{
+ 		\includegraphics[scale=0.5]{images/parametrecharge}
+ 	}
+ 	\caption[Chargement des paramètres de calibrage]{Chargement des paramètres de calibrage. Source : Photos prise sur notre machine}
+ 	\label{fig:Chargement des paramètres de calibrage}
+ \end{figure}
+ 
+ 
+ \subsection{Troisième étape : Caputre d'image}
+ 
+ Ici notre code nous permet d'ouvrir l'interface présenté dans la sous section \ref{subsec:Calibrage} et de prendre une image. Chaque fois qu'une image est prise, un nom de fichier unique est gérénérer puis il est ajouté aux autre dans le repertoire et l'interface est fermé en même temps.
+ 
+ \begin{figure}[H]%
+ 	\center%
+ 	\setlength{\fboxsep}{5pt}%
+ 	\setlength{\fboxrule}{0.5pt}%
+ 	\fbox{
+ 		\includegraphics[scale=0.55]{images/captureimage6}
+ 	}
+ 	\caption[Fonction pour générer un nom de fichier unique]{Fonction pour générer un nom de fichier unique. Source : Photos prise sur notre machine}
+ 	\label{fig:Fonction pour générer un nom de fichier unique}
+ \end{figure}
+ 
+  \begin{figure}[H]%
+ 	\center%
+ 	\setlength{\fboxsep}{5pt}%
+ 	\setlength{\fboxrule}{0.5pt}%
+ 	\fbox{
+ 		\includegraphics[scale=0.55]{images/captureimage5}
+ 	}
+ 	\caption[Fonction de capture de d'images]{Fonction de capture de d'images. Source : Photos prise sur notre machine}
+ 	\label{fig:Fonction de capture de d'images}
+ \end{figure}
+ 
+ \subsection{Quarième étape : Correction de la distorsion de l'image}
+ 
+ Pour avoir des mesures précises nous avons intégré un code qui coorige les différents distorsion qui peuvent se trouver sur l'image une fois celle-çi prise.
+ 
+ \begin{figure}[H]%
+ 	\center%
+ 	\setlength{\fboxsep}{5pt}%
+ 	\setlength{\fboxrule}{0.5pt}%
+ 	\fbox{
+ 		\includegraphics[scale=0.56]{images/distor}
+ 	}
+ 	\caption[Fonction pour caluler la distorsion]{Fonction pour caluler la distorsion. Source : Photos prise sur notre machine}
+ 	\label{fig:Fonction pour caluler la distorsion}
+ \end{figure}
+ 
+ \subsection{Cinquième étape : Correction de la distorsion de l'image}
+ 
+ Ici, nous avons plusieurs fonctions de opencv pour détecter et englober la surface la plus grande sur l'image.
+ 
+ \begin{figure}[H]%
+ 	\center%
+ 	\setlength{\fboxsep}{5pt}%
+ 	\setlength{\fboxrule}{0.5pt}%
+ 	\fbox{
+ 		\includegraphics[scale=0.7]{images/contour}
+ 	}
+ 	\caption[Code de détection de contours]{Code de détection de contours. Source : Photos prise sur notre machine}
+ 	\label{fig:Code de détection de contours}
+ \end{figure}
+ 
+ \subsection{Sixième étape : Calcul de distance entre la caméra et l'objet}
+ 
+ Pour calculer la distance entre notre caméra et le bois placé au niveau du point d'attérissage, il nous connaitre la taille réèl du bois pour que le code marche. 
+ 
+ Le calcul se fait en fonction de la formule suivant : 
+ 
+ \[
+  distance 
+  =
+ \frac{focallength * objectrealheight}{objectheightmm}
+ \]
+
+ \begin{figure}[H]%
+	\center%
+	\setlength{\fboxsep}{5pt}%
+	\setlength{\fboxrule}{0.5pt}%
+	\fbox{
+		\includegraphics[scale=0.75]{images/distance1}
+	}
+	\caption[Distance entre la caméra et le bois]{Code de calcul de distance entre la caméra et le bois. Source : Photos prise sur notre machine}
+	\label{fig:Distance entre la caméra et le bois}
+\end{figure}
+ 
+ \subsection{Septième étape : Calcul de distance total}
+ 
+ Ces calculs se sont basés sur le théorème de \textbf{Pythagore}. 
+ 
+  Considérons le triangle suivant:
+ 
+ \begin{figure}[H]%
+ 	\center%
+ 	\setlength{\fboxsep}{5pt}%
+ 	\setlength{\fboxrule}{0.5pt}%
+ 	\fbox{
+ 		\includegraphics[scale=0.5]{images/triangle}
+ 	}
+ 	\caption[Triangle de Pythagore]{Triangle de Pythagore. Source : Photos prise sur notre machine}
+ 	\label{fig:Triangle de Pythagore}
+ \end{figure}
+ 
+ on sait que 
+ 
+\[AC^2 = AB^2 + BC^2\]
+ 
+ Nous avons donc décider de placer notre caméra au point \textbf{B} et le bois au point \textbf{C}. \\ \textbf{AC} qui est la distance entre la ligne d'appel et le point d'attérissage est égale à : 
+ 
+ \[AC = \sqrt{AB^2 + BC^2}\]
+ 
+ 
+ \begin{figure}[H]%
+ 	\center%
+ 	\setlength{\fboxsep}{5pt}%
+ 	\setlength{\fboxrule}{0.5pt}%
+ 	\fbox{
+ 		\includegraphics[scale=0.7]{images/distance2}
+ 	}
+ 	\caption[Calcul du distance réèl]{Calcul du distance réèl. Source : Photos prise sur notre machine}
+ 	\label{fig:Calcul du distance réèl}
+ \end{figure}
+ 
+ 
+ Le dispositif donne le resultat suivant :
+ 
+ \begin{figure}[H]%
+ 	\center%
+ 	\setlength{\fboxsep}{5pt}%
+ 	\setlength{\fboxrule}{0.5pt}%
+ 	\fbox{
+ 		\includegraphics[scale=0.7]{images/result}
+ 	}
+ 	\caption[Resultat du dispositif]{Resultat du dispositif. Source : Photos prise sur notre machine}
+ 	\label{fig:Resultat du dispositif}
+ \end{figure}
+ 
+ 
+ \newpage
 \section{CONCLUSION}
  
  Ce chapitre a exploré en profondeur l'implémentation des codes essentiels au calibrage des caméras et à la mesure de distance, éléments clés pour l'estimation des performances lors des sauts en longueur. Nous avons tout d'abord exploré les langages de programmation utilisés,les bibliothèques et les outils spécifiques nécessaires pour la réalisation du projet.

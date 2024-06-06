@@ -65,7 +65,7 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  	\setlength{\fboxsep}{5pt}%
  	\setlength{\fboxrule}{0.5pt}%
  	\fbox{
- 		\includegraphics[scale=0.2]{images/pellicule.jpg}
+ 		\includegraphics[scale=0.12]{images/pellicule.jpg}
  	}
  	\caption[Pellicule]{image d'une pellicule. source: https://lens.google.com}
  	\label{fig:Pellicule}
@@ -404,12 +404,6 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
   
   En globalité l'estimation des différents paramètres énumérés au dessus constitue le calibrage de la caméra.\\
   
- 
- 
-  Le calibrage de la caméra joue un rôle très important surtout dans le domaine où se penche notre thème(saut en longueur) car il permet d'avoir des résultats plus précises et fiables lors de la mesure de la distance entre deux objets sur une image. 
-  En calibrant la caméra, nous pouvons corriger divers types de distorsions qui peuvent survenir pendant la capture d'image, telles que la distorsion radiale, et la distorsion tangentielle. Ces distorsions peuvent faire apparaître des lignes droites dans le monde réel courbes sur l'image, ce qui peut entraîner des erreurs de mesure de distance.
-  Il permet également d'utiliser les paramètres intrinsèques de la caméra pour convertir les coordonnées de l'image en coordonnées réelles, ce qui est essentiel pour les mesures de distance.\\
-  
   
   Plusieurs facteurs peuvent affecter la précision des résultats d’étalonnage de la caméra, mais la prise en compte de ces facteurs et l’utilisation de techniques d’étalonnage appropriées peuvent aider à garantir des résultats d’étalonnage précis et fiables de la caméra. \\
   
@@ -735,211 +729,6 @@ Si n = 2, nous pouvons imposer la contrainte asymétrique c = 0 , ce qui signifi
  
  Les algorithmes proposées par Burger Wilhelm nous a permit d'avoir plus de détaille et de compréhension sur la méthode de Zhang \cite{burger_zhangs_2016}.
  
- Le processus d’étalonnage complet est résumé dans les algorithmes du (Figure\ref{fig:Algorithme1} à \ref{fig:Algorithme2}) :
- 
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/1}
- 	}
- 	\caption[Algorithme de calibrage(début)]{Algorithme de calibrage(début) Source:\cite{burger_zhangs_2016}}
- 	\label{fig:Algorithme1}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/2}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/3}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/4}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/5}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/6}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/7}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/8}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/9}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/10}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/11}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/12}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/13}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/14}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/15}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/16}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/17}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/18}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/19}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/20}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/21}
- 	}
- \end{figure}
- 
- \begin{figure}[H]%
- 	\center%
- 	\setlength{\fboxsep}{5pt}%
- 	\setlength{\fboxrule}{0.5pt}%
- 	\fbox{
- 		\includegraphics[scale=0.65]{images/22}
- 	}
- 	\caption[Algorithme de calibrage(fin)]{Algorithme de calibrage(fin). Source:\cite{burger_zhangs_2016}}
- 	\label{fig:Algorithme2}
- \end{figure}
- 
 %----------------------------------------------------------------------------------------
 %Notion de mesure de distance numériques
 %----------------------------------------------------------------------------------------
@@ -970,7 +759,7 @@ La mesure de distance à l'aide d'une caméra offre une variété de techniques,
 
 Ce pendant dans ces différents techniques, la précision de la mesure dépend de plusieurs facteurs, notamment la qualité de l'image, le calibrage de la caméra, les conditions d'éclairage et la présence d'obstacles. Une résolution d'image plus élevée et un bon calibrage de la caméra sont essentiels pour une mesure précise. Les conditions d'éclairage peuvent affecter la qualité de l'image, tandis que la présence d'obstacles peut perturber les mesures, en particulier dans les environnements encombrés.\\
 
-Parmis ces tehniques la stéréovision est la plus adapté pour notre projet mais comme nous avons une seule caméra à notre disposition ,nous avons utilisé une methode de mesure de distance basée sur des méthodes de détection d'objets et de calcul de distance à partir de la taille des objets dans une image prise après le saut.
+Parmis ces tehniques la stéréovision est la plus adapté pour notre projet mais comme nous avons une seule caméra à notre disposition ,nous avons utilisé une methode de mesure de distance basée sur des méthodes de détection d'objets ou de détection de contours et de calcul de distance à partir de la taille des objets dans une image prise après le saut.
 
 
 \newpage

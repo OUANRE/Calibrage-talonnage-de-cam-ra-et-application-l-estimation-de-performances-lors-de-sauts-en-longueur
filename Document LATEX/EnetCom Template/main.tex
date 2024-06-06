@@ -8,7 +8,8 @@
 
 \AtBeginDocument{\renewcommand{\labelitemi}{%
 		\hspace{3mm}\textbullet}}%pour les numératation avec les puces pour les itemize
-	
+ 
+
 %% TODO: Remove this function when done %%
 %\newcommand\todoin[2][]{\todo[inline, caption={2do}, #1]{
 %\begin{minipage}{\textwidth-4pt}#2\end{minipage}}}
@@ -61,14 +62,22 @@
     \input{chapitre/06-Chapitre2}
     
     \input{chapitre/07-ConclusionGenerale}
+    
+		\clearpage
+		
+		% @author: Stoufa
+		% the command `\nocite{*}` is mandatory to avoid the “no \citation commands” error
+		% https://tex.stackexchange.com/questions/18045/problem-with-compiling-bibtex-no-citation-commands-error
+		%\nocite{*}
+		\printbibliography[heading=bibintoc]
 
-	\bibliographystyle{plain}
-	\bibliography{mybiblio}
+	%\bibliographystyle{plain}
+	%\bibliography{mybiblio}
     %\input{chapitre/08-Bibliographie}
 
     \input{chapitre/09-Annexes}
     
-    %\input{chapitre/10-DosDuRapport}
+    \input{chapitre/10-DosDuRapport}
     
     
     
