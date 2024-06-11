@@ -31,7 +31,7 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  
  \section{Notion de caméras}
  
- Une caméra est un dispositif qui capture la lumière et la transforme en image. Elle le fait à travers une lentille, qui concentre la lumière sur une surface sensible à celle-çi, où une image se forme \cite{noauthor_quest-ce_nodate}. Elle possède un micrologiciel ou "firmware" en anglais qui représente un type de logiciel programmer dans son matériel. Ce programme contrôle toutes les fonctions de la caméra, de la mise au point automatique et des paramètres d’exposition jusqu'au traitement et au stockage des images.
+ Une caméra est un dispositif qui capture la lumière et la transforme en image. Elle le fait à travers une lentille, qui concentre la lumière sur une surface sensible à celle-ci, où une image se forme \cite{noauthor_quest-ce_nodate}. Elle possède un micrologiciel ou "firmware" en anglais qui représente un type de logiciel programmé dans son matériel. Ce programme contrôle toutes les fonctions de la caméra, de la mise au point automatique et des paramètres d’exposition jusqu'au traitement et au stockage des images.
  
  Une caméra comprend les parties essentielles suivant: 
  \begin{itemize}
@@ -405,56 +405,6 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
   En globalité l'estimation des différents paramètres énumérés au dessus constitue le calibrage de la caméra.\\
   
   
-  Plusieurs facteurs peuvent affecter la précision des résultats d’étalonnage de la caméra, mais la prise en compte de ces facteurs et l’utilisation de techniques d’étalonnage appropriées peuvent aider à garantir des résultats d’étalonnage précis et fiables de la caméra. \\
-  
-  Voici quelques-unes des plus importantes : 
-  
-  \begin{itemize}
-  	\item \textbf{Distorsion de l’objectif } :  La distorsion de l’objectif peut entraîner des erreurs importantes dans le processus d’étalonnage de l’appareil photo. La distorsion se produit lorsque l’objectif projette le monde 3D sur le plan de l’image 2D, ce qui donne l’impression que les lignes droites sont incurvées. Les types courants de distorsion comprennent la distorsion radiale, qui provoque le gonflement de l’image vers l’extérieur ou vers l’intérieur, et la distorsion tangentielle, qui provoque l’inclinaison de l’image. Le calcul des coefficients de distorsion et leurs correction lors du calibrage aide à corriger ces erreurs  (Figure \ref{fig:Types de distorsion}). 
-  	
-  	\begin{figure}[h]
-  		\centering
-  		\fbox{
-  			\begin{minipage}{0.24\textwidth}
-  				\centering
-  				\includegraphics[width=\linewidth]{images/radialint}
-  				\subcaption{(a)}
-  			\end{minipage}\hfill
-  			\begin{minipage}{0.25\textwidth}
-  				\centering
-  				\includegraphics[width=\linewidth]{images/radialext}
-  				\subcaption{(b)}
-  			\end{minipage}\hfill
-  			\begin{minipage}{0.26\textwidth}
-  				\centering
-  				\includegraphics[width=\linewidth]{images/tang}
-  				\subcaption{(c)}
-  			\end{minipage}\hfill 
-  		}
-  		\caption[Types de distorsion]{(a)Distorsion radial intérieur, (b)Distorsion radial extérieur, (c) Distorsion tangentielle. Source :https://lens.google.com}
-  		\label{fig:Types de distorsion}
-  	\end{figure}
-  	
-  	\item \textbf{Résolution de l’image} : La résolution des images utilisées pour l’étalonnage de la caméra peut également affecter la précision des résultats. Les images haute résolution fournissent des informations plus détaillées sur le modèle d’étalonnage, ce qui peut conduire à des estimations plus précises de la matrice de projection de la caméra. Cependant, les images haute résolution nécessitent également plus de ressources de calcul et peuvent être plus difficiles à traiter.	\\
-  	
-  	\item \textbf{Placement de la caméra} : La position et l’orientation de la caméra peuvent également affecter la précision des résultats de l’étalonnage de la caméra. Les caméras doivent être placées à une distance suffisante du motif d’étalonnage pour s’assurer que la géométrie du motif est visible dans l’image. De plus, les caméras doivent être alignées parallèlement au motif pour minimiser la distorsion de perspective. \\
-  	
-  	\item \textbf{Qualité du modèle d’étalonnage} : la qualité du modèle d’étalonnage peut également affecter la précision des résultats d’étalonnage de la caméra. Les motifs d’étalonnage doivent être plats, rigides et avoir un contraste élevé pour garantir que la géométrie du motif est visible dans l’image. De plus, le motif doit être suffisamment grand pour couvrir tout le champ de vision de la caméra.\\
-  	
-  	\item \textbf{Nombre d'images} :  le nombre d’images utilisées pour l’étalonnage de la caméra peut également affecter la précision des résultats. L’utilisation d’un plus grand nombre d’images peut fournir plus d’informations sur la matrice de projection de la caméra, ce qui permet d’obtenir des estimations plus précises. Cependant, l’utilisation d’un trop grand nombre d’images peut également augmenter le coût de calcul du processus d’étalonnage. \\
-  	
-  	\item \textbf{Bruit et valeurs aberrantes} :  le bruit et les valeurs aberrantes dans les données d’image peuvent également affecter la précision des résultats d’étalonnage de la caméra. Le bruit peut introduire des erreurs aléatoires dans l’estimation de la matrice de projection de la caméra, tandis que les valeurs aberrantes peuvent introduire des erreurs systématiques. L’utilisation de techniques d’estimation robustes peuvent aider à atténuer les effets du bruit et des valeurs aberrantes.
-  \end{itemize}
-   
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   \newpage
   
@@ -765,9 +715,9 @@ Parmis ces tehniques la stéréovision est la plus adapté pour notre projet mai
 \newpage
 \section{CONCLUSION}
 
-En conclusion, ce chapitre a exploré en profondeur les concepts clés liés au calibrage de caméra et à son application à l'estimation de performances lors de sauts en longueur. Nous avons commencé par définir les termes clés tels que la caméra, le calibrage et la mesure de distance à l'aide d'une caméra, soulignant leur importance dans le processus d'acquisition d'images et de mesure de distances précises.
+En conclusion, ce chapitre a exploré en profondeur les concepts clé liés au calibrage de caméra et à son application à l'estimation de performances lors des sauts en longueur. Nous avons commencé par définir les termes clé tels que la caméra, le calibrage et la mesure de distance à l'aide d'une caméra, soulignant leur importance dans le processus d'acquisition d'images et de mesure de distances précises.
 
 Le calibrage de caméra, en particulier, a été identifié comme une étape cruciale pour corriger les distorsions, ainsi que pour établir une relation précise entre les coordonnées des pixels dans l'image et les coordonnées du monde réel.  
 
-En intégrant des techniques de mesure de distance à l'aide d'une caméra, telles que la stéréovision ou la triangulation, avec un calibrage précis de la caméra, il est possible d'obtenir des estimations fiables de la distance parcourue lors d'un saut en longueur. Cette approche offre une alternative précise et non invasive aux méthodes traditionnelles de mesure de performances, permettant une évaluation objective et détaillée des performances athlétiques.
+En intégrant des techniques de mesure de distance à l'aide d'une caméra, telles que la stéréovision ou la triangulation, avec un calibrage précis de la caméra, il est possible d'obtenir des estimations fiables de la distance parcourue lors d'un saut en longueur. Cette approche offre une alternative précise et non-invasive aux méthodes traditionnelles de mesure de performances, permettant une évaluation objective et détaillée des performances athlétiques.
  

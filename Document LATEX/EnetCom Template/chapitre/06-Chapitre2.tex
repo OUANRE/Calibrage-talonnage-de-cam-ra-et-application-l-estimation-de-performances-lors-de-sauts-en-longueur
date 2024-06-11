@@ -7,7 +7,7 @@
 
 \section{INTRODUCTION}
 Ce chapitre constitue le cœur de notre projet, où chaque ligne de code représente une étape vers la réalisation de notre vision.
-Dans cette section, nous plongerons dans les détails techniques de l'implémentation de notre solution. Nous explorerons les choix d'architecture, les langages de programmation utilisés, ainsi que les bibliothèques et les outils spécifiques nécessaires pour atteindre nos objectifs. Nous décrirons également les différentes étapes de développement, depuis la configuration initiale jusqu'aux tests et à l'optimisation.
+Dans cette section, nous nous plongerons dans les détails techniques de l'implémentation de notre solution. Nous explorerons les choix d'architecture, les langages de programmation utilisés, ainsi que les bibliothèques et les outils spécifiques nécessaires pour atteindre nos objectifs. Nous décrirons également les différentes étapes de développement, depuis la configuration initiale jusqu'aux tests et à l'optimisation.
 À travers cette plongée dans le code, nous chercherons à illustrer non seulement la manière dont notre solution fonctionne, mais aussi les défis rencontrés et les solutions apportées.  
  
  \section{Choix de technologies utilisé}
@@ -268,7 +268,7 @@ Voiçi le résultat de la correction de distorsion en image
 	\label{fig:Résutat de la correction de la distorsion}
 \end{figure}
 
-\subsection{L'érreur de calibrage}
+\subsection{L'erreur de calibrage}
 
 Cette partie du code nous permet d'évaluer la précision et la qualité du calibrage.
 
@@ -356,7 +356,7 @@ On a une erreur de :
  \end{figure}
  
  
- \subsection{Troisième étape : Caputre d'image}
+ \subsection{Troisième étape : Capture d'image}
  
  Ici notre code nous permet d'ouvrir l'interface présenté dans la sous section \ref{subsec:Calibrage} et de prendre une image. Chaque fois qu'une image est prise, un nom de fichier unique est gérénérer puis il est ajouté aux autre dans le repertoire et l'interface est fermé en même temps.
  
@@ -382,7 +382,7 @@ On a une erreur de :
  	\label{fig:Fonction de capture de d'images}
  \end{figure}
  
- \subsection{Quarième étape : Correction de la distorsion de l'image}
+ \subsection{Quatrième étape : Correction de la distorsion de l'image}
  
  Pour avoir des mesures précises nous avons intégré un code qui coorige les différents distorsion qui peuvent se trouver sur l'image une fois celle-çi prise.
  
@@ -416,7 +416,7 @@ On a une erreur de :
  
  Pour calculer la distance entre notre caméra et le bois placé au niveau du point d'attérissage, il nous connaitre la taille réèl du bois pour que le code marche. 
  
- Le calcul se fait en fonction de la formule suivant : 
+ Le calcul se fait en fonction la formule de base de la géométrie optique suivant : 
  
  \[
   distance 
@@ -490,7 +490,7 @@ On a une erreur de :
  \newpage
 \section{CONCLUSION}
  
- Ce chapitre a exploré en profondeur l'implémentation des codes essentiels au calibrage des caméras et à la mesure de distance, éléments clés pour l'estimation des performances lors des sauts en longueur. Nous avons tout d'abord exploré les langages de programmation utilisés,les bibliothèques et les outils spécifiques nécessaires pour la réalisation du projet.
+ Ce chapitre a exploré en profondeur l'implémentation des codes essentiels au calibrage de la caméra et à la mesure de distance. Nous avons tout d'abord exploré les langages de programmation utilisés,les bibliothèques et les outils spécifiques nécessaires pour la réalisation du projet.
  
  Ensuite, nous avons détaillé le processus de calibrage, qui inclut la détermination des paramètres intrinsèques et extrinsèques de la caméra, permettant ainsi de corriger les distorsions et d'assurer une correspondance précise entre les coordonnées de l'image et celles du monde réel. Les algorithmes et les techniques utilisés pour ce calibrage, tels que la méthode de Zhang Zhengyou, ont été expliqués et illustrés par des exemples de code.
  

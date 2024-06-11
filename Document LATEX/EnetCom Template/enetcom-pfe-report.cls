@@ -52,7 +52,7 @@
 \usepackage[backend=bibtex]{biblatex}
 %\renewcommand*{\bibfont}{\small\raggedright}
 %\DefineBibliographyExtras{french}{\renewcommand*\mkbibnamelast[1]{#1}}
-\addbibresource{mybiblio.bib}
+\addbibresource{biblio.bib}
 %\DefineBibliographyStrings{french}{%
 	%  bibliography = {Bibliographie},
 	%}
@@ -91,12 +91,6 @@
 %\addbibresource{001-report}
 \usepackage{enumitem}
 \usepackage{xcolor}
-\usepackage{amsmath}
-
-\usetikzlibrary{shadows.blur}
-\usetikzlibrary{shadows} 
-\usepackage{pifont}
-
 \definecolor{Gris1}{RGB}{116,134,170}
 \definecolor{Gris2}{RGB}{249,249,249}
 
@@ -150,7 +144,7 @@
  \newlength\Aux
   % chapter tiltes formatting
   \titleformat{\chapter}[display]%
-    {\fontsize{18}{6}\bfseries\selectfont%
+    {\fontsize{26}{6}\bfseries\selectfont%
       \settowidth\Aux{\textcolor{white}{\Huge\thechapter}}%
       \ifnum\Aux>\BoxWd%
         \setlength\BoxWd{\Aux}%
@@ -171,7 +165,7 @@
 
   % chapter tiltes formatting
   \titleformat{name=\chapter, numberless}[display]%
-    {\fontsize{18}{6}\bfseries\selectfont%
+    {\fontsize{26}{6}\bfseries\selectfont%
       \settowidth\Aux{\textcolor{white}{\Huge\thechapter}}%
       \ifnum\Aux>\BoxWd%
         \setlength\BoxWd{\Aux}%
