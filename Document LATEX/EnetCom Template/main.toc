@@ -2,42 +2,42 @@
 \thispagestyle {MyStyle}
 \contentsline {chapter}{LISTE DES FIGURES}{vi}{chapter*.4}%
 \contentsline {chapter}{LISTE DES ABRÉVIATIONS}{vii}{chapter*.5}%
-\contentsline {chapter}{INTRODUCTION GÉNÉRALE}{viii}{chapter*.6}%
-\contentsline {chapter}{\numberline {1}ETAT DE L'ART}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}INTRODUCTION}{3}{section.1.1}%
+\contentsline {chapter}{INTRODUCTION GÉNÉRALE}{1}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}ETAT DE L'ART}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}INTRODUCTION}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Notion de caméras}{4}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Notion de Calibrage/étalonnage}{10}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Approche de calibrage}{14}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Étude de la méthode de Zhang Zhengyou}{17}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Mesure de distance à l'aide d'une caméra}{22}{section.1.6}%
-\contentsline {section}{\numberline {1.7}CONCLUSION}{25}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Implémentation}{26}{chapter.2}%
-\contentsline {section}{\numberline {2.1}INTRODUCTION}{27}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Choix de technologies utilisé}{27}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Code de calibrage de la caméra}{29}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Première étape : Capture d'image}{29}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2} Deuxième partie : Définition des coordonnées du monde réèl}{30}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Troisième partie : Définition des points d'objets et des points images}{32}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Quatrième partie : Calibrage}{33}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Cinquième partie : Correction de la distorsion}{34}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}L'erreur de calibrage}{36}{subsection.2.3.6}%
-\contentsline {section}{\numberline {2.4}Code de calcul de distance sur une image}{37}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Première étape : Détermination de la distance focale}{37}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Deuxième étape : Chargement des différents paramètres du calibrage }{38}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Troisième étape : Capture d'image}{38}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Quatrième étape : Correction de la distorsion de l'image}{39}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Cinquième étape : Correction de la distorsion de l'image}{40}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Sixième étape : Calcul de distance entre la caméra et l'objet}{40}{subsection.2.4.6}%
-\contentsline {subsection}{\numberline {2.4.7}Septième étape : Calcul de distance total}{41}{subsection.2.4.7}%
-\contentsline {section}{\numberline {2.5}CONCLUSION}{43}{section.2.5}%
-\contentsline {chapter}{\numberline {3}L'ERREUR DE CALIBRAGE}{44}{chapter.3}%
-\contentsline {section}{\numberline {3.1}INTRODUCTION}{45}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Les Sources d'Erreurs de Calibrage d'une Caméra}{45}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Impact des Erreurs de Calibrage d'une Caméra}{47}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Méthodes pour Minimiser les Erreurs de Calibrage d'une Caméra}{47}{section.3.4}%
-\contentsline {section}{\numberline {3.5}CONCLUSION}{48}{section.3.5}%
-\contentsline {chapter}{CONCLUSION GÉNÉRALE}{49}{chapter*.47}%
-\contentsline {chapter}{Bibliographie}{51}{chapter*.48}%
-\contentsline {chapter}{ANNEXES}{53}{chapter*.49}%
-\contentsline {section}{\numberline {A.1}CAMERA HERCULE HD TWIST}{53}{section.Alph0.1}%
-\contentsline {section}{\numberline {A.2}Université Norbert ZONGO}{53}{section.Alph0.2}%
+\contentsline {section}{\numberline {1.4}Approche de calibrage}{13}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Étude de la méthode de Zhang Zhengyou}{16}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Mesure de distance à l'aide d'une caméra}{20}{section.1.6}%
+\contentsline {section}{\numberline {1.7}CONCLUSION}{22}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Implémentation}{24}{chapter.2}%
+\contentsline {section}{\numberline {2.1}INTRODUCTION}{25}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Choix de technologies utilisé}{25}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Code de calibrage de la caméra}{26}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Première étape : Capture d'image}{27}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2} Deuxième partie : Définition des coordonnées du monde réèl}{28}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Troisième partie : Définition des points d'objets et des points images}{29}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Quatrième partie : Calibrage}{30}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Cinquième partie : Correction de la distorsion}{31}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}L'erreur de calibrage}{32}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Code de calcul de distance sur une image}{33}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Première étape : Détermination de la distance focale}{33}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Deuxième étape : Chargement des différents paramètres du calibrage }{34}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Troisième étape : Capture d'image}{34}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Quatrième étape : Correction de la distorsion de l'image}{35}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Cinquième étape : Correction de la distorsion de l'image}{35}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Sixième étape : Calcul de distance entre la caméra et l'objet}{36}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Septième étape : Calcul de distance total}{37}{subsection.2.4.7}%
+\contentsline {section}{\numberline {2.5}CONCLUSION}{38}{section.2.5}%
+\contentsline {chapter}{\numberline {3}L'ERREUR DE CALIBRAGE}{40}{chapter.3}%
+\contentsline {section}{\numberline {3.1}INTRODUCTION}{41}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Les Sources d'Erreurs de Calibrage d'une Caméra}{41}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Impact des Erreurs de Calibrage d'une Caméra}{43}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Méthodes pour Minimiser les Erreurs de Calibrage d'une Caméra}{43}{section.3.4}%
+\contentsline {section}{\numberline {3.5}CONCLUSION}{44}{section.3.5}%
+\contentsline {chapter}{CONCLUSION GÉNÉRALE}{45}{chapter*.47}%
+\contentsline {chapter}{Bibliographie}{47}{chapter*.48}%
+\contentsline {chapter}{ANNEXES}{49}{chapter*.49}%
+\contentsline {section}{\numberline {A.1}CAMERA HERCULE HD TWIST}{49}{section.Alph0.1}%
+\contentsline {section}{\numberline {A.2}Université Norbert ZONGO}{49}{section.Alph0.2}%

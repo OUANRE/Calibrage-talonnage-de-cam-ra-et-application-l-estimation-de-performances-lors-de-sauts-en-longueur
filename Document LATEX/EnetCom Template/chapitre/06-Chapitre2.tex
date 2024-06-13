@@ -6,14 +6,13 @@
 \newpage
 
 \section{INTRODUCTION}
-Ce chapitre constitue le cœur de notre projet, où chaque ligne de code représente une étape vers la réalisation de notre vision.
-Dans cette section, nous nous plongerons dans les détails techniques de l'implémentation de notre solution. Nous explorerons les choix d'architecture, les langages de programmation utilisés, ainsi que les bibliothèques et les outils spécifiques nécessaires pour atteindre nos objectifs. Nous décrirons également les différentes étapes de développement, depuis la configuration initiale jusqu'aux tests et à l'optimisation.
-À travers cette plongée dans le code, nous chercherons à illustrer non seulement la manière dont notre solution fonctionne, mais aussi les défis rencontrés et les solutions apportées.  
+Ce chapitre constitue le cœur de notre projet, où chaque ligne de code représente une étape vers la réalisation de notre vision. Nous explorerons les choix d'architecture, les langages de programmation utilisés, ainsi que les bibliothèques et les outils spécifiques nécessaires pour atteindre nos objectifs. Nous décrirons également les différentes étapes de développement, depuis la configuration initiale jusqu'aux tests et à l'optimisation.
+  
  
  \section{Choix de technologies utilisé}
  
  Pour le calibrage de la caméra et l'estimation des performances, un système de vision par ordinateur est essentiel. La vision par ordinateur est un domaine de l'informatique qui se concentre sur l'acquisition, le traitement et l'analyse des images numériques afin de comprendre et d'interpréter le contenu visuel du monde réel. Elle vise à donner aux ordinateurs la capacité de "voir" et de comprendre des images de la même manière que le font les êtres humains.
- Nous avons utlisé plusieurs langages de programmation et bibliothèques qui sont entre autre : 
+ Nous avons utlisé plusieurs langages de programmation et bibliothèques qui sont entre autres : 
  
   \begin{itemize}[label={\Huge$\star$}]
   
@@ -44,7 +43,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
 \end{itemize}
  
  
- \newpage
+ 
 \section{Code de calibrage de la caméra}
  Notre code de calibrage sera éffectué en cinq (5) étapes principales et dans plusieurs fichiers différents.
  
@@ -57,7 +56,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 			\includegraphics[scale=0.6]{images/captureimage1}
+ 			\includegraphics[scale=0.4]{images/captureimage1}
  		}
  		\caption[Code de capture d'image (partie 1)]{Connexion et création d'un objet de capture de la webcam en utilisant son identifiant. Source : Photos prise sur notre machine}%
  		\label{fig:Code de capture d'image(partie 1)}
@@ -69,7 +68,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 			\includegraphics[scale=0.6]{images/captureimage2}
+ 			\includegraphics[scale=0.4]{images/captureimage2}
  		}
  		\caption[Code de capture d'image (partie 2)]{Boucle permetant d'ouvrir l'interface de la caméra et de prendre des images. Source : Photos prise sur notre machine}%
  		\label{fig:Code de capture d'image(partie 2)}
@@ -80,7 +79,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 			\includegraphics[scale=0.6]{images/captureimage3}
+ 			\includegraphics[scale=0.4]{images/captureimage3}
  		}
  		\caption[Code de capture d'image (partie 3)]{ Libération de la caéra. Source : Photos prise sur notre machine}%
  		\label{fig:Code de capture d'image(partie 3)}
@@ -91,7 +90,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 			\includegraphics[scale=0.6]{images/captureimage4}
+ 			\includegraphics[scale=0.7]{images/captureimage4}
  		}
  		\caption[ Résultat du code de capture d'image ]{ Résultat du code de capture d'image. Source : Photos prise sur notre machine}%
  		\label{fig:Résultat du code de capture d'image}
@@ -102,7 +101,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 			\includegraphics[scale=0.6]{images/interface}
+ 			\includegraphics[scale=0.3]{images/interface}
  		}
  		\caption[Interface de la caméra ]{ Interface en temp réèl de la caméra. Source : Photos prise sur notre machine}%
  		\label{fig:Interface de la caméra}
@@ -115,11 +114,11 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  	 \begin{figure}[h]
  	 	\centering
  	 	\fbox{
- 	 		\begin{minipage}{0.4\textwidth}
+ 	 		\begin{minipage}{0.25\textwidth}
  	 			\centering
  	 			\includegraphics[width=\linewidth]{images/img1}
  	 		\end{minipage}\hfill
- 	 		\begin{minipage}{0.4\textwidth}
+ 	 		\begin{minipage}{0.25\textwidth}
  	 			\centering
  	 			\includegraphics[width=\linewidth]{images/img2}
  	 		\end{minipage}\hfill 
@@ -133,7 +132,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  	 	\setlength{\fboxsep}{5pt}%
  	 	\setlength{\fboxrule}{0.5pt}%
  	 	\fbox{
- 	 		\includegraphics[scale=0.6]{images/3d1}
+ 	 		\includegraphics[scale=0.3]{images/3d1}
  	 	}
  	 	\caption[Définition des coordonnées du monde réèl]{Définition des coordonnées du monde réèl avec un motif en damier. Source : Photos prise sur notre machine}
  	 	\label{fig:Définition des coordonnées du monde réèl}
@@ -143,7 +142,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  	 		\setlength{\fboxsep}{5pt}%
  	 		\setlength{\fboxrule}{0.5pt}%
  	 		\fbox{
- 	 			\includegraphics[scale=0.6]{images/3d2}
+ 	 			\includegraphics[scale=0.4]{images/3d2}
  	 		}
  	 		\caption[Définition des coordonnées du monde réèl(suite)]{Définition des coordonnées du monde réèl avec un motif en damier(suite). Source : Photos prise sur notre machine}
  	 		\label{fig:Définition des coordonnées du monde réèl(suite)}
@@ -159,7 +158,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 			\includegraphics[scale=0.6]{images/point1}
+ 			\includegraphics[scale=0.4]{images/point1}
  		}
  		\caption[Définition des points d'objets et points images]{Définition des points d'objets et des points images. Source : Photos prise sur notre machine}
  		\label{fig:Définition des points d'objets et des points images}
@@ -170,7 +169,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 			\includegraphics[scale=0.6]{images/point2}
+ 			\includegraphics[scale=0.4]{images/point2}
  		}
  		\caption[Définition des points d'objets et points images(suite)]{Définition des points d'objets et des points images(suite). Source : Photos prise sur notre machine}
  		\label{fig:Définition des points d'objets et des points images(suite)}
@@ -186,7 +185,7 @@ Dans cette section, nous nous plongerons dans les détails techniques de l'impl�
  	\setlength{\fboxsep}{5pt}%
  	\setlength{\fboxrule}{0.5pt}%
  	\fbox{
- 		\includegraphics[scale=0.5]{images/calibrage}
+ 		\includegraphics[scale=0.4]{images/calibrage}
  	}
  	\caption[Fonction de calibrage]{Fonction de calibrage. Source : Photos prise sur notre machine}
  	\label{fig:Fonction de calibrage}
@@ -199,13 +198,13 @@ Quand on exécute le code une fenêtre \textbf{Img} s'ouvre en montrant le proce
 	\setlength{\fboxsep}{5pt}%
 	\setlength{\fboxrule}{0.5pt}%
 	\fbox{
-		\includegraphics[scale=0.6]{images/calibrage2}
+		\includegraphics[scale=0.3]{images/calibrage2}
 	}
 	\caption[Processus de calibrage]{Processus de calibrage. Source : Photos prise sur notre machine}
 	\label{fig:Processus de calibrage}
 \end{figure}
 
-\vspace{1 cm}
+%\vspace{1 cm}
 Notre calibrage donne les résultats suivant: 
 
 \begin{figure}[H]%
@@ -213,7 +212,7 @@ Notre calibrage donne les résultats suivant:
 	\setlength{\fboxsep}{5pt}%
 	\setlength{\fboxrule}{0.5pt}%
 	\fbox{
-		\includegraphics[scale=0.6]{images/resultat1}
+		\includegraphics[scale=0.4]{images/resultat1}
 	}
 	\caption[Résultat du calibrage]{Résultat du calibrage. Source : Photos prise sur notre machine}
 	\label{fig:Résultat du calibrage}
@@ -224,7 +223,7 @@ Notre calibrage donne les résultats suivant:
 	\setlength{\fboxsep}{5pt}%
 	\setlength{\fboxrule}{0.5pt}%
 	\fbox{
-		\includegraphics[scale=0.6]{images/resultat2}
+		\includegraphics[scale=0.4]{images/resultat2}
 	}
 	\caption[Résultat du calibrage(suite)]{Résultat du calibrage(suite). Source : Photos prise sur notre machine}
 	\label{fig:Résultat du calibrage(suite)}
@@ -239,7 +238,7 @@ On prend une image et on essaye de rectifier les distortions en utilisant les r�
 	\setlength{\fboxsep}{5pt}%
 	\setlength{\fboxrule}{0.5pt}%
 	\fbox{
-		\includegraphics[scale=0.6]{images/distorsion1}
+		\includegraphics[scale=0.4]{images/distorsion1}
 	}
 	\caption[Correction de la distorsion sans remapping]{Correction de la distorsion sans remapping. Source : Photos prise sur notre machine}
 	\label{fig:Correction de la distorsion sans remapping}
@@ -250,7 +249,7 @@ On prend une image et on essaye de rectifier les distortions en utilisant les r�
 	\setlength{\fboxsep}{5pt}%
 	\setlength{\fboxrule}{0.5pt}%
 	\fbox{
-		\includegraphics[scale=0.6]{images/distorsion2}
+		\includegraphics[scale=0.4]{images/distorsion2}
 	}
 	\caption[Correction de la distorsion avec remapping]{Correction de la distorsion avec remapping. Source : Photos prise sur notre machine}
 	\label{fig:Correction de la distorsion avec remapping}
@@ -262,7 +261,7 @@ Voiçi le résultat de la correction de distorsion en image
 	\setlength{\fboxsep}{5pt}%
 	\setlength{\fboxrule}{0.5pt}%
 	\fbox{
-		\includegraphics[scale=0.5]{images/resultat4}
+		\includegraphics[scale=0.3]{images/resultat4}
 	}
 	\caption[Résutat de la correction de la distorsion]{Résutat de la correction de la distorsion. Source : Photos prise sur notre machine}
 	\label{fig:Résutat de la correction de la distorsion}
@@ -277,7 +276,7 @@ Cette partie du code nous permet d'évaluer la précision et la qualité du cali
 	\setlength{\fboxsep}{5pt}%
 	\setlength{\fboxrule}{0.5pt}%
 	\fbox{
-		\includegraphics[scale=0.6]{images/erreur}
+		\includegraphics[scale=0.4]{images/erreur}
 	}
 	\caption[Erreur de calibrage(code)]{Erreur de calibrage(code). Source : Photos prise sur notre machine}
 	\label{fig:Erreur de calibrage(code)}
@@ -299,11 +298,6 @@ On a une erreur de :
 \end{figure}
 
 
-
-
-
-
-\newpage
 \section{Code de calcul de distance sur une image}
  
  Maintenant que nous avons réussi à déterminer tous les paramètres de notre caméra Hercule HD Twist, nous pouvons calculer la distance entre la ligne d'appel et le point d'atterrissage.
@@ -349,7 +343,7 @@ On a une erreur de :
  	\setlength{\fboxsep}{5pt}%
  	\setlength{\fboxrule}{0.5pt}%
  	\fbox{
- 		\includegraphics[scale=0.5]{images/parametrecharge}
+ 		\includegraphics[scale=0.4]{images/parametrecharge}
  	}
  	\caption[Chargement des paramètres de calibrage]{Chargement des paramètres de calibrage. Source : Photos prise sur notre machine}
  	\label{fig:Chargement des paramètres de calibrage}
@@ -365,7 +359,7 @@ On a une erreur de :
  	\setlength{\fboxsep}{5pt}%
  	\setlength{\fboxrule}{0.5pt}%
  	\fbox{
- 		\includegraphics[scale=0.55]{images/captureimage6}
+ 		\includegraphics[scale=0.4]{images/captureimage6}
  	}
  	\caption[Fonction pour générer un nom de fichier unique]{Fonction pour générer un nom de fichier unique. Source : Photos prise sur notre machine}
  	\label{fig:Fonction pour générer un nom de fichier unique}
@@ -376,7 +370,7 @@ On a une erreur de :
  	\setlength{\fboxsep}{5pt}%
  	\setlength{\fboxrule}{0.5pt}%
  	\fbox{
- 		\includegraphics[scale=0.55]{images/captureimage5}
+ 		\includegraphics[scale=0.4]{images/captureimage5}
  	}
  	\caption[Fonction de capture de d'images]{Fonction de capture de d'images. Source : Photos prise sur notre machine}
  	\label{fig:Fonction de capture de d'images}
@@ -391,7 +385,7 @@ On a une erreur de :
  	\setlength{\fboxsep}{5pt}%
  	\setlength{\fboxrule}{0.5pt}%
  	\fbox{
- 		\includegraphics[scale=0.56]{images/distor}
+ 		\includegraphics[scale=0.4]{images/distor}
  	}
  	\caption[Fonction pour caluler la distorsion]{Fonction pour caluler la distorsion. Source : Photos prise sur notre machine}
  	\label{fig:Fonction pour caluler la distorsion}
@@ -446,7 +440,7 @@ On a une erreur de :
  	\setlength{\fboxsep}{5pt}%
  	\setlength{\fboxrule}{0.5pt}%
  	\fbox{
- 		\includegraphics[scale=0.5]{images/triangle}
+ 		\includegraphics[scale=0.4]{images/triangle}
  	}
  	\caption[Triangle de Pythagore]{Triangle de Pythagore. Source : Photos prise sur notre machine}
  	\label{fig:Triangle de Pythagore}
@@ -487,7 +481,7 @@ On a une erreur de :
  \end{figure}
  
  
- \newpage
+
 \section{CONCLUSION}
  
  Ce chapitre a exploré en profondeur l'implémentation des codes essentiels au calibrage de la caméra et à la mesure de distance. Nous avons tout d'abord exploré les langages de programmation utilisés,les bibliothèques et les outils spécifiques nécessaires pour la réalisation du projet.

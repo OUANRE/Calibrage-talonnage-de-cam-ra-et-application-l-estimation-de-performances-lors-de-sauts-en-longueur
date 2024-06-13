@@ -11,19 +11,9 @@
 \section{INTRODUCTION}
 
 
-Dans le cadre de l'étude de notre thème, il est essentiel de bien comprendre les concepts fondamentaux et les termes techniques qui sous-tendent ce domaine. Ce chapitre se propose de définir et d'expliquer les principaux mots-clés de notre thème, à savoir le calibrage, la caméra et la mesure de distance à l'aide d'une caméra. En démystifiant ces notions, nous établirons une base solide pour explorer les méthodes et les applications spécifiques de ces technologies dans le contexte de l'analyse des performances athlétiques.
-
-Le calibrage, souvent utilisé de manière interchangeable avec l'étalonnage, fait référence à l'ensemble des processus et des techniques utilisés pour déterminer les paramètres intrinsèques et extrinsèques d'une caméra. Ces paramètres sont cruciaux pour corriger les distorsions optiques et pour transformer les coordonnées d'image en coordonnées réelles, assurant ainsi une mesure précise des distances et des angles.
-
-Les caméras, quant à elles, sont des dispositifs optiques permettant de capturer des images ou des vidéos. Elles jouent un rôle central dans notre étude, car la qualité et la précision des données qu'elles fournissent dépendent en grande partie de leur bon calibrage.  
-
-Enfin, la mesure de distance à l'aide d'une caméra est une application pratique du calibrage. Elle permet de convertir les informations bidimensionnelles capturées par la caméra en données tridimensionnelles, indispensables pour évaluer les performances des athlètes lors des sauts en longueur.  
-
-En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre comment le calibrage ou l'étalonnage des caméras peuvent être appliqués efficacement à l'analyse des performances athlétiques, et en particulier à l'estimation des distances de saut en longueur.
+Dans le cadre de l'étude de notre thème, il est essentiel de bien comprendre les concepts fondamentaux et les termes techniques qui sous-tendent ce domaine. Ce chapitre se propose de définir et d'expliquer les principaux mots-clés de notre thème, à savoir la caméra, le calibrage, et la mesure de distance à l'aide d'une caméra. En démystifiant ces notions, nous établirons une base solide pour explorer les méthodes et les applications spécifiques de ces technologies dans le contexte de l'analyse des performances athlétiques.
 
 
-
- \newpage
  
  %----------------------------------------------------------------------------------------
  %Notion de caméras	
@@ -43,19 +33,19 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  	
  	\item \textbf{L’ouverture :} qui contrôle la quantité de lumière que l’objectif laisse entrer.
  	
- 	\item \textbf{Le capteur d'image:} qui convertit le rayonnement électromagnétique en un signal électrique analogique. Celui-çi est ensuite amplifié, puis numérisé par un convertisseur analogique-numérique et enfin traité pour obtenir une image numérique.  
+ 	\item \textbf{Le capteur d'image:} qui convertit le rayonnement électromagnétique en un signal électrique analogique. Celui-ci est ensuite amplifié, puis numérisé par un convertisseur analogique-numérique et enfin traité pour obtenir une image numérique.  
  \end{itemize}
  
  Grâce à l'évolution continuelle de la technologie pour s'adapter aux demandes croissantes des consommateurs pour des images de haute qualité et des fonctionnalités innovantes, nous pouvons classer les caméras par catégories et par types.
  
- Il existe trois catégories de caméras qui sont entre autre \cite{noauthor_camera_2024}:
+ Il existe trois catégories de caméras qui sont entre autres \cite{noauthor_camera_2024}:
  \begin{itemize}
  	\item \textbf{Les caméras numériques}: qui capturent des images par voie électronique à l’aide d’un capteur.
  	
- 	\item \textbf{Les caméra analogique}: qui enregistre ou transmet un signal électronique analogique. 
+ 	\item \textbf{Les caméras analogiques}: qui enregistrent ou transmettent un signal électronique analogique. 
  	Ce signal est la partie de l'électronique qui exploite des signaux pouvant fonctionner ou être mesurés par des valeurs continues. 
  	
- 	\item\textbf{caméra argentique}: qui utilise une bande de pellicule (Figure \ref{fig:Pellicule})enduit de produits chimiques photosensibles pour la réalisation de film cinématographique.
+ 	\item\textbf{Les caméras argentiques}: qui utilisent une bande de pellicule (Figure \ref{fig:Pellicule}) enduite de produits chimiques photosensibles pour la réalisation de film cinématographique.
  	La pellicule est un support souple recouvert d'une émulsion contenant des composés sensibles à la lumière, généralement à base d'halogénures d'argent.
  	
  \end{itemize}
@@ -72,12 +62,12 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  \end{figure}
  
  
- Pour les types de caméra nous pouvons cité entre autre \cite{noauthor_les_2015} :
+ Pour les types de caméra, nous pouvons citer entre autres \cite{noauthor_les_2015} :
  
  \begin{itemize}
- 	\item \textbf{Les caméras de smartphones} : Ce sont les caméras intégrés dans les téléphones portables.De nos jours la qualité des images qu'elles produisent les amènes à rivaliser avec les caméras professionnels qui existe sur le marché.Elles sont utilisés pour les web vidéos, clips, interviews, courts-métrages, etc......
+ 	\item \textbf{Les caméras de smartphones} : ce sont les caméras intégrées dans les téléphones portables.De nos jours la qualité des images qu'elles produisent les amènes à rivaliser avec les caméras professionnels qui existe sur le marché. Elles sont utilisées pour le web vidéo, clips, interviews, courts-métrages, etc.
  	
- 	\item \textbf{Les Camescopes} sont des caméras utilisé par le grand public pour leurs souvenirs de famille.Aujord'hui elles sont rare sur le marché car elles sont remplacées par les smartphones.seuls les plus chers parviennent à se démarquer par leur qualité d’image . Elles sont souvent de petite taille, élaborées pour automatiser la plupart des réglages et disposent bien souvent de petits capteurs mais jamais d’entrées audio (Figure \ref{fig:Cmescopes}).
+ 	\item \textbf{Les Caméscopes} : sont des caméras utilisé par le grand public pour leurs souvenirs de famille.Aujord'hui, elles sont rares sur le marché, car elles sont remplacées par les smartphones. Seuls les plus chers parviennent à se démarquer par leur qualité d’image. Elles sont souvent de petite taille, élaborées pour automatiser la plupart des réglages et disposent bien souvent de petits capteurs, mais jamais d’entrées audio (Figure \ref{fig:Cmescopes}).
  	
  	\textbf{Exemple :}
  	
@@ -92,13 +82,13 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 		\includegraphics[scale=0.35]{images/camescopes.png}
+ 		\includegraphics[scale=0.3]{images/camescopes.png}
  		}
- 		\caption[Camescopes]{Les caméras de types camescopes. Source :\cite{noauthor_les_2015}}%
+ 		\caption[Camescopes]{Les caméras de types caméscopes. Source :\cite{noauthor_les_2015}}%
  		\label{fig:Cmescopes}
  	\end{figure}
  	
- 	\item \textbf{Les DSLR(digital single-lens reflex)} sont des appareils photo réflex numériques disposant d’une fonction de capture vidéo.Ils sont caractérisés par la taille de leur capteur qui permettent d'avoir des images de qualités, d’objectifs interchangeables qui permettent de varier les rendus stylistiques en jouant avec les différents types de « cailloux » selon les photographes et la petite taille des lentilles (comparé à ceux d’une caméra pro) rend accessible le prix des objectifs (Figure \ref{fig:digital single-lens reflex(DSLR)}).
+ 	\item \textbf{Les DSLR (digital single-lens reflex)} sont des appareils photo reflex numériques disposant d’une fonction de capture vidéo. Ils sont caractérisés par la taille de leur capteur qui permettent d'avoir des images de qualités, d’objectifs interchangeables qui permettent de varier les rendus stylistiques en jouant avec les différents types de « cailloux » selon les photographes et la petite taille des lentilles (comparés à ceux d’une caméra pro) rendent accessible le prix des objectifs (Figure \ref{fig:digital single-lens reflex(DSLR)}).
  	
  	\textbf{Exemple :}
  	
@@ -113,13 +103,13 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 		 \includegraphics[scale=0.35]{images/DSLR.png}
+ 		 \includegraphics[scale=0.3]{images/DSLR.png}
  		}
  	 \caption[digital single-lens reflex(DSLR)]{Caméra digital single-lens reflex(DSLR). Source :\cite{noauthor_les_2015}}
  	\label{fig:digital single-lens reflex(DSLR)}
  	\end{figure}
  	
- 	\item \textbf{Les Caméras dites « Prosommateurs »} Le mot « prosommateur » est composé de « pro » issu de production et « sommateur » de consommateur. On appelle les prosommateurs les personnes qui achètent des produits avec une certaine exigence car ils ont pour intention d’utiliser le produit dans un cadre de production.Ces caméras assez récentes sont venues perturber la frontière entre camescopes et caméras professionnelles en insérerant une gamme intermédiaire répondant aux besoins des petits producteurs indépendants.Elles sont généralement d’une taille supérieure à un camescope mais bien moins encombrante que les caméras pro de plateau ou de cinéma et proposent une excellente qualité d’image (Figure \ref{fig:Les Caméras dites « Prosommateurs »}).
+ 	\item \textbf{Les Caméras dites « Prosommateurs »} : Le mot « prosommateur » est composé de « pro » issu de production et « sommateur » de consommateur. On appelle les prosommateurs les personnes qui achètent des produits avec une certaine exigence, car ils ont pour intention d’utiliser le produit dans un cadre de production. Ces caméras assez récentes sont venues perturber la frontière entre caméscopes et caméras professionnelles en insérant une gamme intermédiaire répondant aux besoins des petits producteurs indépendants.Elles sont généralement d’une taille supérieure à un caméscope, mais bien moins encombrantes que les caméras pro de plateau ou de cinéma et proposent une excellente qualité d’image (Figure \ref{fig:Les Caméras dites « Prosommateurs »}).
  	
  	\textbf{Exemple :}
  	
@@ -140,7 +130,7 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
   \label{fig:Les Caméras dites « Prosommateurs »}
   \end{figure}
   
- 	\item \textbf{Caméras Professionnelles} Les caméras professionnelles sont de très grosses caméras disposant des capteurs les plus gros, les objectifs y sont évidemment interchangeables,le paramétrage de la colorimétrie y est bien souvent plus poussé, et elle sont systématiquement synchronisable par timecode (Figure \ref{fig:Caméras professionnel}).
+ 	\item \textbf{Les caméras professionnelles} : sont de très grosses caméras disposant des capteurs les plus gros, les objectifs y sont évidemment interchangeables, le paramétrage de la colorimétrie y est bien souvent plus poussé, et elles sont systématiquement synchronisable par timecode (Figure \ref{fig:Caméras professionnel}).
  	
  	\textbf{Exemple :}
  	
@@ -156,13 +146,13 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 			\includegraphics[scale=0.38]{images/professionnel.png}
+ 			\includegraphics[scale=0.3]{images/professionnel.png}
  		}
  	\caption[Caméras professionnel]{Caméra  professionnel.Source :\cite{noauthor_les_2015}}
  	\label{fig:Caméras professionnel}
  	\end{figure}
  	
- 	\item \textbf{Les Caméras de type "Super Concentré"} « Super Concentré » est un terme inventer dans l'article\cite{noauthor_les_2015} pour catégoriser cette dernière tendance d’appareils. Ce qui les qualifie c’est avant tout de très grands capteurs supérieurs à la majorité des caméras prosommateurs qui leur confère une qualité d’image cinématographique comparable aux caméras professionnelles. Les objectifs sont interchangeables, et sont capables d’exporter les rushs au format RAW qui permet une grande souplesse d’ajustement en post-prod (Figure \ref{fig:Caméras de type "Super Concentré"}).
+ 	\item \textbf{Les Caméras de type "Super Concentré"} : « Super Concentré » est un terme inventé dans l'article \cite{noauthor_les_2015} pour catégoriser cette dernière tendance d’appareils. Ce qui les qualifie c’est avant tout de très grands capteurs supérieurs à la majorité des caméras prosommateurs qui leur confère une qualité d’image cinématographique comparable aux caméras professionnelles. Les objectifs sont interchangeables, et sont capables d’exporter les rushs au format RAW qui permet une grande souplesse d’ajustement en post-prod (Figure \ref{fig:Caméras de type "Super Concentré"}).
  	
  	\textbf{Exemple :}
  	\begin{itemize}
@@ -176,13 +166,13 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  	 	\setlength{\fboxsep}{5pt}%
  	 	\setlength{\fboxrule}{0.5pt}%
  	 	\fbox{
- 	 		\includegraphics[scale=0.38]{images/super consentré.png}
+ 	 		\includegraphics[scale=0.3]{images/super consentré.png}
  	 	}
  	 \caption[Caméras de type "Super Concentré" ]{Caméras de type "Super Concentré".Source :\cite{noauthor_les_2015}}
  	 \label{fig:Caméras de type "Super Concentré"}
  	 \end{figure}
  	 
- 	\item \textbf{Les Caméras dédiées} sont des caméras qui sont particulièrement dédiées à un besoin spécifique comme les caméras miniatures pour les sports extremes ou l’embarcation dans les véhicules motorisés, les caméras à haute cadence pour le slow motion, les caméras 3D, ou encore les caméras drones (Figure \ref{fig:Caméras dedié}).
+ 	\item \textbf{Les Caméras dédiées} sont des caméras qui sont particulièrement dédiées à un besoin spécifique comme les caméras miniatures pour les sports ou l’embarcation dans les véhicules motorisés, les caméras à haute cadence pour le slow motion, les caméras 3D, ou encore les caméras drones (Figure \ref{fig:Caméras dedié}).
  	
  	\textbf{Exemple :}
  	
@@ -198,7 +188,7 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  		\setlength{\fboxsep}{5pt}%
  		\setlength{\fboxrule}{0.5pt}%
  		\fbox{
- 		\includegraphics[scale=0.65]{images/caméras dedié.png}
+ 		\includegraphics[scale=0.6]{images/caméras dedié.png}
  		}
  		\caption[Caméras dedié]{caméras dedié.Source :\cite{noauthor_les_2015}}
  	\label{fig:Caméras dedié}
@@ -206,7 +196,7 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  	
  \end{itemize}
  
- Parmis ces différents types de caméra que nous avons cité , nous allons utilisé la caméra \textbf{Hercules HD Twist} qui est de type \textbf{dédiées}. Il possède un \textbf{Capteur CMOS HD 720p} qui capture des photo jusqu’à 5 Millions de pixels (interpolation logicielle) et de vidéo de 1280 x 720 pixels à 30 images par seconde. Il est équipé d'un microphone intégré avec réducteur de bruit,Un pied flexible en silicone et un câble USB 180 cm.
+ Parmi ces différents types de caméra que nous avons citée , nous allons utiliser la caméra \textbf{Hercules HD Twist} qui est de type \textbf{dédiées}. Il possède un \textbf{Capteur CMOS HD 720p} qui capture des photo jusqu’à 5 millions de pixels (interpolation logicielle) et de vidéo de 1280 x 720 pixels à 30 images par seconde. Il est équipé d'un microphone intégré avec réducteur de bruit, un pied flexible en silicone et un câble USB 180 cm.
  %----------------------------------------------------------------------------------------
  %Notion de calibrage	
  %----------------------------------------------------------------------------------------
@@ -215,8 +205,7 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  
  \section{Notion de  Calibrage/étalonnage}\label{sec:Notion de  Calibrage/étalonnage}
  
- Le calibrage de caméra est un processus utilisé en vision par ordinateur et en traitement d'images pour estimer les paramètres intrinsèques et extrinsèques d'une caméra. Les paramètres intrinsèques comprennent des informations telles que la distance focale, le centre optique et les coefficients de distorsion, qui décrivent comment la caméra transforme les coordonnées 3D d'un point dans le monde réel en coordonnées 2D sur l'image capturée. Les paramètres extrinsèques décrivent la position et l'orientation de la caméra par rapport au monde réel.
- En calibrant une caméra, on peut compenser les distorsions optiques et géométriques qui peuvent affecter les images capturées. Cela est crucial pour des applications telles que la réalité augmentée, la cartographie 3D, la navigation robotique, la vision industrielle, la surveillance, etc.\\
+ Le calibrage de caméra est un processus utilisé en vision par ordinateur et en traitement d'images pour estimer les paramètres intrinsèques et extrinsèques d'une caméra. Les paramètres intrinsèques comprennent des informations telles que la distance focale, le centre optique et les coefficients de distorsion, qui décrivent comment la caméra transforme les coordonnées 3D d'un point dans le monde réel en coordonnées 2D sur l'image capturée. Les paramètres extrinsèques décrivent la position et l'orientation de la caméra par rapport au monde réel.\\
  Ainsi calibrer une caméra consiste à estimer sa fonction de transfert \cite{orteu_calibrage_nodate} (Figure\ref{fig:Illustration caméras}).
  
  \begin{figure}[H]%
@@ -224,24 +213,25 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
  	\setlength{\fboxsep}{5pt}%
  	\setlength{\fboxrule}{0.5pt}%
  	\fbox{
- 		\includegraphics[scale=0.5]{images/illustration caméras.png}
+ 		\includegraphics[scale=0.4]{images/illustration caméras.png}
  	}
    \caption[Illustration d'une caméras]{Schémas d'illustration d'une caméras. Source: \cite{orteu_calibrage_nodate}}
    \label{fig:Illustration caméras}
  \end{figure}
  
  Pour comprendre l'étalonnage de la caméra , il faut connaitre le modèle mathématique décrivant une caméra.
- Le modèle géométrique d’une caméra, représentée en Figure \ref{fig:Représentation du modèl sténopé}, est basé sur trois transformations élémentaires. Leur combinaison forme ce qu’on appelle le modèle sténopé ou « pinhole » en anglais \cite{eikosim_etalonnage_2021}.
  
-  Ce modèle modélise une caméra par une projection perspective qui transforme un point 3D de l'espace en un point-image 2D,c'est une représentation mathématique d'un objet 3D projété dans un espace 2D\cite{orteu_calibrage_nodate}.\\
-  Aussi connu sous le nom de "camera obscura" ou chambre noire,le modèle sténopé est un principe optique très ancien qui permet de capturer des images. Il est souvent utilisé pour expliquer les bases de la photographie et les principes fondamentaux de l'optique géométrique (Figure \ref{fig:Chambre Noir}) . 
+ Le modèle géométrique d’une caméra, représentée en Figure \ref{fig:Représentation du modèl sténopé}, est basé sur trois transformations élémentaires. Leur combinaison forme ce qu’on appelle le modèle sténopé ou « pinhole » en anglais \cite{eikosim_etalonnage_2021}.
+  Ce modèle modélise une caméra par une projection perspective qui transforme un point 3D de l'espace en un point-image 2D,c'est une représentation mathématique d'un objet 3D projété dans un espace 2D  \cite{orteu_calibrage_nodate}.
+  
+  Aussi connu sous le nom de "camera obscura" ou chambre noire, le modèle sténopé est un principe optique très ancien qui permet de capturer des images. Il est souvent utilisé pour expliquer les bases de la photographie et les principes fondamentaux de l'optique géométrique (Figure \ref{fig:Chambre Noir}) . 
  
   \begin{figure}[H]%
   	\center%
   	\setlength{\fboxsep}{5pt}%
   	\setlength{\fboxrule}{0.5pt}%
   	\fbox{
-  	\includegraphics[scale=0.35]{images/chambre-noire.jpg}
+  	\includegraphics[scale=0.3]{images/chambre-noire.jpg}
   	}
   		\caption[Chambre Noir]{Chambre Noir ou Camera obscura. Source :https://lens.google.com}
   	\label{fig:Chambre Noir}
@@ -252,14 +242,15 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
   	\setlength{\fboxsep}{5pt}%
   	\setlength{\fboxrule}{0.5pt}%
   	\fbox{
-  	 \includegraphics[scale=0.70]{images/modelstenope.png}
+  	 \includegraphics[scale=0.60]{images/modelstenope.png}
   	}
   	\caption[Représentation du modèl sténopé]{Projection d’un point 3D sur une image avec un modèle sténopé de caméra (adapté de \cite{eikosim_etalonnage_2021})}
     \label{fig:Représentation du modèl sténopé}
   \end{figure}
   
  
- La position d’un point 3D \textbf{M} de la scène, définie dans le repère monde $R_w$ par ses coordonnées ($X_w$, $Y_w$, $Z_w$), est exprimée dans le repère local $R_c$ attaché à la caméra \textbf{C} avec les coordonnées locales ($X_c$,$Y_c$,$Z_c$). Ce changement de repère constitue la première transformation et ne dépend que de trois rotations et de trois translations. Cette première transformation entre les coordonnées homogènes monde \{$X_w$\} = \{$X_w$, $Y_w$, $Z_w$,1\} et les coordonnées homogènes locales \{$X_c$\} = \{$X_c$, $Y_c$, $Z_c$,1\} est représentée par une matrice \textbf{4×4} notée \textbf{T}. Elle peut être décomposée en une matrice de rotation \textbf{R} (paramétrable par exemple par trois angles de rotation) et un vecteur de translation \textbf{t} (définie par trois composantes). On a donc:
+ La position d’un point 3D \textbf{M} de la scène, définie dans le repère monde $R_w$ par ses coordonnées ($X_w$, $Y_w$, $Z_w$), est exprimée dans le repère local $R_c$ attaché à la caméra \textbf{C} avec les coordonnées locales ($X_c$,$Y_c$,$Z_c$). Ce changement de repère constitue la première transformation et ne dépend que de trois rotations et de trois translations. Cette première transformation entre les coordonnées homogènes monde \{$X_w$\} = \{$X_w$, $Y_w$, $Z_w$,1\} et les coordonnées homogènes locales \{$X_c$\} = \{$X_c$, $Y_c$, $Z_c$,1\} est représentée par une matrice \textbf{4×4} notée \textbf{T}. Elle peut être décomposée en une matrice de rotation \textbf{R} (paramétrable par exemple par trois angles de rotation) et un vecteur de translation \textbf{t} (définie par trois composantes).\\
+  On a donc:
  
  
  \begin{equation}
@@ -402,11 +393,7 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
   \right]
 \end{equation}
   
-  En globalité l'estimation des différents paramètres énumérés au dessus constitue le calibrage de la caméra.\\
-  
-  
-  
-  \newpage
+  En globalité, l'estimation des différents paramètres énumérés au-dessus constitue le calibrage de la caméra.\\
   
   %----------------------------------------------------------------------------------------
   %Approche de calibrage	
@@ -414,13 +401,13 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
   \section{Approche de calibrage}
   
   De nombreux travaux ont été réalisés sur la notion de calibrage , à commencer par la communauté de la photogrammétrie et plus récemment en vision par ordinateur.
-  Plusieurs approches existent qui peuvent être regroupées en trois grandes catégories, décrites ci-dessous : 
+  Plusieurs approches existantes peuvent être regroupées en trois grandes catégories, décrites ci-dessous : 
   
   \begin{itemize}[label={\Huge$\star$}]
   	 
   \item \textbf{L’étalonnage par mire}
   
-  L’étalonnage par mire est donc basé sur l’utilisation d’un objet 3D de géométrie bien connue (appelé mire d’étalonnage) et son image acquise par la caméra. Cette mire présente sur sa surface des points 3D spécifiques, de positions connues . Ils peuvent correspondre à l’intersection de lignes verticales et horizontales quand la mire est une grille (ou un damier) ou bien au centre de cercles lorsque la mire est composée de points. La position de ces points 3D sur l’image de la mire est souvent obtenue via des procédures automatiques d’analyse d’images\cite{faugeras_three-dimensional_1993,eikosim_etalonnage_2021}  (Figure \ref{fig:Exemples de mires}).
+  L’étalonnage par mire est basé sur l’utilisation d’un objet 3D de géométrie bien connue (appelé mire d’étalonnage) et son image acquise par la caméra. Cette mire présente sur sa surface des points 3D spécifiques, de positions connues. Ils peuvent correspondre à l’intersection de lignes verticales et horizontales quand la mire est une grille (ou un damier) ou bien au centre de cercles lorsque la mire est composée de points. La position de ces points 3D sur l’image de la mire est souvent obtenue via des procédures automatiques d’analyse d’images\cite{faugeras_three-dimensional_1993,eikosim_etalonnage_2021}  (Figure \ref{fig:Exemples de mires}).
   
   \begin{figure}[h]
   	\centering
@@ -446,7 +433,7 @@ En clarifiant ces concepts, nous poserons les bases nécessaires pour comprendre
   \label{fig:Exemples de mires}
   \end{figure}
   
-  L’algorithme utilisé par cette approche vise alors à trouver les paramètres du modèle de caméra qui minimisent l’écart entre la position des points 3D projetés à l’aide du modèle de caméra et la position réelle de ces points sur l’image. L’algorithme consiste ainsi à optimiser la matrice de projection jusqu’à minimiser la somme quadratique de ces erreurs de reprojection. Avec ce type d’approche, la matrice de projection peut être identifiée soit de façon implicite, soit de façon explicite, et peut également inclure des modèles de distorsions pour les modèles les plus complexes. Dans le cas d’un système de stéréovision (c’est-à-dire à 2 caméras), cette approche va identifier de façon indépendante les paramètres (intrinsèques et extrinsèques) d’une des deux caméras, qui deviendra la « caméra maître ». La seconde caméra, dite « caméra esclave », aura ses paramètres intrinsèques identifiés via l’image de mire et ses paramètres extrinsèques seront définis par rapport à la position de la caméra maître, à travers la détermination d’une matrice de transformation linéaire permettant de passer de la caméra 1 à la caméra 2. Cette matrice peut être prédéfinie par le fournisseur de systèmes de stéréovision pour des systèmes où la position relative des caméras est fixée, ou réidentifiée à partir des images de mires. Les mires utilisées devant occuper un espace 3D, elles doivent être 3D ou bien, si elles sont planes, être déplacées dans l’espace selon des mouvements de translation et rotation. Avec ce type d’étalonnage, il est nécessaire de réaliser au moins une cinquantaine d’images de mire pour espérer pouvoir étalonner le système de stéréovision et minimiser l’effet du bruit d’acquisition et des erreurs d’étalonnage. De plus, la mire étant extérieure, il n’est pas possible de réétalonner les caméras au cours de l’essai, ce qui peut s’avérer nécessaire si les caméras bougent par inadvertance (déplacement des pieds de caméras, dévissage progressif des caméras…).
+  L’algorithme utilisé par cette approche vise alors à trouver les paramètres du modèle de caméra qui minimisent l’écart entre la position des points 3D projetés à l’aide du modèle de caméra et la position réelle de ces points sur l’image. L’algorithme consiste ainsi à optimiser la matrice de projection jusqu’à minimiser la somme quadratique de ces erreurs de reprojection. Avec ce type d’approche, la matrice de projection peut être identifiée soit de façon implicite, soit de façon explicite, et peut également inclure des modèles de distorsions pour les modèles les plus complexes. Dans le cas d’un système de stéréovision (c’est-à-dire 2 caméras), cette approche va identifier de façon indépendante les paramètres (intrinsèques et extrinsèques) d’une des deux caméras, qui deviendra la \textbf{« caméra maîtresse »}. La seconde caméra, dite \textbf{« caméra esclave »}, aura ses paramètres intrinsèques identifiés via l’image de mire et ses paramètres extrinsèques seront définis par rapport à la position de la caméra maîtresse, à travers la détermination d’une matrice de transformation linéaire permettant de passer de la caméra 1 à la caméra 2. Cette matrice peut être prédéfinie par le fournisseur de systèmes de stéréovision pour des systèmes où la position relative des caméras est fixée, ou réidentifiée à partir des images de mires. Les mires utilisées devant occuper un espace 3D, elles doivent être 3D ou bien, si elles sont planes, être déplacées dans l’espace selon des mouvements de translation et rotation. Avec ce type d’étalonnage, il est nécessaire de réaliser au moins une cinquantaine d’images de mire pour espérer pouvoir étalonner le système de stéréovision et minimiser l’effet du bruit d’acquisition et des erreurs d’étalonnage. De plus, la mire étant extérieure, il n’est pas possible de réétalonner les caméras au cours de l’essai, ce qui peut s’avérer nécessaire si les caméras bougent par inadvertance (déplacement des pieds de caméras, dévissage progressif des caméras…).
   Les méthodes couramment adoptées sont celles de Tsai \cite{tsai_versatile_1987}, Heikkila, Silven \cite{heikkila_four-step_1997} et Zhang \cite{zhengyou_zhang_flexible_1999}. Ceux-­ci sont tous basés sur le modèle de caméra sténopé et incluent des termes pour modéliser la distorsion radiale.
   
   \item \textbf{L’auto-étalonnage}
@@ -460,7 +447,7 @@ L’auto-étalonnage est utilisé en particulier par les approches de stéréoco
 \end{itemize}
 
  
- En fonction des différents approches de calibrage et des facteurs qui peuvent affecter la précision des résultats que nous avons étudié précédemment , nous avons décider d'opter la méthode de \textbf{Zhang Zhengyou}\cite{zhengyou_zhang_flexible_1999} qui est le plus utiliser de nos jour et adaptable aux nouvelles domaines dont la vision par ordinateur.
+ En fonction des différentes approches de calibrage que nous venons d'étudier, nous avons décider d'opter la méthode de \textbf{Zhang Zhengyou} \cite{zhengyou_zhang_flexible_1999} qui est le plus utilisé de nos jour et adaptable aux nouveaux domaines, dont la vision par ordinateur.
  
  %----------------------------------------------------------------------------------------
  %Étude de la méthode de Zhang Zhengyou
@@ -468,14 +455,13 @@ L’auto-étalonnage est utilisé en particulier par les approches de stéréoco
  \section{Étude de la méthode de Zhang Zhengyou}
  
   
- La technique proposée proposé par zhang Zhengyou  \cite{zhengyou_zhang_flexible_1999} connue sous le nom de \textit{"méthode de calibrage de caméra basée sur le plan d'échiquier"} nécessite uniquement que la caméra observe un motif plan affiché dans quelques (au moins deux) orientations  différentes. Le motif peut être imprimé sur une imprimante laser et fixé  sur une surface plane « raisonnable » (par exemple, une couverture de livre rigide). La caméra ou le motif planaire peuvent être déplacés à la main.Par rapport aux techniques classiques, la technique proposée est considérablement plus flexible et par rapport à  l’auto-étalonnage, il gagne en robustesse.la nouvelle technique fait progresser la vision par ordinateur 3D des environnements de laboratoire au monde réel.
+ La technique proposée par zhang Zhengyou  \cite{zhengyou_zhang_flexible_1999} connue sous le nom de \textit{"méthode de calibrage de caméra basée sur le plan d'échiquier"} nécessite uniquement que la caméra observe un motif plan affiché dans quelques (au moins deux) orientations  différentes. Le motif peut être imprimé sur une imprimante laser et fixé  sur une surface plane « raisonnable » (par exemple, une couverture de livre rigide). La caméra ou le motif planaire peuvent être déplacés à la main.
  
- Cette partie contient un résumé des parties essentiel de l'article selon notre compréhension. Pour plus de détaille voir
- \cite{zhengyou_zhang_flexible_1999}  
+ Ainsi nous allons faire un résumé des parties essentielles de l'article selon notre compréhension. Pour plus de détail vous pouvez consulter l'article \cite{zhengyou_zhang_flexible_1999} et \cite{burger_zhangs_2016} qui nous a permit d'avoir plus de détaille et de compréhension sur la méthode de Zhang grâce aux algorithmes proposées par Burger Wilhelm.
  
  La méthode se base sur la notation suivante qui respecte la géométrie du modèle sténopé abordé dans la section \ref{sec:Notion de  Calibrage/étalonnage}:
  
- Un point 2D est noté $m = [u, v]^{T}$ Un point 3D est noté $M = [X, Y, Z]^{T}$. On utilise $\bar{x}$ pour désigner le vecteur augmenté en ajoutant 1 comme dernier élément : $m =[u, v, 1]^{T}$ et $\bar{M} = [X, Y, Z, 1]^{T}$. Une caméra est modélisée par le sténopé habituel : la relation entre un point 3D M et sa projection d'image m est donnée par:
+ Un point 2D est noté $m = [u, v]^{T}$ et un point 3D est noté $M = [X, Y, Z]^{T}$. On utilise $\bar{x}$ pour désigner le vecteur augmenté en ajoutant 1 comme dernier élément : $m =[u, v, 1]^{T}$ et $\bar{M} = [X, Y, Z, 1]^{T}$. Une caméra est modélisée par le sténopé habituel : la relation entre un point 3D M et sa projection d'image m est donnée par:
  
  
  \begin{equation}
@@ -499,7 +485,7 @@ L’auto-étalonnage est utilisé en particulier par les approches de stéréoco
    
    
  
- où \textbf{s} est un facteur d'échelle arbitraire ; \textbf{(R, t)} appelés paramètres extrinsèques, est la rotation et la translation qui relient le système de coordonnées mondiales au système de coordonnées de la caméra ; \textbf{A} est appelée la matrice intrinsèque de la caméra, et $(u_0, v_0)$ sont les coordonnées du point principal, $\alpha$ et $\beta $  l'échelle facteurs dans l'image des axes u et v et c le paramètre décrivant l'asymétrie des deux axes de l'image.\\
+ où \textbf{s} est un facteur d'échelle arbitraire ; \textbf{(R, t)} appelés paramètres extrinsèques (rotation et translation) qui relient le système de coordonnées mondiales au système de coordonnées de la caméra ; \textbf{A} est appelée la matrice intrinsèque de la caméra, $(u_0, v_0)$ sont les coordonnées du point principal, $\alpha$ et $\beta $  l'échelle facteurs dans l'image des axes (u et v) et \textbf{c} le paramètre décrivant l'asymétrie des deux axes de l'image.\\
  Nous utilisons l'abréviation $m = A^{-T}$ pour
  $(A^{-1})^{T}$ ou $(A^{T})^{-1}$
  
@@ -520,7 +506,7 @@ L’auto-étalonnage est utilisé en particulier par les approches de stéréoco
  
  
  
- En fonction cette notation et  l'homographie lié au modèle sténopé nous avons pu voir les contraintes de base liées aux paramètres intrinsèques lors de l'observation d'un seul plan qui sont entre autre:  
+ En fonction cette notation et  l'homographie liée au modèle sténopé, nous avons pu voir les contraintes de base liées aux paramètres intrinsèques lors de l'observation d'un seul plan qui sont entre autres:  
  
  \begin{equation} 
  h_{1}^{T} 
@@ -543,7 +529,7 @@ L’auto-étalonnage est utilisé en particulier par les approches de stéréoco
  \label{eq:contrainte2}
  \end{equation}
  
- Pour résoudre de manière efficace le problème d'étalonnage de la caméra, l'article a abordé d'abord la solution fermé qui permet de résoudre les contraintes liées aux paramètres intrinsèques , ensuite la technique d'optimisation non linéaire basée sur le critère du maximum de vraisemblance pour affiner les paramètres avec l'algorithme de Levenberg ­Marquardt et enfin la prise en compte de la distorsion radial de la lentille pour corriger la distorsion. \\
+ Pour résoudre de manière efficace le problème d'étalonnage de la caméra, l'article a abordé d'abord la solution fermée qui permet de résoudre les contraintes liées aux paramètres intrinsèques , ensuite la technique d'optimisation non-linéaire basée sur le critère du maximum de vraisemblance pour affiner les paramètres avec l'algorithme de Levenberg ­Marquardt et enfin la prise en compte de la distorsion radial de la lentille pour corriger la distorsion. \\
  
  \begin{itemize}[label={\Huge$\star$}]
  	\item \textbf{La solution fermé}
@@ -566,7 +552,7 @@ L’auto-étalonnage est utilisé en particulier par les approches de stéréoco
  	\label{eq:solution fermé1}
  	\end{equation}
  	
- Notez que B est symétrique, défini par un vecteur 6D
+ Notons que B est symétrique, défini par un vecteur 6D
  
 \begin{equation}
  b
@@ -652,13 +638,9 @@ Si n = 2, nous pouvons imposer la contrainte asymétrique c = 0 , ce qui signifi
  \item \textbf{Prise en compte de la distorsion radial}
  \\
  
- Jusqu’à présent, nous n’avons pas pris en compte la distorsion de l’objectif 
-  de la caméra. Cependant, une caméra de bureau présente généralement 
- une distorsion d'objectif importante, en particulier une distorsion radiale. 
-  D'après quelques littérature, il est probable que la fonction de distorsion soit totalement dominée par les 
- composantes radiales, et surtout dominée par le premier terme Il a également été constaté qu'une modélisation plus élaborée non seulement n'aiderait pas (négligeable par rapport à la quantification du 
- capteur), mais entraînerait également une instabilité numérique.
- 
+ Jusqu’à présent, nous n’avons pas pris en compte la distorsion de l’objectif de la caméra. Cependant, une caméra de bureau présente généralement une distorsion d'objectif importante, en particulier une distorsion radiale. 
+  D'après quelques littératures, il est probable que la fonction de distorsion soit totalement dominée par les composantes radiales, et surtout dominée par le premier terme. Il a également été constaté qu'une modélisation plus élaborée non seulement n'aiderait pas (négligeable par rapport à la quantification du capteur), mais entraînerait également une instabilité numérique.
+  
  on a les équations résultante suivant:
  
  \begin{equation}
@@ -677,18 +659,18 @@ Si n = 2, nous pouvons imposer la contrainte asymétrique c = 0 , ce qui signifi
  	
  \end{itemize} 
  
- Les algorithmes proposées par Burger Wilhelm nous a permit d'avoir plus de détaille et de compréhension sur la méthode de Zhang \cite{burger_zhangs_2016}.
+ 
  
 %----------------------------------------------------------------------------------------
 %Notion de mesure de distance numériques
 %----------------------------------------------------------------------------------------
 
 
-\newpage
+
 \section{Mesure de distance à l'aide d'une caméra}
 
-La mesure de distance à l'aide d'une caméra est devenue une composante essentielle de nombreuses technologies modernes, offrant des solutions précises et polyvalentes pour évaluer la séparation spatiale entre les objets et l'observateur. Cette méthode, reposant sur les principes de la géométrie, de la physique optique et de l'analyse d'image, joue un rôle crucial dans une multitude de domaines.  
-L'évolution rapide des capteurs d'imagerie et des algorithmes de traitement d'image a permis des avancées significatives dans la précision et la fiabilité de la mesure de distance avec les caméras. Cette technologie repose sur des fondements solides, exploitant des concepts tels que la parallaxe, la triangulation et la propagation de la lumière pour estimer les distances avec une précision remarquable.
+   
+L'évolution rapide des capteurs d'imagerie et des algorithmes de traitement d'image a permis des avancées significatives dans la précision et la fiabilité de la mesure de distance avec les caméras. 
 La mesure de distance à l'aide d'une caméra offre une variété de techniques, allant de la stéréovision à la triangulation laser en passant par la mesure de temps de vol. Chacune de ces méthodes présente ses propres avantages et limitations, mais toutes partagent l'objectif commun d'obtenir des mesures précises dans des environnements divers et changeants.
 
  \begin{itemize}[label={\Huge$\star$}]
@@ -699,20 +681,16 @@ La mesure de distance à l'aide d'une caméra offre une variété de techniques,
  	
  	\item \textbf{Triangulation laser}
  	
- 	La triangulation laser utilise un faisceau laser pour projeter une lumière sur l'objet dont la distance doit être mesurée. Cette lumière réfléchie est ensuite capturée par une caméra, et la position du point lumineux sur l'image est analysée pour calculer la distance. La triangulation repose sur le principe de la géométrie triangulaire, où la distance est calculée en mesurant l'angle entre le faisceau laser, la caméra et le point réfléchi sur l'objet. Cette technique est souvent utilisée dans les applications nécessitant une grande précision, comme la métrologie industrielle et la cartographie 3D. Cependant, elle peut être sensible aux conditions d'éclairage et nécessite un alignement précis entre le faisceau laser et la caméra pour des mesures précises.
+ 	La triangulation laser utilise un faisceau laser pour projeter une lumière sur l'objet dont la distance doit être mesurée. Cette lumière réfléchie est ensuite capturée par une caméra, et la position du point lumineux sur l'image est analysée pour calculer la distance. La triangulation repose sur le principe de la géométrie triangulaire, où la distance est calculée en mesurant l'angle entre le faisceau laser, la caméra et le point réfléchi sur l'objet. Elle est sensible aux conditions d'éclairage et nécessite un alignement précis entre le faisceau laser et la caméra pour des mesures précises.
  	
  	\item \textbf{Mesure de temps de vol }
  	
- 	La mesure de temps de vol est une méthode directe pour mesurer la distance entre la caméra et l'objet en utilisant la vitesse de la lumière. Cette technique implique l'envoi d'impulsions lumineuses de courte durée vers l'objet, puis la mesure du temps qu'il faut pour que ces impulsions rebondissent sur l'objet et reviennent à la caméra. En utilisant la vitesse de la lumière connue, il est possible de calculer la distance parcourue par les impulsions lumineuses et donc la distance entre la caméra et l'objet. La mesure de temps de vol est rapide, précise et fonctionne bien dans diverses conditions d'éclairage. Elle est souvent utilisée dans les applications telles que la détection d'obstacles pour les véhicules autonomes, la réalité augmentée et les systèmes de surveillance. Cependant, cette méthode peut être limitée par sa portée maximale et sa sensibilité aux surfaces réfléchissantes.
+ 	La mesure de temps de vol est une méthode directe pour mesurer la distance entre la caméra et l'objet en utilisant la vitesse de la lumière. Cette technique implique l'envoi d'impulsions lumineuses de courte durée vers l'objet, puis la mesure du temps qu'il faut pour que ces impulsions rebondissent sur l'objet et reviennent à la caméra. En utilisant la vitesse de la lumière connue, il est possible de calculer la distance parcourue par les impulsions lumineuses et donc la distance entre la caméra et l'objet. La mesure de temps de vol est rapide, précise et fonctionne bien dans diverses conditions d'éclairage.  Cependant, cette méthode peut être limitée par sa portée maximale et sa sensibilité aux surfaces réfléchissantes.
 
  \end{itemize}
 
-Ce pendant dans ces différents techniques, la précision de la mesure dépend de plusieurs facteurs, notamment la qualité de l'image, le calibrage de la caméra, les conditions d'éclairage et la présence d'obstacles. Une résolution d'image plus élevée et un bon calibrage de la caméra sont essentiels pour une mesure précise. Les conditions d'éclairage peuvent affecter la qualité de l'image, tandis que la présence d'obstacles peut perturber les mesures, en particulier dans les environnements encombrés.\\
+Parmis ces tehniques la stéréovision est la plus adapté pour notre projet mais comme nous avons une seule caméra à notre disposition ,nous avons utilisé une methode de mesure de distance basée sur la détection de contours et de calcul de distance à partir de la taille des objets dans une image prise après le saut.
 
-Parmis ces tehniques la stéréovision est la plus adapté pour notre projet mais comme nous avons une seule caméra à notre disposition ,nous avons utilisé une methode de mesure de distance basée sur des méthodes de détection d'objets ou de détection de contours et de calcul de distance à partir de la taille des objets dans une image prise après le saut.
-
-
-\newpage
 \section{CONCLUSION}
 
 En conclusion, ce chapitre a exploré en profondeur les concepts clé liés au calibrage de caméra et à son application à l'estimation de performances lors des sauts en longueur. Nous avons commencé par définir les termes clé tels que la caméra, le calibrage et la mesure de distance à l'aide d'une caméra, soulignant leur importance dans le processus d'acquisition d'images et de mesure de distances précises.

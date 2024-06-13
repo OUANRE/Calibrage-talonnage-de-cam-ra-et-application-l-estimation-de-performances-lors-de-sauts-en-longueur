@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.7)  11 JUN 2024 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.7)  13 JUN 2024 09:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1750,6 +1750,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
+
+Overfull \hbox (7.36372pt too wide) in paragraph at lines 10--11
+\T1/ptm/b/n/12 Ma-ha-madi BOU-LOU\T1/ptm/m/n/12 , pour le sou-tien et l'amour q
+u'ils m'ont ap-porté du-rant tout le dé-rou-le-ment
+ []
+
+
+Overfull \hbox (0.15495pt too wide) in paragraph at lines 12--13
+[]\T1/ptm/m/n/24.88 J\T1/ptm/m/n/12 'exprime ma gra-ti-tude en-vers les membres
+ du jury et toutes ces per-sonnes qui ont contri-bué
+ []
+
 ) [2
 
 ]
@@ -1784,9 +1796,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-) (chapitre/04-IntroductionGeneral.tex [7
+) [7
 
-]
+] (chapitre/04-IntroductionGeneral.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
@@ -1798,20 +1810,27 @@ Overfull \hbox (7.72397pt too wide) in paragraph at lines 11--12
  []
 
 
+Overfull \hbox (0.57101pt too wide) in paragraph at lines 13--14
+\T1/ptm/m/n/12 cycle de li-cence en in-for-ma-tique, la tâche de conce-voir et 
+d'im-plé-men-ter un dis-po-si-tif per-met-tant
+ []
+
+
 Overfull \hbox (6.11531pt too wide) in paragraph at lines 15--16
 \T1/ptm/m/n/12 spécifiquement aux sauts en lon-gueur, le ca-li-brage de ca-méra
  per-met de trans-for-mer les sé-quences
  []
 
-[8
 
-]) (chapitre/05-Chapitre1.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {ETAT DE L'ART} [1]
+l.16 
+      [1
+
+
+]) (chapitre/05-Chapitre1.tex [2]
 Chapitre 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -1824,95 +1843,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 4.
-(main.mtc4) [2
+(main.mtc4) [3
 
 ]
-Overfull \hbox (3.49916pt too wide) in paragraph at lines 16--17
-\T1/ptm/m/n/12 et ex-trin-sèques d'une ca-méra. Ces pa-ra-mètres sont cru-ciaux
- pour cor-ri-ger les dis-tor-sions op-tiques
- []
-
-[3]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 8.
- (C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+
+(C:\Users\Fassia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (16.07445pt too wide) in paragraph at lines 46--47
+Overfull \hbox (16.07445pt too wide) in paragraph at lines 36--37
 []\T1/ptm/b/n/12 Le cap-teur d'image : \T1/ptm/m/n/12 qui conver-tit le rayon-n
 e-ment élec-tro-ma-gné-tique en un si-gnal élec-trique
  []
 
 
-Overfull \hbox (43.52988pt too wide) in paragraph at lines 46--47
-\T1/ptm/m/n/12 ana-lo-gique. Celui-çi est en-suite am-pli-fié, puis nu-mé-risé 
+Overfull \hbox (43.52988pt too wide) in paragraph at lines 36--37
+\T1/ptm/m/n/12 ana-lo-gique. Celui-ci est en-suite am-pli-fié, puis nu-mé-risé 
 par un conver-tis-seur analogique-numérique
  []
 
 [4]
-<images/pellicule.jpg, id=372, 1027.84pt x 778.91pt>
+Overfull \hbox (22.65pt too wide) in paragraph at lines 45--47
+[]\T1/ptm/b/n/12 Les ca-mé-ras ana-lo-giques \T1/ptm/m/n/12 : qui en-re-gistren
+t ou trans-mettent un si-gnal élec-tro-nique ana-lo-gique.
+ []
+
+
+Overfull \hbox (2.97032pt too wide) in paragraph at lines 48--50
+\T1/ptm/m/n/12 pel-li-cule est un sup-port souple re-cou-vert d'une émul-sion c
+onte-nant des com-po-sés sen-sibles
+ []
+
+<images/pellicule.jpg, id=370, 1027.84pt x 778.91pt>
 File: images/pellicule.jpg Graphic file (type jpg)
 <use images/pellicule.jpg>
-Package pdftex.def Info: images/pellicule.jpg  used on input line 69.
+Package pdftex.def Info: images/pellicule.jpg  used on input line 59.
 (pdftex.def)             Requested size: 123.33548pt x 93.46516pt.
 
-Overfull \hbox (17.35764pt too wide) in paragraph at lines 78--79
-[]\T1/ptm/b/n/12 Les ca-mé-ras de smart-phones \T1/ptm/m/n/12 : Ce sont les ca-
-mé-ras in-té-grés dans les té-lé-phones por-tables.De
+Overfull \hbox (20.00958pt too wide) in paragraph at lines 68--69
+[]\T1/ptm/b/n/12 Les ca-mé-ras de smart-phones \T1/ptm/m/n/12 : ce sont les ca-
+mé-ras in-té-grées dans les té-lé-phones por-tables.De
  []
 
-
-Overfull \hbox (40.20488pt too wide) in paragraph at lines 80--81
-\T1/ptm/m/n/12 fa-mille.Aujord'hui elles sont rare sur le mar-ché car elles son
-t rem-pla-cées par les smart-phones.seuls
- []
-
-<images/camescopes.png, id=375, 1167.36125pt x 352.31625pt>
+[5 <./images/pellicule.jpg>]
+<images/camescopes.png, id=380, 1167.36125pt x 352.31625pt>
 File: images/camescopes.png Graphic file (type png)
 <use images/camescopes.png>
-Package pdftex.def Info: images/camescopes.png  used on input line 96.
-(pdftex.def)             Requested size: 408.58257pt x 123.31253pt.
-[5 <./images/pellicule.jpg>]
-Overfull \hbox (4.50607pt too wide) in paragraph at lines 101--102
-[]\T1/ptm/b/n/12 Les DSLR(digital single-lens re-flex) \T1/ptm/m/n/12 sont des 
-ap-pa-reils photo ré-flex nu-mé-riques dis-po-sant
+Package pdftex.def Info: images/camescopes.png  used on input line 86.
+(pdftex.def)             Requested size: 350.21107pt x 105.69568pt.
+
+Overfull \hbox (6.78539pt too wide) in paragraph at lines 91--92
+[]\T1/ptm/b/n/12 Les DSLR (di-gi-tal single-lens re-flex) \T1/ptm/m/n/12 sont d
+es ap-pa-reils photo re-flex nu-mé-riques dis-po-sant
  []
 
 <images/DSLR.png, id=384, 1150.2975pt x 369.38pt>
 File: images/DSLR.png Graphic file (type png)
 <use images/DSLR.png>
-Package pdftex.def Info: images/DSLR.png  used on input line 117.
-(pdftex.def)             Requested size: 402.61017pt x 129.28493pt.
+Package pdftex.def Info: images/DSLR.png  used on input line 107.
+(pdftex.def)             Requested size: 345.09192pt x 110.81485pt.
+
+Overfull \hbox (2.89787pt too wide) in paragraph at lines 112--113
+\T1/ptm/m/n/12 sont ve-nues per-tur-ber la fron-tière entre ca-mé-scopes et ca-
+mé-ras pro-fes-sion-nelles en in-sé-rant
+ []
+
+
+Overfull \hbox (1.51834pt too wide) in paragraph at lines 112--113
+\T1/ptm/m/n/12 une gamme in-ter-mé-diaire ré-pon-dant aux be-soins des pe-tits 
+pro-duc-teurs in-dé-pen-dants.Elles
+ []
+
 [6 <./images/camescopes.png> <./images/DSLR.png>]
 <images/prosommateur.png, id=394, 1161.33875pt x 374.39874pt>
 File: images/prosommateur.png Graphic file (type png)
 <use images/prosommateur.png>
-Package pdftex.def Info: images/prosommateur.png  used on input line 138.
+Package pdftex.def Info: images/prosommateur.png  used on input line 128.
 (pdftex.def)             Requested size: 348.40431pt x 112.32048pt.
-
-Overfull \hbox (7.19366pt too wide) in paragraph at lines 143--144
-\T1/ptm/m/n/12 pa-ra-mé-trage de la co-lo-ri-mé-trie y est bien sou-vent plus p
-oussé, et elle sont sys-té-ma-ti-que-ment
- []
-
 <images/professionnel.png, id=398, 1173.38374pt x 405.515pt>
 File: images/professionnel.png Graphic file (type png)
 <use images/professionnel.png>
-Package pdftex.def Info: images/professionnel.png  used on input line 160.
-(pdftex.def)             Requested size: 445.89046pt x 154.09729pt.
-
-Overfull \hbox (7.64635pt too wide) in paragraph at lines 160--161
- [] 
- []
-
-[7 <./images/prosommateur.png>]
-Overfull \hbox (3.78569pt too wide) in paragraph at lines 165--166
+Package pdftex.def Info: images/professionnel.png  used on input line 150.
+(pdftex.def)             Requested size: 352.01784pt x 121.65543pt.
+ [7 <./images/prosommateur.png>]
+Overfull \hbox (3.78569pt too wide) in paragraph at lines 155--156
 \T1/ptm/m/n/12 c'est avant tout de très grands cap-teurs su-pé-rieurs à la ma-j
 o-rité des ca-mé-ras pro-som-ma-teurs
  []
 
 
-Overfull \hbox (41.80199pt too wide) in paragraph at lines 165--166
+Overfull \hbox (41.80199pt too wide) in paragraph at lines 155--156
 \T1/ptm/m/n/12 qui leur confère une qua-lité d'image ci-né-ma-to-gra-phique com
 -pa-rable aux ca-mé-ras pro-fes-sion-nelles.
  []
@@ -1920,159 +1941,173 @@ Overfull \hbox (41.80199pt too wide) in paragraph at lines 165--166
 <images/super consentrÃ©.png, id=408, 1167.36125pt x 376.40625pt>
 File: images/super consentrÃ©.png Graphic file (type png)
 <use images/super consentrÃ©.png>
-Package pdftex.def Info: images/super consentrÃ©.png  used on input line 180.
-(pdftex.def)             Requested size: 443.60188pt x 143.03586pt.
+Package pdftex.def Info: images/super consentrÃ©.png  used on input line 170.
+(pdftex.def)             Requested size: 350.21107pt x 112.92273pt.
 
-Overfull \hbox (5.35777pt too wide) in paragraph at lines 180--181
- [] 
+Overfull \hbox (12.07753pt too wide) in paragraph at lines 175--176
+\T1/ptm/m/n/12 spé-ci-fique comme les ca-mé-ras mi-nia-tures pour les sports ou
+ l'em-bar-ca-tion dans les vé-hi-cules
  []
 
 [8 <./images/professionnel.png> <./images/super consentrÃ©.png>]
 <images/camÃ©ras dediÃ©.png, id=418, 687.31781pt x 192.72pt>
 File: images/camÃ©ras dediÃ©.png Graphic file (type png)
 <use images/camÃ©ras dediÃ©.png>
-Package pdftex.def Info: images/camÃ©ras dediÃ©.png  used on input line 202.
-(pdftex.def)             Requested size: 446.75128pt x 125.2665pt.
-
-Overfull \hbox (8.50717pt too wide) in paragraph at lines 202--203
- [] 
- []
-
-[9 <./images/camÃ©ras dediÃ©.png>]
+Package pdftex.def Info: images/camÃ©ras dediÃ©.png  used on input line 192.
+(pdftex.def)             Requested size: 412.39386pt x 115.63287pt.
+ [9 <./images/camÃ©ras dediÃ©.png>]
 <images/illustration camÃ©ras.png, id=428, 726.715pt x 145.54375pt>
 File: images/illustration camÃ©ras.png Graphic file (type png)
 <use images/illustration camÃ©ras.png>
 Package pdftex.def Info: images/illustration camÃ©ras.png  used on input line 2
-28.
-(pdftex.def)             Requested size: 363.3566pt x 72.77168pt.
+17.
+(pdftex.def)             Requested size: 290.68085pt x 58.21646pt.
+
+Overfull \hbox (32.23611pt too wide) in paragraph at lines 224--226
+[]\T1/ptm/m/n/12 Le mo-dèle géo-mé-trique d'une ca-méra, re-pré-sen-tée en Fi-g
+ure []1.10[], est basé sur trois trans-for-ma-tions
+ []
+
 <images/chambre-noire.jpg, id=435, 903.375pt x 451.6875pt>
 File: images/chambre-noire.jpg Graphic file (type jpg)
 <use images/chambre-noire.jpg>
-Package pdftex.def Info: images/chambre-noire.jpg  used on input line 245.
-(pdftex.def)             Requested size: 316.18599pt x 158.09299pt.
- [10 <./images/illustration camÃ©ras.png>]
-<images/modelstenope.png, id=444, 516.42938pt x 271.0125pt>
+Package pdftex.def Info: images/chambre-noire.jpg  used on input line 235.
+(pdftex.def)             Requested size: 271.01459pt x 135.5073pt.
+[10 <./images/illustration camÃ©ras.png>]
+<images/modelstenope.png, id=443, 516.42938pt x 271.0125pt>
 File: images/modelstenope.png Graphic file (type png)
 <use images/modelstenope.png>
-Package pdftex.def Info: images/modelstenope.png  used on input line 256.
-(pdftex.def)             Requested size: 361.4981pt x 189.70744pt.
+Package pdftex.def Info: images/modelstenope.png  used on input line 246.
+(pdftex.def)             Requested size: 309.86002pt x 162.60875pt.
 
-Overfull \hbox (7.1345pt too wide) in paragraph at lines 262--263
+Overfull \hbox (7.1345pt too wide) in paragraph at lines 252--254
 []\T1/ptm/m/n/12 La po-si-tion d'un point 3D \T1/ptm/b/n/12 M \T1/ptm/m/n/12 de
  la scène, dé-fi-nie dans le re-père monde $\OML/cmm/m/it/12 R[]$ \T1/ptm/m/n/1
 2 par ses co-or-don-nées
  []
 
 
-Overfull \hbox (2.64653pt too wide) in paragraph at lines 262--263
+Overfull \hbox (2.64653pt too wide) in paragraph at lines 252--254
 \T1/ptm/m/n/12 que de trois ro-ta-tions et de trois trans-la-tions. Cette pre-m
 ière trans-for-ma-tion entre les co-or-don-nées
  []
 
 [11 <./images/chambre-noire.jpg> <./images/modelstenope.png>]
-Overfull \hbox (1.47124pt too wide) in paragraph at lines 355--356
+Overfull \hbox (1.47124pt too wide) in paragraph at lines 346--347
 []\T1/ptm/m/n/12 l'angle de dé-ca-drage entre les axes ho-ri-zon-taux et ver-ti
 -caux du cap-teur (^^S skew ^^T), sup-posé
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Overfull \hbox (3.78319pt too wide) in paragraph at lines 396--397
+[]\T1/ptm/m/n/12 En glo-ba-lité, l'es-ti-ma-tion des dif-fé-rents pa-ra-mètres 
+énu-mé-rés au-dessus consti-tue le ca-li-brage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 408.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 408.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 408.
 [13]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 421.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 421.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 421.
-
-Overfull \hbox (1.30212pt too wide) in paragraph at lines 423--424
-\T1/ptm/m/n/12 connue (ap-pelé mire d'éta-lon-nage) et son image ac-quise par l
-a ca-méra. Cette mire pré-sente
- []
-
 <images/mire1.jpg, id=475, 52.998pt x 52.998pt>
 File: images/mire1.jpg Graphic file (type jpg)
 <use images/mire1.jpg>
-Package pdftex.def Info: images/mire1.jpg  used on input line 444.
+Package pdftex.def Info: images/mire1.jpg  used on input line 431.
 (pdftex.def)             Requested size: 104.7042pt x 104.71477pt.
 <images/mire2.jpg, id=476, 365.86688pt x 376.40625pt>
 File: images/mire2.jpg Graphic file (type jpg)
 <use images/mire2.jpg>
-Package pdftex.def Info: images/mire2.jpg  used on input line 444.
+Package pdftex.def Info: images/mire2.jpg  used on input line 431.
 (pdftex.def)             Requested size: 104.7042pt x 107.71913pt.
 <images/mire3.png, id=477, 768.8725pt x 768.8725pt>
 File: images/mire3.png Graphic file (type png)
 <use images/mire3.png>
-Package pdftex.def Info: images/mire3.png  used on input line 444.
+Package pdftex.def Info: images/mire3.png  used on input line 431.
 (pdftex.def)             Requested size: 104.7042pt x 104.69667pt.
 <images/mire4.png, id=478, 1027.84pt x 770.88pt>
 File: images/mire4.png Graphic file (type png)
 <use images/mire4.png>
-Package pdftex.def Info: images/mire4.png  used on input line 444.
+Package pdftex.def Info: images/mire4.png  used on input line 431.
 (pdftex.def)             Requested size: 104.7042pt x 78.52756pt.
-[14 <./images/mire1.jpg> <./images/mire2.jpg> <./images/mire3.png> <./images/mi
-re4.png (PNG copy)>]
-Overfull \hbox (9.44962pt too wide) in paragraph at lines 454--455
+ [14 <./images/mire1.jpg> <./images/mire2.jpg> <./images/mire3.png> <./images/m
+ire4.png (PNG copy)>]
+Overfull \hbox (9.44962pt too wide) in paragraph at lines 441--442
 \T1/ptm/m/n/12 étant ro-buste au bruit grâce à la mul-ti-pli-cité des points d'
 éva-lua-tion in-duite par la des-crip-tion
  []
 
 [15]
-Overfull \hbox (24.25801pt too wide) in paragraph at lines 458--459
+Overfull \hbox (24.25801pt too wide) in paragraph at lines 445--446
 \T1/ptm/m/n/12 l'éta-lon-nage d'une ca-méra. Pour les cas où la pièce ne res-pe
 cte pas ces condi-tions géo-mé-triques
  []
 
 
-Overfull \hbox (11.17642pt too wide) in paragraph at lines 458--459
+Overfull \hbox (11.17642pt too wide) in paragraph at lines 445--446
 \T1/ptm/m/n/12 (ma-trice K), et de fia-bi-li-ser l'iden-ti-fi-ca-tion de la ma-
 trice ex-trin-sèque T (sous forme im-pli-cite)
  []
 
+
+Overfull \hbox (3.4862pt too wide) in paragraph at lines 458--459
+[]\T1/ptm/m/n/12 La tech-nique pro-po-sée par zhang Zhen-gyou [[]9[]] connue so
+us le nom de \T1/ptm/m/it/12 "mé-thode de ca-li-brage
+ []
+
+
+Overfull \hbox (15.48335pt too wide) in paragraph at lines 460--461
+[]\T1/ptm/m/n/12 Ainsi nous al-lons faire un ré-sumé des par-ties es-sen-tielle
+s de l'ar-ticle se-lon notre com-pré-hen-sion.
+ []
+
 [16] [17]
-Overfull \hbox (4.29085pt too wide) in paragraph at lines 546--547
-\T1/ptm/m/n/12 d'abord la so-lu-tion fermé qui per-met de ré-soudre les contrai
-ntes liées aux pa-ra-mètres in-trin-sèques
+Overfull \hbox (9.61877pt too wide) in paragraph at lines 532--533
+\T1/ptm/m/n/12 d'abord la so-lu-tion fer-mée qui per-met de ré-soudre les contr
+aintes liées aux pa-ra-mètres in-trin-sèques
  []
 
 
-Overfull \hbox (14.9227pt too wide) in paragraph at lines 546--547
-\T1/ptm/m/n/12 , en-suite la tech-nique d'op-ti-mi-sa-tion non li-néaire ba-sée
- sur le cri-tère du maxi-mum de vrai-sem-blance
+Overfull \hbox (16.63863pt too wide) in paragraph at lines 532--533
+\T1/ptm/m/n/12 , en-suite la tech-nique d'op-ti-mi-sa-tion non-linéaire ba-sée 
+sur le cri-tère du maxi-mum de vrai-sem-blance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--551
+Underfull \hbox (badness 10000) in paragraph at lines 535--537
 
  []
 
 [18]
-Overfull \hbox (22.3854pt too wide) in paragraph at lines 615--617
+Overfull \hbox (22.3854pt too wide) in paragraph at lines 601--603
 \T1/ptm/m/n/12 pa-ra-mètres ex-trin-sèques de chaque image sont fa-ci-le-ment c
 al-culé grâce à la ma-trice in-trin-sèque
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--629
+Underfull \hbox (badness 10000) in paragraph at lines 613--615
 
  []
 
 [19]
-Overfull \hbox (8.19458pt too wide) in paragraph at lines 646--651
+Overfull \hbox (8.19458pt too wide) in paragraph at lines 632--637
 \T1/ptm/m/n/12 l'al-go-rithme de Levenberg-Marquardt tel qu'im-plé-menté dans M
 in-pack [[]11[]]. Cela né-ces-site
  []
 
 
-Overfull \hbox (4.53252pt too wide) in paragraph at lines 646--651
+Overfull \hbox (4.53252pt too wide) in paragraph at lines 632--637
 \T1/ptm/m/n/12 une es-ti-ma-tion ini-tiale de \T1/ptm/b/n/12 A\T1/ptm/m/n/12 , 
 $\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 R[]; t[]\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 
 i \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ::n\OMS/cmsy/m/n/12 g$ \T1/ptm/m/n/12 qui
@@ -2080,33 +2115,28 @@ i \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ::n\OMS/cmsy/m/n/12 g$ \T1/ptm/m/n/12 qui
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--651
+Underfull \hbox (badness 10000) in paragraph at lines 632--637
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--654
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
 
  []
 
 
-Overfull \hbox (17.91039pt too wide) in paragraph at lines 655--661
+Overfull \hbox (17.91039pt too wide) in paragraph at lines 641--643
 \T1/ptm/m/n/12 Ce-pen-dant, une ca-méra de bu-reau pré-sente gé-né-ra-le-ment u
 ne dis-tor-sion d'ob-jec-tif im-por-tante,
  []
 
 
-Overfull \hbox (4.93794pt too wide) in paragraph at lines 655--661
-\T1/ptm/m/n/12 do-mi-née par le pre-mier terme Il a éga-le-ment été constaté qu
-'une mo-dé-li-sa-tion plus éla-bo-rée
+Overfull \hbox (1.63585pt too wide) in paragraph at lines 673--675
+[]\T1/ptm/m/n/12 L'évolution ra-pide des cap-teurs d'ima-ge-rie et des al-go-ri
+thmes de trai-te-ment d'image a per-mis
  []
 
-[20] [21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
-
- []
-
-[23] [24]) (chapitre/06-Chapitre2.tex [25]
+[20] [21]) (chapitre/06-Chapitre2.tex [22] [23]
 Chapitre 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -2123,237 +2153,211 @@ Overfull \hbox (15.26251pt too wide) in paragraph at lines 12--12
 a-mètres du ca-li-brage 
  []
 
-) [26
+) [24
 
 ]
-Overfull \hbox (3.13992pt too wide) in paragraph at lines 29--30
+Overfull \hbox (3.13992pt too wide) in paragraph at lines 28--29
 \T1/ptm/m/n/12 struc-tures de don-nées ef-fi-caces pour la ma-ni-pu-la-tion de 
 ta-bleaux mul-ti-di-men-sion-nels,
  []
 
 
-Overfull \hbox (8.3127pt too wide) in paragraph at lines 31--32
+Overfull \hbox (8.3127pt too wide) in paragraph at lines 30--31
 \T1/ptm/m/n/12 pour four-nir une in-fra-struc-ture com-mune pour les ap-pli-ca-
 tions de vi-sion par or-di-na-teur
  []
 
-[27]
-Overfull \hbox (19.52008pt too wide) in paragraph at lines 35--36
+[25]
+Overfull \hbox (19.52008pt too wide) in paragraph at lines 34--35
 []\T1/ptm/b/n/12 Glob : \T1/ptm/m/n/12 est uti-lisé pour re-cher-cher des che-m
 ins de fi-chiers ou de ré-per-toires cor-res-pon-dant
  []
 
-[28]
-<images/captureimage1.png, id=605, 716.6775pt x 167.87718pt>
+[26]
+<images/captureimage1.png, id=596, 702.37407pt x 140.77594pt>
 File: images/captureimage1.png Graphic file (type png)
 <use images/captureimage1.png>
-Package pdftex.def Info: images/captureimage1.png  used on input line 61.
-(pdftex.def)             Requested size: 430.00983pt x 100.72708pt.
-<images/captureimage2.png, id=606, 706.89093pt x 296.60812pt>
+Package pdftex.def Info: images/captureimage1.png  used on input line 60.
+(pdftex.def)             Requested size: 280.94466pt x 56.30936pt.
+<images/captureimage2.png, id=597, 691.83469pt x 285.31593pt>
 File: images/captureimage2.png Graphic file (type png)
 <use images/captureimage2.png>
-Package pdftex.def Info: images/captureimage2.png  used on input line 73.
-(pdftex.def)             Requested size: 424.13783pt x 177.96623pt.
-<images/captureimage3.png, id=607, 634.62094pt x 104.64093pt>
+Package pdftex.def Info: images/captureimage2.png  used on input line 72.
+(pdftex.def)             Requested size: 276.72897pt x 114.12434pt.
+<images/captureimage3.png, id=598, 634.62094pt x 63.98906pt>
 File: images/captureimage3.png Graphic file (type png)
 <use images/captureimage3.png>
-Package pdftex.def Info: images/captureimage3.png  used on input line 84.
-(pdftex.def)             Requested size: 380.7755pt x 62.78502pt.
- [29 <./images/captureimage1.png> <./images/captureimage2.png>]
-<images/captureimage4.png, id=614, 557.08125pt x 211.54031pt>
+Package pdftex.def Info: images/captureimage3.png  used on input line 83.
+(pdftex.def)             Requested size: 253.84387pt x 25.59515pt.
+<images/captureimage4.png, id=599, 249.93375pt x 58.71938pt>
 File: images/captureimage4.png Graphic file (type png)
 <use images/captureimage4.png>
-Package pdftex.def Info: images/captureimage4.png  used on input line 95.
-(pdftex.def)             Requested size: 334.25133pt x 126.92516pt.
-<images/interface.png, id=615, 515.67656pt x 400.49625pt>
+Package pdftex.def Info: images/captureimage4.png  used on input line 94.
+(pdftex.def)             Requested size: 174.95242pt x 41.10326pt.
+<images/interface.png, id=600, 480.29437pt x 383.93437pt>
 File: images/interface.png Graphic file (type png)
 <use images/interface.png>
-Package pdftex.def Info: images/interface.png  used on input line 106.
-(pdftex.def)             Requested size: 309.40831pt x 240.29959pt.
-<images/img1.png, id=616, 642.4pt x 481.8pt>
+Package pdftex.def Info: images/interface.png  used on input line 105.
+(pdftex.def)             Requested size: 144.08942pt x 115.1812pt.
+ [27 <./images/captureimage1.png> <./images/captureimage2.png> <./images/captur
+eimage3.png> <./images/captureimage4.png>]
+<images/img1.png, id=609, 642.4pt x 481.8pt>
 File: images/img1.png Graphic file (type png)
 <use images/img1.png>
-Package pdftex.def Info: images/img1.png  used on input line 126.
-(pdftex.def)             Requested size: 182.09486pt x 136.5719pt.
-<images/img2.png, id=617, 642.4pt x 481.8pt>
+Package pdftex.def Info: images/img1.png  used on input line 125.
+(pdftex.def)             Requested size: 113.81102pt x 85.35284pt.
+<images/img2.png, id=610, 642.4pt x 481.8pt>
 File: images/img2.png Graphic file (type png)
 <use images/img2.png>
-Package pdftex.def Info: images/img2.png  used on input line 126.
-(pdftex.def)             Requested size: 182.09486pt x 136.5719pt.
-<images/3d1.png, id=618, 623.32875pt x 321.45094pt>
+Package pdftex.def Info: images/img2.png  used on input line 125.
+(pdftex.def)             Requested size: 113.81102pt x 85.35284pt.
+<images/3d1.png, id=611, 623.32875pt x 321.45094pt>
 File: images/3d1.png Graphic file (type png)
 <use images/3d1.png>
-Package pdftex.def Info: images/3d1.png  used on input line 137.
-(pdftex.def)             Requested size: 374.00014pt x 192.87204pt.
-<images/3d2.png, id=619, 663.22781pt x 241.65282pt>
+Package pdftex.def Info: images/3d1.png  used on input line 136.
+(pdftex.def)             Requested size: 187.00006pt x 96.43602pt.
+<images/3d2.png, id=612, 663.22781pt x 241.65282pt>
 File: images/3d2.png Graphic file (type png)
 <use images/3d2.png>
-Package pdftex.def Info: images/3d2.png  used on input line 147.
-(pdftex.def)             Requested size: 397.93976pt x 144.9928pt.
- [30 <./images/captureimage3.png> <./images/captureimage4.png> <./images/interf
-ace.png>]
-Overfull \hbox (25.26445pt too wide) in paragraph at lines 155--156
+Package pdftex.def Info: images/3d2.png  used on input line 146.
+(pdftex.def)             Requested size: 265.28642pt x 96.65941pt.
+ [28 <./images/interface.png> <./images/img1.png (PNG copy)> <./images/img2.png
+ (PNG copy)> <./images/3d1.png>]
+Overfull \hbox (25.26445pt too wide) in paragraph at lines 154--155
 []\T1/ptm/m/n/12 Pour ce faire, nous avons uti-lisé trois fonc-tions de \T1/ptm
 /b/n/12 Opencv \T1/ptm/m/n/12 à sa-voir \T1/ptm/b/n/12 cv.findChessboardCorners
 ()\T1/ptm/m/n/12 ,
  []
 
-<images/point1.png, id=627, 759.58781pt x 350.81062pt>
+<images/point1.png, id=619, 759.58781pt x 350.81062pt>
 File: images/point1.png Graphic file (type png)
 <use images/point1.png>
-Package pdftex.def Info: images/point1.png  used on input line 163.
-(pdftex.def)             Requested size: 455.7562pt x 210.48799pt.
-
-Overfull \hbox (17.51208pt too wide) in paragraph at lines 163--164
- [] 
- []
-
-[31 <./images/img1.png (PNG copy)> <./images/img2.png (PNG copy)> <./images/3d1
-.png> <./images/3d2.png>]
-<images/point2.png, id=634, 764.8575pt x 314.67563pt>
+Package pdftex.def Info: images/point1.png  used on input line 162.
+(pdftex.def)             Requested size: 303.82974pt x 140.32175pt.
+<images/point2.png, id=620, 764.8575pt x 314.67563pt>
 File: images/point2.png Graphic file (type png)
 <use images/point2.png>
-Package pdftex.def Info: images/point2.png  used on input line 174.
-(pdftex.def)             Requested size: 458.91803pt x 188.80682pt.
-
-Overfull \hbox (20.67392pt too wide) in paragraph at lines 174--175
- [] 
- []
-
-[32 <./images/point1.png> <./images/point2.png>]
-<images/calibrage.png, id=641, 841.64438pt x 280.04625pt>
+Package pdftex.def Info: images/point2.png  used on input line 173.
+(pdftex.def)             Requested size: 305.93758pt x 125.86801pt.
+[29 <./images/3d2.png> <./images/point1.png> <./images/point2.png>]
+<images/calibrage.png, id=629, 841.64438pt x 280.04625pt>
 File: images/calibrage.png Graphic file (type png)
 <use images/calibrage.png>
-Package pdftex.def Info: images/calibrage.png  used on input line 190.
-(pdftex.def)             Requested size: 420.82117pt x 140.02277pt.
-<images/calibrage2.png, id=642, 488.57532pt x 389.95688pt>
+Package pdftex.def Info: images/calibrage.png  used on input line 189.
+(pdftex.def)             Requested size: 336.6518pt x 112.0165pt.
+<images/calibrage2.png, id=630, 488.57532pt x 389.95688pt>
 File: images/calibrage2.png Graphic file (type png)
 <use images/calibrage2.png>
-Package pdftex.def Info: images/calibrage2.png  used on input line 203.
-(pdftex.def)             Requested size: 293.14745pt x 233.97592pt.
-<images/resultat1.png, id=643, 569.87906pt x 352.31625pt>
+Package pdftex.def Info: images/calibrage2.png  used on input line 202.
+(pdftex.def)             Requested size: 146.57372pt x 116.98796pt.
+<images/resultat1.png, id=631, 530.73282pt x 291.33844pt>
 File: images/resultat1.png Graphic file (type png)
 <use images/resultat1.png>
-Package pdftex.def Info: images/resultat1.png  used on input line 217.
-(pdftex.def)             Requested size: 341.93007pt x 211.39137pt.
- [33 <./images/calibrage.png> <./images/calibrage2.png>]
-<images/resultat2.png, id=650, 495.35063pt x 191.9672pt>
+Package pdftex.def Info: images/resultat1.png  used on input line 216.
+(pdftex.def)             Requested size: 212.28937pt x 116.53331pt.
+ [30 <./images/calibrage.png> <./images/calibrage2.png>]
+<images/resultat2.png, id=638, 495.35063pt x 191.9672pt>
 File: images/resultat2.png Graphic file (type png)
 <use images/resultat2.png>
-Package pdftex.def Info: images/resultat2.png  used on input line 228.
-(pdftex.def)             Requested size: 297.21268pt x 115.1812pt.
-<images/distorsion1.png, id=651, 781.41937pt x 294.34969pt>
+Package pdftex.def Info: images/resultat2.png  used on input line 227.
+(pdftex.def)             Requested size: 198.13673pt x 76.7855pt.
+<images/distorsion1.png, id=639, 781.41937pt x 294.34969pt>
 File: images/distorsion1.png Graphic file (type png)
 <use images/distorsion1.png>
-Package pdftex.def Info: images/distorsion1.png  used on input line 243.
-(pdftex.def)             Requested size: 468.85524pt x 176.61116pt.
-
-Overfull \hbox (30.61113pt too wide) in paragraph at lines 243--244
- [] 
- []
-
-[34 <./images/resultat1.png> <./images/resultat2.png>]
-<images/distorsion2.png, id=659, 788.9475pt x 180.675pt>
+Package pdftex.def Info: images/distorsion1.png  used on input line 242.
+(pdftex.def)             Requested size: 312.56221pt x 117.73778pt.
+<images/distorsion2.png, id=640, 788.9475pt x 180.675pt>
 File: images/distorsion2.png Graphic file (type png)
 <use images/distorsion2.png>
-Package pdftex.def Info: images/distorsion2.png  used on input line 254.
-(pdftex.def)             Requested size: 473.37215pt x 108.40582pt.
-
-Overfull \hbox (35.12804pt too wide) in paragraph at lines 254--255
- [] 
- []
-
-<images/resultat4.png, id=660, 601.24625pt x 450.68375pt>
+Package pdftex.def Info: images/distorsion2.png  used on input line 253.
+(pdftex.def)             Requested size: 315.5734pt x 72.2687pt.
+ [31 <./images/resultat1.png> <./images/resultat2.png> <./images/distorsion1.pn
+g>]
+<images/resultat4.png, id=648, 601.24625pt x 450.68375pt>
 File: images/resultat4.png Graphic file (type png)
 <use images/resultat4.png>
-Package pdftex.def Info: images/resultat4.png  used on input line 266.
-(pdftex.def)             Requested size: 300.62238pt x 225.34131pt.
-[35 <./images/distorsion1.png> <./images/distorsion2.png>]
-<images/erreur.png, id=667, 791.20593pt x 198.7425pt>
+Package pdftex.def Info: images/resultat4.png  used on input line 265.
+(pdftex.def)             Requested size: 180.37526pt x 135.20616pt.
+<images/erreur.png, id=649, 791.20593pt x 198.7425pt>
 File: images/erreur.png Graphic file (type png)
 <use images/erreur.png>
-Package pdftex.def Info: images/erreur.png  used on input line 281.
-(pdftex.def)             Requested size: 474.72722pt x 119.24641pt.
-
-Overfull \hbox (36.48311pt too wide) in paragraph at lines 281--282
- [] 
- []
-
-<images/resultat3.png, id=668, 332.74312pt x 30.86531pt>
+Package pdftex.def Info: images/erreur.png  used on input line 280.
+(pdftex.def)             Requested size: 316.47676pt x 79.49557pt.
+<images/resultat3.png, id=650, 332.74312pt x 30.86531pt>
 File: images/resultat3.png Graphic file (type png)
 <use images/resultat3.png>
-Package pdftex.def Info: images/resultat3.png  used on input line 296.
+Package pdftex.def Info: images/resultat3.png  used on input line 295.
 (pdftex.def)             Requested size: 332.7423pt x 30.86522pt.
-[36 <./images/resultat4.png (PNG copy)> <./images/erreur.png> <./images/resulta
-t3.png>]
-Overfull \hbox (6.84306pt too wide) in paragraph at lines 339--342
+ [32 <./images/distorsion2.png> <./images/resultat4.png (PNG copy)> <./images/e
+rreur.png> <./images/resultat3.png>]
+Overfull \hbox (6.84306pt too wide) in paragraph at lines 333--336
 []\T1/ptm/m/n/12 Pour une ca-méra comme la \T1/ptm/b/n/12 Her-cules HD Twist\T1
 /ptm/m/n/12 , qui uti-lise un cap-teur CMOS de 5 mé-ga-pixels
  []
 
-[37]
-Overfull \hbox (6.6892pt too wide) in paragraph at lines 343--343
+[33]
+Overfull \hbox (6.6892pt too wide) in paragraph at lines 337--337
 |[]\T1/ptm/b/n/14.4 Deuxième étape : Char-ge-ment des dif-fé-rents pa-ra-mètres
  du ca-li-brage
  []
 
-<images/parametrecharge.png, id=679, 868.74562pt x 225.84375pt>
+<images/parametrecharge.png, id=662, 868.74562pt x 225.84375pt>
 File: images/parametrecharge.png Graphic file (type png)
 <use images/parametrecharge.png>
-Package pdftex.def Info: images/parametrecharge.png  used on input line 353.
-(pdftex.def)             Requested size: 434.37175pt x 112.92159pt.
-<images/captureimage6.png, id=681, 642.14906pt x 201.75375pt>
+Package pdftex.def Info: images/parametrecharge.png  used on input line 347.
+(pdftex.def)             Requested size: 347.4921pt x 90.33589pt.
+<images/captureimage6.png, id=664, 642.14906pt x 201.75375pt>
 File: images/captureimage6.png Graphic file (type png)
 <use images/captureimage6.png>
-Package pdftex.def Info: images/captureimage6.png  used on input line 369.
-(pdftex.def)             Requested size: 353.18307pt x 110.96489pt.
-[38 <./images/parametrecharge.png>]
-<images/captureimage5.png, id=687, 607.51968pt x 308.65312pt>
+Package pdftex.def Info: images/captureimage6.png  used on input line 363.
+(pdftex.def)             Requested size: 256.85507pt x 80.70006pt.
+<images/captureimage5.png, id=665, 607.51968pt x 308.65312pt>
 File: images/captureimage5.png Graphic file (type png)
 <use images/captureimage5.png>
-Package pdftex.def Info: images/captureimage5.png  used on input line 380.
-(pdftex.def)             Requested size: 334.13686pt x 169.75974pt.
-<images/distor.png, id=688, 776.9025pt x 173.89969pt>
+Package pdftex.def Info: images/captureimage5.png  used on input line 374.
+(pdftex.def)             Requested size: 243.00356pt x 123.45905pt.
+[34 <./images/parametrecharge.png> <./images/captureimage6.png>]
+<images/distor.png, id=672, 776.9025pt x 173.89969pt>
 File: images/distor.png Graphic file (type png)
 <use images/distor.png>
-Package pdftex.def Info: images/distor.png  used on input line 395.
-(pdftex.def)             Requested size: 435.06242pt x 97.38315pt.
-<images/contour.png, id=689, 569.12625pt x 359.09157pt>
+Package pdftex.def Info: images/distor.png  used on input line 389.
+(pdftex.def)             Requested size: 310.7555pt x 69.55862pt.
+<images/contour.png, id=673, 569.12625pt x 359.09157pt>
 File: images/contour.png Graphic file (type png)
 <use images/contour.png>
-Package pdftex.def Info: images/contour.png  used on input line 410.
+Package pdftex.def Info: images/contour.png  used on input line 404.
 (pdftex.def)             Requested size: 398.38567pt x 251.36238pt.
- [39 <./images/captureimage6.png> <./images/captureimage5.png> <./images/distor
-.png>]
-<images/distance1.png, id=697, 483.30562pt x 373.395pt>
+ [35 <./images/captureimage5.png> <./images/distor.png>]
+<images/distance1.png, id=681, 483.30562pt x 373.395pt>
 File: images/distance1.png Graphic file (type png)
 <use images/distance1.png>
-Package pdftex.def Info: images/distance1.png  used on input line 433.
+Package pdftex.def Info: images/distance1.png  used on input line 427.
 (pdftex.def)             Requested size: 362.47833pt x 280.04556pt.
- [40 <./images/contour.png>]
-<images/triangle.png, id=704, 329.73187pt x 380.17032pt>
+ [36 <./images/contour.png>]
+<images/triangle.png, id=687, 329.73187pt x 380.17032pt>
 File: images/triangle.png Graphic file (type png)
 <use images/triangle.png>
-Package pdftex.def Info: images/triangle.png  used on input line 450.
-(pdftex.def)             Requested size: 164.86552pt x 190.08469pt.
- [41 <./images/distance1.png> <./images/triangle.png>]
-<images/distance2.png, id=711, 568.37344pt x 124.21407pt>
+Package pdftex.def Info: images/triangle.png  used on input line 444.
+(pdftex.def)             Requested size: 131.8904pt x 152.06543pt.
+ [37 <./images/distance1.png> <./images/triangle.png>]
+<images/distance2.png, id=694, 568.37344pt x 124.21407pt>
 File: images/distance2.png Graphic file (type png)
 <use images/distance2.png>
-Package pdftex.def Info: images/distance2.png  used on input line 470.
+Package pdftex.def Info: images/distance2.png  used on input line 464.
 (pdftex.def)             Requested size: 397.8587pt x 86.94923pt.
-<images/result.png, id=712, 407.27156pt x 38.39343pt>
+<images/result.png, id=695, 407.27156pt x 38.39343pt>
 File: images/result.png Graphic file (type png)
 <use images/result.png>
-Package pdftex.def Info: images/result.png  used on input line 484.
+Package pdftex.def Info: images/result.png  used on input line 478.
 (pdftex.def)             Requested size: 285.08813pt x 26.8752pt.
- [42 <./images/distance2.png> <./images/result.png>]
-Overfull \hbox (16.7917pt too wide) in paragraph at lines 495--496
+
+Overfull \hbox (16.7917pt too wide) in paragraph at lines 489--490
 []\T1/ptm/m/n/12 Ensuite, nous avons dé-taillé le pro-ces-sus de ca-li-brage, q
 ui in-clut la dé-ter-mi-na-tion des pa-ra-mètres
  []
 
-) (chapitre/06-2-Chapitre3.tex [43]
+[38 <./images/distance2.png> <./images/result.png>])
+(chapitre/06-2-Chapitre3.tex [39]
 Chapitre 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -2364,7 +2368,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout4 = `main.mtc'.
 
-(main.mtc6) [44
+(main.mtc6) [40
 
 ]
 Overfull \hbox (2.3576pt too wide) in paragraph at lines 20--21
@@ -2378,17 +2382,17 @@ Overfull \hbox (12.4142pt too wide) in paragraph at lines 20--21
 -tor-sion se pro-duit lorsque l'ob-jec-tif
  []
 
-<images/radialint.png, id=734, 225.84375pt x 178.41656pt>
+<images/radialint.png, id=717, 225.84375pt x 178.41656pt>
 File: images/radialint.png Graphic file (type png)
 <use images/radialint.png>
 Package pdftex.def Info: images/radialint.png  used on input line 40.
 (pdftex.def)             Requested size: 109.26108pt x 86.31685pt.
-<images/radialext.png, id=735, 225.84375pt x 174.6525pt>
+<images/radialext.png, id=718, 225.84375pt x 174.6525pt>
 File: images/radialext.png Graphic file (type png)
 <use images/radialext.png>
 Package pdftex.def Info: images/radialext.png  used on input line 40.
 (pdftex.def)             Requested size: 113.81102pt x 88.01625pt.
-<images/tang.jpg, id=736, 290.08376pt x 216.81pt>
+<images/tang.jpg, id=719, 290.08376pt x 216.81pt>
 File: images/tang.jpg Graphic file (type jpg)
 <use images/tang.jpg>
 Package pdftex.def Info: images/tang.jpg  used on input line 40.
@@ -2398,7 +2402,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-[45 <./images/radialint.png> <./images/radialext.png> <./images/tang.jpg>]
+[41 <./images/radialint.png> <./images/radialext.png> <./images/tang.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
@@ -2419,13 +2423,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[46]
+[42]
 Overfull \hbox (4.26588pt too wide) in paragraph at lines 61--62
 []\T1/ptm/b/n/12 Précision des Me-sures : \T1/ptm/m/n/12 Des er-reurs de ca-li-
 brage peuvent af-fec-ter la pré-ci-sion des me-sures
  []
 
-[47]) (chapitre/07-ConclusionGenerale.tex [48]
+[43]) (chapitre/07-ConclusionGenerale.tex [44]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
@@ -2437,88 +2441,88 @@ Overfull \hbox (1.26677pt too wide) in paragraph at lines 8--9
  []
 
 )
-Overfull \hbox (0.70331pt too wide) in paragraph at lines 14--67
+Overfull \hbox (0.70331pt too wide) in paragraph at lines 14--69
 \T1/ptm/m/n/12 à in-no-ver dans un en-vi-ron-ne-ment aux res-sources li-mi-tées
 , mais il a éga-le-ment mon-tré le po-ten-tiel
  []
 
 
-Overfull \hbox (10.9746pt too wide) in paragraph at lines 14--67
+Overfull \hbox (10.9746pt too wide) in paragraph at lines 14--69
 \T1/ptm/m/n/12 d'une tech-no-lo-gie ac-ces-sible pour amé-lio-rer l'ana-lyse et
  l'op-ti-mi-sa-tion des per-for-mances spor-tives
  []
 
-[49
+[45
 
-] [50]
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 
  []
 
 
-Overfull \hbox (29.30515pt too wide) in paragraph at lines 74--74
+Overfull \hbox (29.30515pt too wide) in paragraph at lines 76--76
 []\T1/ptm/m/n/12 J.[]J. []\T1/ptm/m/sc/12 Orteu[]\T1/ptm/m/n/12 , ^^S   Ca-li-b
 rage géo-mé-trique d'une ca-méra ou d'un cap-teur de vi-sion sté-réo-sco-pique,
  ^^T
  []
 
 
-Overfull \hbox (6.71043pt too wide) in paragraph at lines 74--74
+Overfull \hbox (6.71043pt too wide) in paragraph at lines 76--76
 \T1/ptm/m/n/12 image cor-rec-tion, ^^T en, in \T1/ptm/m/it/12 Pro-cee-dings of 
 IEEE Com-pu-ter So-ciety Confe-rence on Com-pu-ter
  []
 
 
-Overfull \hbox (32.1291pt too wide) in paragraph at lines 74--74
+Overfull \hbox (32.1291pt too wide) in paragraph at lines 76--76
 \T1/ptm/m/it/12 Vi-sion and Pat-tern Re-cog-ni-tion\T1/ptm/m/n/12 , San Juan, P
 uerto Rico : IEEE Com-put. Soc, 1997, p. 1106-1112,
  []
 
-[51
+[47
 
 
 ]
-Overfull \hbox (17.88234pt too wide) in paragraph at lines 74--74
+Overfull \hbox (17.88234pt too wide) in paragraph at lines 76--76
 \T1/ptm/m/n/12 orien-ta-tions, ^^T en, in \T1/ptm/m/it/12 Pro-cee-dings of the 
 Se-venth IEEE In-ter-na-tio-nal Confe-rence on Com-pu-ter
  []
 
 
-Overfull \hbox (12.15764pt too wide) in paragraph at lines 74--74
+Overfull \hbox (12.15764pt too wide) in paragraph at lines 76--76
 \T1/ptm/m/it/12 Nu-me-ri-cal Ana-ly-sis\T1/ptm/m/n/12 , G. A. []\T1/ptm/m/sc/12
  Watson[]\T1/ptm/m/n/12 , éd., t. 630, Se-ries Title : Lec-ture Notes in Ma-the
 -ma-tics,
  []
 
 
-Overfull \hbox (19.01222pt too wide) in paragraph at lines 74--74
+Overfull \hbox (19.01222pt too wide) in paragraph at lines 76--76
 \T1/ptm/m/n/12 Ber-lin, Hei-del-berg : Sprin-ger Ber-lin Hei-del-berg, 1978, p.
  105-116, \T1/ptm/m/sc/12 isbn \T1/ptm/m/n/12 : 978-3-540-08538-6
  []
 
 
-Overfull \hbox (23.6935pt too wide) in paragraph at lines 74--74
+Overfull \hbox (23.6935pt too wide) in paragraph at lines 76--76
 []\T1/ptm/m/n/12 W. []\T1/ptm/m/sc/12 Burger[]\T1/ptm/m/n/12 , \T1/ptm/m/it/12 
 Zhang's Ca-mera Ca-li-bra-tion Al-go-rithm : In-Depth Tu-to-rial and Im-ple-men
 -ta-tion\T1/ptm/m/n/12 .
  []
 
-(chapitre/09-Annexes.tex [52]
+(chapitre/09-Annexes.tex [48]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-<images/hercule.jpg, id=797, 501.875pt x 501.875pt>
+<images/hercule.jpg, id=780, 501.875pt x 501.875pt>
 File: images/hercule.jpg Graphic file (type jpg)
 <use images/hercule.jpg>
 Package pdftex.def Info: images/hercule.jpg  used on input line 24.
 (pdftex.def)             Requested size: 150.56366pt x 150.56366pt.
-<images/R.jpg, id=798, 1165.35374pt x 801.99625pt>
+<images/R.jpg, id=781, 1165.35374pt x 801.99625pt>
 File: images/R.jpg Graphic file (type jpg)
 <use images/R.jpg>
 Package pdftex.def Info: images/R.jpg  used on input line 36.
 (pdftex.def)             Requested size: 233.06662pt x 160.39641pt.
-) (chapitre/10-DosDuRapport.tex [53
+) (chapitre/10-DosDuRapport.tex [49
 
  <./images/hercule.jpg> <./images/R.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
@@ -2547,7 +2551,7 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             please be aware that the minitoc package 
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
- [54] (main.aux)
+ [50] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -2559,10 +2563,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44851 strings out of 474370
- 890116 string characters out of 5740064
+ 44864 strings out of 474370
+ 890329 string characters out of 5740064
  1952754 words of memory out of 5000000
- 66310 multiletter control sequences out of 15000+600000
+ 66324 multiletter control sequences out of 15000+600000
  644577 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,14n,103p,2329b,2412s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2581,9 +2585,9 @@ msy8.pfb><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmb8a.pfb><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/Fassia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on main.pdf (63 pages, 7223751 bytes).
+Output written on main.pdf (58 pages, 7173126 bytes).
 PDF statistics:
- 1000 PDF objects out of 1000 (max. 8388607)
- 179 named destinations out of 1000 (max. 500000)
+ 982 PDF objects out of 1000 (max. 8388607)
+ 178 named destinations out of 1000 (max. 500000)
  586 words of extra memory for PDF output out of 10000 (max. 10000000)
 
